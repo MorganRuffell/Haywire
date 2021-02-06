@@ -1,3 +1,9 @@
+//////////////////////////////////////////////////////////////////////////
+////    Haywire (c) Team 2 - Games Production, UCA
+////	Programmer: Morgan Ruffell
+////	
+//////////////////////////////////////////////////////////////////////////
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -5,6 +11,7 @@ using UnityEngine;
 
 namespace Haywire.Character
 {
+	[RequireComponent(typeof(CharacterMovementComponent))]
 	public class CharacterHealthComponent : MonoBehaviour
 	{
 		//Player Health Values
@@ -32,7 +39,6 @@ namespace Haywire.Character
 			{
 				//If this goes below a value broadcast an event to the GameManager. 
 				//Who in turn should broadcast that event to everything else, and call GameOver.
-
 			}
 
 		}
