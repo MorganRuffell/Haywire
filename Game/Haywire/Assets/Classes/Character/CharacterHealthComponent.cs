@@ -39,6 +39,7 @@ namespace Haywire.Character
 			{
 				//If this goes below a value broadcast an event to the GameManager. 
 				//Who in turn should broadcast that event to everything else, and call GameOver.
+
 			}
 
 		}

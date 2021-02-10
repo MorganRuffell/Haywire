@@ -1,0 +1,130 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "TargetDirectories": [],
+      "PassIndex": 0,
+      "Deps": [
+        1
+      ],
+      "OverwriteOutputs": true,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "Il2Cpp C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Library/Il2cppBuildCache/Windows/x86/Native/GameAssembly.dll",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.2.1f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"WindowsDesktop\" --architecture=\"x86\" --configuration=\"Release\" --outputpath=\"C:\\Users\\Morgan\\Desktop\\GamesProductionII\\Haywire\\Game\\Haywire\\Library/Il2cppBuildCache/Windows/x86\\Native\\GameAssembly.dll\" --cachedirectory=\"C:\\Users\\Morgan\\Desktop\\GamesProductionII\\Haywire\\Game\\Haywire\\Assets\\..\\Library/il2cpp_cache\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport\\Variations\\win32_development_il2cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Library/Il2cppBuildCache/Windows/x86/il2cppOutput",
+      "Inputs": [
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/System.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.HighDefinition.Config.Runtime.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/Unity.RenderPipelines.HighDefinition.Runtime.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/Unity.VisualEffectGraph.Runtime.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.ImageConversionModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Library/Il2cppBuildCache/Windows/x86/Native/GameAssembly.dll"
+      ],
+      "TargetDirectories": [
+        "C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Library/Il2cppBuildCache/Windows/x86/il2cppOutput"
+      ],
+      "PassIndex": 0,
+      "Deps": [],
+      "OverwriteOutputs": false,
+      "FrontendResponseFiles": [],
+      "AllowUnexpectedOutput": true,
+      "AllowedOutputSubstrings": [],
+      "DebugActionIndex": 1
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "../../../../Temp/StagingArea/Data/Managed"
+    },
+    {
+      "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "il2cpp_settings.json"
+    },
+    {
+      "File": "unitylinker_settings.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "../../../../Temp/StagingArea/Data/Managed"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".txt",
+    ".c",
+    ".cpp",
+    ".h",
+    ".cs",
+    ".hpp"
+  ],
+  "StructuredLogFileName": "artifacts/tundra.log.json",
+  "StateFileName": "artifacts/TundraBuildState.state",
+  "StateFileNameTmp": "artifacts/TundraBuildState.state.tmp",
+  "ScanCacheFileName": "artifacts/tundra.scancache",
+  "ScanCacheFileNameTmp": "artifacts/tundra.scancache.tmp",
+  "DigestCacheFileName": "artifacts/tundra.digestcache",
+  "DigestCacheFileNameTmp": "artifacts/tundra.digestcache.tmp",
+        "NamedNodes": {
+          "all_tundra_nodes": 0
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "artifacts/tundra.dag.json",
+  "BuildTitle": "Bee",
+  "RelativePathToRoot": ".."
+}
