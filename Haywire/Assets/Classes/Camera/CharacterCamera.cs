@@ -11,40 +11,20 @@ namespace Haywire.Camera
 {
 	public class CharacterCamera : MonoBehaviour
 	{
-		public Transform PlayerLocation;
+		[Tooltip("PlayerLocation and player should be the same gameObject")]
+		public GameObject Player;
 
-		private Vector3 _CameraOffset;
-
-		[Header("Orbit Camera Controls")]
-		[Range(0.1f, 1.0f)]
-		public float SmoothFactor = 0.5f;
-		public bool LookatPlayer = false;
-
-		public bool CanOrbitAroundPlayer = true;
-		public float RotationSpeed = 5.0f;
-
+		public Vector3 _CameraOffset;
 
 		public void Awake()
 		{
-			_CameraOffset = transform.position - PlayerLocation.position;
+			_CameraOffset = transform.position - Player.transform.position;
 		}
+
 
 		public void LateUpdate()
 		{
-			if (CanOrbitAroundPlayer)
-			{
-				Quaternion cameraTurnAngle = Quaternion.AngleAxis(Input.GetAxis("Mouse X") * RotationSpeed, Vector3.up);
-				_CameraOffset = cameraTurnAngle * _CameraOffset;
-			}
-
-			Vector3 finalPosition = PlayerLocation.position + _CameraOffset;
-
-			transform.position = Vector3.Slerp(transform.position, finalPosition, SmoothFactor);
-
-			if (LookatPlayer || CanOrbitAroundPlayer)
-			{
-				transform.LookAt(PlayerLocation);
-			}
+			transform.position = Player.transform.position + _CameraOffset;
 		}
 	}
 
