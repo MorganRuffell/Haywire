@@ -1,4 +1,0 @@
-{"msg":"init","dagFile":"artifacts\\tundra.dag","targets":[]}
-{"msg":"newNode","annotation":"Il2Cpp C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Library/Il2cppBuildCache/Windows/x86/Native/GameAssembly.dll","index":1}
-{"msg":"noderesult","annotation":"Il2Cpp C:/Users/Morgan/Desktop/GamesProductionII/Haywire/Game/Haywire/Library/Il2cppBuildCache/Windows/x86/Native/GameAssembly.dll","index":1,"exitcode":0}
-{"msg":"newNode","annotation":"all_tundra_nodes","index":0}
