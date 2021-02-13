@@ -35,7 +35,6 @@ namespace Haywire.Character
 		void Update()
 		{
 			float horizontal = Input.GetAxisRaw("Horizontal");
-			float vertical = Input.GetAxisRaw("Vertical");
 
 			if (Input.GetKeyDown(KeyCode.Space))
 			{
@@ -43,16 +42,14 @@ namespace Haywire.Character
 				PlayerAnimator.SetTrigger("Jump");
 			}
 
-			Move(horizontal, vertical);
+			Move(horizontal);
 		}
 
-		private void Move (float horizontal, float vertical)
+		private void Move (float horizontal)
 		{
-			velocity.Set(horizontal, 0.0f, vertical);
+			velocity.Set(horizontal, 0.0f, 0.0f);
 			velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
 			PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
-
-			//Implement functionality for any additional 3D movement.
 		}
 
 		private void OnCollisionEnter(Collision collision)

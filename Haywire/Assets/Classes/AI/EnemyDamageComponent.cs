@@ -21,7 +21,7 @@ namespace Haywire.AI
 
 		private void Awake()
 		{
-
+			
 		}
 
 		private void OnTriggerEnter(Collider other)
