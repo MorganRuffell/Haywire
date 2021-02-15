@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Haywire.Camera
+namespace Haywire.Systems
 {
 	public class CharacterCamera : MonoBehaviour
 	{
@@ -20,7 +20,6 @@ namespace Haywire.Camera
 		{
 			_CameraOffset = transform.position - Player.transform.position;
 		}
-
 
 		public void LateUpdate()
 		{
