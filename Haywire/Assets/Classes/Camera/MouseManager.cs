@@ -10,9 +10,11 @@ using UnityEngine.EventSystems;
 
 namespace Haywire.UI
 {
-	[RequireComponent(typeof(CharacterCamera))]
+	[RequireComponent(typeof(CharacterCamera)), DisallowMultipleComponent]
 	public class MouseManager : MonoBehaviour
 	{
+		[Header("Firing Location and Ammo Controller")]
+		public GameObject FiringLocation;
 		public AmmoRemainingScript ammoController;
 
 		[Header("Target Textures")]
@@ -20,13 +22,11 @@ namespace Haywire.UI
 		public Texture2D ShootingReticleTexture;
 		public Texture2D NoAmmoRemainingTexture;
 
+
 		private PhysicsRaycaster PhysicsRaycaster;
 		public LayerMask ClickableLayer;
 
 		public Int32 CursorSizeInt = 16;
-
-		[Tooltip("Do not touch, key code element")]
-
 
 		[HideInInspector]
 		public static bool _CanFire = false;
@@ -43,6 +43,7 @@ namespace Haywire.UI
 				if (raycastHit.collider.gameObject.tag == "Enemy")
 				{
 					Cursor.SetCursor(ShootingReticleTexture, new Vector2(CursorSizeInt, CursorSizeInt), CursorMode.Auto);
+					Debug.DrawLine(FiringLocation.transform.position, raycastHit.transform.position);
 					Shooting();
 				}
 

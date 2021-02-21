@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace Haywire.Character
 {	
-	[RequireComponent(typeof(CharacterHealthComponent))]
+	[RequireComponent(typeof(CharacterHealthComponent)), DisallowMultipleComponent]
 	public class CharacterMovementComponent : MonoBehaviour
 	{
 		private Vector3 velocity;
@@ -21,7 +21,7 @@ namespace Haywire.Character
 		public int JumpPower = 4;
 		public const float AnimationTurnSpeed = 0f;
 
-		[HideInInspector]
+		[HideInInspector, SerializeField]
 		public bool IsTouchingEnviroment = true;
 		private bool IsHeld = false;
 

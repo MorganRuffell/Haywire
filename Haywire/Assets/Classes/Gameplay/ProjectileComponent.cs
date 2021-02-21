@@ -20,7 +20,7 @@ namespace Haywire.Gameplay
 
 		public Int16 force = 50;
 
-		public Int16 Lifetime = 30;
+		public Int16 Lifetime = 6;
 
 		public Int16 EnemyCollisionLifetime = 1;
 

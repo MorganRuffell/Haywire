@@ -5,7 +5,6 @@ using System;
 
 namespace Haywire.Character
 {
-
 	public class CharacterScoreComponent : MonoBehaviour
 	{
 		public Int16 PlayerScore;

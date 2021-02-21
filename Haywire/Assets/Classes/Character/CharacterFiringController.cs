@@ -1,3 +1,8 @@
+//////////////////////////////////////////////////////////////////////////
+////    Haywire (c) Team 2 - Games Production, UCA
+////	Programmer: Morgan Ruffell
+//////////////////////////////////////////////////////////////////////////
+
 using Haywire.Singletons;
 using Haywire.UI;
 using System.Collections;
@@ -6,17 +11,20 @@ using UnityEngine;
 
 namespace Haywire.Character
 {
-	[RequireComponent(typeof(CharacterHealthComponent))]
+	[RequireComponent(typeof(CharacterHealthComponent)), DisallowMultipleComponent]
 	public class CharacterFiringController : MonoBehaviour
 	{
 		[Header("Character Firing Attributes")]
 		[Tooltip("This is the place that bullet GameObjects instantiate from")]
 		public Transform spawnPoint;
 
+		public float FireRate = 1.0f;
+		public float timer = 0.0f;
+
+		
+
 		[Space]
-
 		public GameObject projectile;
-
 		public GameObject AmmoUI;
 
 		public void Awake()
@@ -31,10 +39,11 @@ namespace Haywire.Character
 
 		private void Update()
 		{
+			timer += Time.deltaTime;
+			
 			if (MouseManager._CanFire == true)
 			{
 				Debug.ClearDeveloperConsole();
-				Debug.Log("Game Manager processed firing manager");
 				Fire();
 			}
 		}
@@ -44,6 +53,10 @@ namespace Haywire.Character
 		{
 			if (Input.GetMouseButtonDown(0))
 			{
+
+				if (timer < FireRate) return;
+				timer = 0.0f;
+
 				if (AmmoUI.GetComponent<AmmoRemainingScript>().AmmoAmount <= 0)
 				{ 
 					Debug.ClearDeveloperConsole();
