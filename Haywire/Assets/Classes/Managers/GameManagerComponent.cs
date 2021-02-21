@@ -21,6 +21,8 @@ namespace Haywire.Singletons
 
 		public Int32 PlayerScore;
 
+		public Int16 AmmoAmount;
+
 		void Start()
 		{
 			GameManagerEnforce();

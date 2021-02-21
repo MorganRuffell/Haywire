@@ -48,9 +48,36 @@ namespace Haywire.Character
 		private void Move (float horizontal)
 		{
 			velocity.Set(horizontal, 0.0f, 0.0f);
+
+			Debug.Log(horizontal.ToString());
+
 			velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
 			PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
+
+			if (horizontal > 0)
+			{
+				StartCoroutine(PlayerLeftMovement(AnimationTurnSpeed));
+			}
+			
+			if (horizontal < 0)
+			{
+				StartCoroutine(PlayerRightMovement(AnimationTurnSpeed));
+			}
+	
+			//Make it so that when you start firing the player turns to face the front direction.
 		}
+
+		private IEnumerator PlayerRightMovement(float AnimationTurnSpeed)
+		{
+			transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
+			yield return new WaitForSeconds(AnimationTurnSpeed);
+		}
+		private IEnumerator PlayerLeftMovement(float AnimationTurnSpeed)
+		{
+			transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
+			yield return new WaitForSeconds(AnimationTurnSpeed);
+		}
+
 
 		private void OnCollisionEnter(Collision collision)
 		{

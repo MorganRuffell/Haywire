@@ -1,3 +1,9 @@
+//////////////////////////////////////////////////////////////////////////
+////    Haywire (c) Team 2 - Games Production, UCA
+////	Programmer: Morgan Ruffell
+//////////////////////////////////////////////////////////////////////////
+
+
 using System;
 using UnityEngine;
 using UnityEngine.UI;
@@ -5,12 +11,10 @@ using Haywire.Singletons;
 
 namespace Haywire.UI
 {	
-	[RequireComponent(typeof(Text))]
+	[RequireComponent(typeof(Text)), DisallowMultipleComponent]
 	public class AmmoRemainingScript : MonoBehaviour
 	{
 		public GameManagerComponent GameManager;
-
-		public Int16 AmmoAmount = 10;
 
 		public Text AmmoText;
 
@@ -23,7 +27,7 @@ namespace Haywire.UI
 		// Update is called once per frame
 		void Update()
 		{
-			AmmoText.text = AmmoAmount.ToString();
+			AmmoText.text = GameManager.AmmoAmount.ToString();
 		}
 	}
 }

@@ -14,6 +14,10 @@ namespace Haywire.Character
 	[RequireComponent(typeof(CharacterHealthComponent)), DisallowMultipleComponent]
 	public class CharacterFiringController : MonoBehaviour
 	{
+		[Header("Game Manager Component")]
+		public GameManagerComponent GameManager;
+
+
 		[Header("Character Firing Attributes")]
 		[Tooltip("This is the place that bullet GameObjects instantiate from")]
 		public Transform spawnPoint;
@@ -21,7 +25,6 @@ namespace Haywire.Character
 		public float FireRate = 1.0f;
 		public float timer = 0.0f;
 
-		
 
 		[Space]
 		public GameObject projectile;
@@ -57,7 +60,7 @@ namespace Haywire.Character
 				if (timer < FireRate) return;
 				timer = 0.0f;
 
-				if (AmmoUI.GetComponent<AmmoRemainingScript>().AmmoAmount <= 0)
+				if (GameManager.AmmoAmount <= 0)
 				{ 
 					Debug.ClearDeveloperConsole();
 					Debug.Log("Out of Ammo");
@@ -66,7 +69,7 @@ namespace Haywire.Character
 
 				else
 				{
-					AmmoUI.GetComponent<AmmoRemainingScript>().AmmoAmount--;
+					GameManager.AmmoAmount--;
 					Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
 				}
 

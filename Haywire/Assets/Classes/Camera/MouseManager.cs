@@ -3,6 +3,7 @@
 ////	Programmer: Morgan Ruffell
 //////////////////////////////////////////////////////////////////////////
 
+using Haywire.Singletons;
 using Haywire.Systems;
 using System;
 using UnityEngine;
@@ -13,22 +14,27 @@ namespace Haywire.UI
 	[RequireComponent(typeof(CharacterCamera)), DisallowMultipleComponent]
 	public class MouseManager : MonoBehaviour
 	{
+		[Header("Game Manager Component")]
+		public GameManagerComponent GameManager;
+
 		[Header("Firing Location and Ammo Controller")]
 		public GameObject FiringLocation;
 		public AmmoRemainingScript ammoController;
 
 		[Header("Target Textures")]
-		public Texture2D BaseMouseTexture;
-		public Texture2D ShootingReticleTexture;
-		public Texture2D NoAmmoRemainingTexture;
-
+		[SerializeField]
+		private Texture2D BaseMouseTexture;
+		[SerializeField]
+		private Texture2D ShootingReticleTexture;
+		[SerializeField]
+		private Texture2D NoAmmoRemainingTexture;
 
 		private PhysicsRaycaster PhysicsRaycaster;
 		public LayerMask ClickableLayer;
 
-		public Int32 CursorSizeInt = 16;
+		public Int32 CursorSizeInt = 64;
 
-		[HideInInspector]
+		[HideInInspector, SerializeField]
 		public static bool _CanFire = false;
 
 		// Update is called once per frame
@@ -64,12 +70,11 @@ namespace Haywire.UI
 		{
 			Cursor.SetCursor(ShootingReticleTexture, new Vector2(CursorSizeInt, CursorSizeInt), CursorMode.Auto);
 
-			if (ammoController.AmmoAmount <= 0)
+			if (GameManager.GetComponent<GameManagerComponent>().AmmoAmount <= 0)
 			{
 				Debug.Log("Out of Ammo");
 				OutOfAmmo();
 			}
-
 			_CanFire = true;
 		}
 
