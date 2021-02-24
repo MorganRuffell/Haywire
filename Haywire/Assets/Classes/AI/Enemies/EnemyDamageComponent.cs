@@ -12,10 +12,10 @@ namespace Haywire.AI
 {
 	[RequireComponent(typeof(NavMeshControllerComponent))]
 	[RequireComponent(typeof(EnemyHealthComponent))]
-	public class EnemyDamageComponent : Damage
+	public class EnemyDamageComponent : MonoBehaviour
 	{
 		[Header("Enemy Damage Control Fields")]
-		public Int16 Damage = 10;
+		public int Damage;
 		public float EnemyDamageMultiplier = 1.0f;
 		public string TargetTag;
 

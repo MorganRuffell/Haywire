@@ -22,6 +22,7 @@ namespace Haywire.UI
 		public AmmoRemainingScript ammoController;
 
 		[Header("Target Textures")]
+
 		[SerializeField]
 		private Texture2D BaseMouseTexture;
 		[SerializeField]

@@ -13,10 +13,9 @@ namespace Haywire.Gameplay
 {
 	[RequireComponent(typeof(Rigidbody))]
 	[DisallowMultipleComponent]
-	public class ProjectileComponent : Damage
+	public class ProjectileComponent : MonoBehaviour, IDamage
 	{
 		[Header("Player Projectile Controller")]
-		public Int16 damage = 20;
 
 		public Int16 force = 50;
 
@@ -27,6 +26,8 @@ namespace Haywire.Gameplay
 		public Rigidbody BulletCollsionRb;
 
 		public string targetTag;
+
+		public int Damage { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
 		void Awake()
 		{
@@ -48,7 +49,7 @@ namespace Haywire.Gameplay
 		{
 			if (collision.gameObject.CompareTag(targetTag) && collision.gameObject.GetComponent<EnemyHealthComponent>())
 			{
-				collision.gameObject.GetComponent<EnemyHealthComponent>().TakeDamage(damage);
+				collision.gameObject.GetComponent<EnemyHealthComponent>().TakeDamage(Damage);
 				Invoke("Despawn", EnemyCollisionLifetime);
 			}
 	

@@ -15,8 +15,8 @@ namespace Haywire.Character
 	public class CharacterHealthComponent : MonoBehaviour
 	{
 		//Player Health Values
-		public Int16 MaxHealth = 100;
-		public Int16 CurrentHealth;
+		public int MaxHealth = 100;
+		public int CurrentHealth;
 
 		private void Awake()
 		{
@@ -44,7 +44,7 @@ namespace Haywire.Character
 
 		}
 
-		public void TakeDamage(Int16 Amount)
+		public void TakeDamage(int Amount)
 		{
 			CurrentHealth -= Amount;
 		}

@@ -30,16 +30,6 @@ namespace Haywire.Character
 		public GameObject projectile;
 		public GameObject AmmoUI;
 
-		public void Awake()
-		{
-			
-		}
-
-		public void Start()
-		{
-			
-		}
-
 		private void Update()
 		{
 			timer += Time.deltaTime;

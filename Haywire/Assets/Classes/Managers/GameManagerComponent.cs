@@ -48,7 +48,6 @@ namespace Haywire.Singletons
 		void Update()
 		{
 			PlayerScore = characterScoreComponent.PlayerScore;
-
 		}
 	}
 
