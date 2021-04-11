@@ -1,148 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/Morgan/Desktop/Haywire/Haywire/Packages/manifest.json
+    m_FilePath: E:/Uni/Uni year 2/Group 2/Build/0.1/Haywire/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637460671017324827
-    m_Hash: 2575321146
+      ticks: 637498080360000000
+    m_Hash: 3662451673
   m_LockFileStatus:
-    m_FilePath: C:/Users/Morgan/Desktop/Haywire/Haywire/Packages/packages-lock.json
+    m_FilePath: E:/Uni/Uni year 2/Group 2/Build/0.1/Haywire/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637460671194400123
-    m_Hash: 713333597
+      ticks: 637532183915911027
+    m_Hash: 460908025
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.cinemachine@2.6.3
-      testable: 0
-      isDirectDependency: 1
-      version: 2.6.3
-      source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.cinemachine@2.6.3
-      assetPath: Packages/com.unity.cinemachine
-      name: com.unity.cinemachine
-      displayName: Cinemachine
-      author:
-        name: 
-        email: 
-        url: 
-      category: cinematography
-      type: 
-      description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
-        If you are upgrading from the Asset Store version of Cinemachine, delete
-        the Cinemachine asset from your project BEFORE installing this version from
-        the Package Manager."
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 2.1.11-beta.1
-        - 2.1.12
-        - 2.1.13
-        - 2.2.0
-        - 2.2.7
-        - 2.2.8
-        - 2.2.9
-        - 2.2.10-preview.3
-        - 2.2.10-preview.4
-        - 2.3.1
-        - 2.3.3
-        - 2.3.4
-        - 2.3.5-preview.3
-        - 2.4.0-preview.3
-        - 2.4.0-preview.4
-        - 2.4.0-preview.6
-        - 2.4.0-preview.7
-        - 2.4.0-preview.8
-        - 2.4.0-preview.9
-        - 2.4.0-preview.10
-        - 2.4.0
-        - 2.5.0
-        - 2.6.0-preview.2
-        - 2.6.0-preview.3
-        - 2.6.0-preview.5
-        - 2.6.0-preview.8
-        - 2.6.0
-        - 2.6.1-preview.6
-        - 2.6.1
-        - 2.6.2-preview.1
-        - 2.6.2
-        - 2.6.3-preview.2
-        - 2.6.3
-        - 2.7.1
-        compatible:
-        - 2.5.0
-        - 2.6.0-preview.2
-        - 2.6.0-preview.3
-        - 2.6.0-preview.5
-        - 2.6.0-preview.8
-        - 2.6.0
-        - 2.6.1-preview.6
-        - 2.6.1
-        - 2.6.2-preview.1
-        - 2.6.2
-        - 2.6.3-preview.2
-        - 2.6.3
-        - 2.7.1
-        verified: 2.6.3
-      dependencies: []
-      resolvedDependencies: []
-      keywords:
-      - camera
-      - follow
-      - rig
-      - fps
-      - cinematography
-      - aim
-      - orbit
-      - cutscene
-      - cinematic
-      - collision
-      - freelook
-      - cinemachine
-      - compose
-      - composition
-      - dolly
-      - track
-      - clearshot
-      - noise
-      - framing
-      - handheld
-      - lens
-      - impulse
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637364189870000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/upm-package-cinemachine.git
-        revision: bec7fa48fa2d6e9e46243f24d3b1d62918a6b377
-        path: 
     - packageId: com.unity.collab-proxy@1.3.9
       testable: 0
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -237,7 +120,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -275,6 +158,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         compatible:
         - 1.0.2
         - 1.0.6
@@ -297,6 +182,8 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.2
         - 3.0.3
+        - 3.0.4
+        - 3.0.5
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -336,7 +223,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -364,6 +251,7 @@ m_PackageAssets:
         - 2.0.2
         - 2.0.3
         - 2.0.5
+        - 2.0.7
         compatible:
         - 1.0.2
         - 1.0.3
@@ -376,7 +264,8 @@ m_PackageAssets:
         - 2.0.2
         - 2.0.3
         - 2.0.5
-        verified: 2.0.5
+        - 2.0.7
+        verified: 2.0.7
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -405,7 +294,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -469,83 +358,29 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
         path: 
-    - packageId: com.unity.render-pipelines.high-definition@10.2.2
+    - packageId: com.unity.render-pipelines.universal@10.2.2
       testable: 0
       isDirectDependency: 1
       version: 10.2.2
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.render-pipelines.high-definition@10.2.2
-      assetPath: Packages/com.unity.render-pipelines.high-definition
-      name: com.unity.render-pipelines.high-definition
-      displayName: High Definition RP
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.render-pipelines.universal@10.2.2
+      assetPath: Packages/com.unity.render-pipelines.universal
+      name: com.unity.render-pipelines.universal
+      displayName: Universal RP
       author:
         name: 
         email: 
         url: 
       category: 
       type: 
-      description: The High Definition Render Pipeline (HDRP) is a high-fidelity
-        Scriptable Render Pipeline built by Unity to target modern (Compute Shader
-        compatible) platforms. HDRP utilizes Physically-Based Lighting techniques,
-        linear lighting, HDR lighting, and a configurable hybrid Tile/Cluster deferred/Forward
-        lighting architecture and gives you the tools you need to create games, technical
-        demos, animations, and more to a high graphical standard.
+      description: The Universal Render Pipeline (URP) is a prebuilt Scriptable Render
+        Pipeline, made by Unity. URP provides artist-friendly workflows that let
+        you quickly and easily create optimized graphics across a range of platforms,
+        from mobile to high-end consoles and PCs.
       status: 4
       errors: []
       versions:
         all:
-        - 0.1.21
-        - 0.1.27
-        - 0.1.28
-        - 1.0.0-beta
-        - 1.0.1-beta
-        - 1.1.1-preview
-        - 1.1.2-preview
-        - 1.1.4-preview
-        - 1.1.5-preview
-        - 1.1.8-preview
-        - 1.1.10-preview
-        - 1.1.11-preview
-        - 2.0.1-preview
-        - 2.0.3-preview
-        - 2.0.4-preview
-        - 2.0.4-preview.1
-        - 2.0.5-preview
-        - 2.0.6-preview
-        - 2.0.7-preview
-        - 2.0.8-preview
-        - 3.0.0-preview
-        - 3.1.0-preview
-        - 3.3.0-preview
-        - 4.0.0-preview
-        - 4.0.1-preview
-        - 4.1.0-preview
-        - 4.2.0-preview
-        - 4.3.0-preview
-        - 4.6.0-preview
-        - 4.8.0-preview
-        - 4.9.0-preview
-        - 4.10.0-preview
-        - 5.0.0-preview
-        - 5.1.0-preview
-        - 5.2.0-preview
-        - 5.2.1-preview
-        - 5.2.2-preview
-        - 5.2.3-preview
-        - 5.3.1-preview
-        - 5.6.1-preview
-        - 5.7.2-preview
-        - 5.8.2-preview
-        - 5.9.0-preview
-        - 5.10.0-preview
-        - 5.13.0-preview
-        - 5.16.1-preview
-        - 6.5.2-preview
-        - 6.5.3-preview
-        - 6.7.1-preview
-        - 6.9.0-preview
-        - 6.9.1-preview
-        - 6.9.2-preview
         - 7.0.0
         - 7.0.1
         - 7.1.1
@@ -562,32 +397,36 @@ m_PackageAssets:
         - 7.4.3
         - 7.5.1
         - 7.5.2
+        - 7.5.3
         - 8.0.1
         - 8.1.0
         - 8.2.0
         - 8.3.1
-        - 9.0.0-preview.13
-        - 9.0.0-preview.33
-        - 9.0.0-preview.54
-        - 9.0.0-preview.71
-        - 10.0.0-preview.27
+        - 9.0.0-preview.14
+        - 9.0.0-preview.35
+        - 9.0.0-preview.55
+        - 9.0.0-preview.72
+        - 10.0.0-preview.26
         - 10.1.0
         - 10.2.0
         - 10.2.1
         - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
         compatible:
         - 10.2.2
         verified: 10.2.2
       dependencies:
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.render-pipelines.core
         version: 10.2.2
       - name: com.unity.shadergraph
         version: 10.2.2
-      - name: com.unity.visualeffectgraph
-        version: 10.2.2
-      - name: com.unity.render-pipelines.high-definition-config
-        version: 10.2.2
       resolvedDependencies:
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.render-pipelines.core
         version: 10.2.2
       - name: com.unity.ugui
@@ -600,14 +439,11 @@ m_PackageAssets:
         version: 10.2.2
       - name: com.unity.searcher
         version: 4.3.1
-      - name: com.unity.visualeffectgraph
-        version: 10.2.2
-      - name: com.unity.render-pipelines.high-definition-config
-        version: 10.2.2
       keywords:
       - graphics
       - performance
       - rendering
+      - mobile
       - render
       - pipeline
       registry:
@@ -622,7 +458,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637430495550000000
+      datePublishedTicks: 637430486890000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -635,7 +471,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.19
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.test-framework@1.1.19
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.test-framework@1.1.19
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -676,10 +512,14 @@ m_PackageAssets:
         - 1.1.18
         - 1.1.19
         - 1.1.20
+        - 1.1.22
+        - 1.1.24
         compatible:
         - 1.1.19
         - 1.1.20
-        verified: 1.1.20
+        - 1.1.22
+        - 1.1.24
+        verified: 1.1.24
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.5
@@ -722,7 +562,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -792,6 +632,7 @@ m_PackageAssets:
         - 1.5.0
         - 1.5.1
         - 1.5.3
+        - 1.5.4
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -810,6 +651,7 @@ m_PackageAssets:
         - 2.1.0
         - 2.1.1
         - 2.1.3
+        - 2.1.4
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -824,10 +666,12 @@ m_PackageAssets:
         - 3.0.0
         - 3.0.1
         - 3.0.3
+        - 3.0.4
         compatible:
         - 3.0.1
         - 3.0.3
-        verified: 3.0.3
+        - 3.0.4
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -869,7 +713,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.4
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.timeline@1.4.4
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.timeline@1.4.4
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -902,6 +746,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -914,6 +759,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -926,6 +772,8 @@ m_PackageAssets:
         - 1.4.3
         - 1.4.4
         - 1.4.5
+        - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -935,6 +783,10 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
         compatible:
         - 1.2.6
         - 1.2.7
@@ -947,6 +799,7 @@ m_PackageAssets:
         - 1.2.15
         - 1.2.16
         - 1.2.17
+        - 1.2.18
         - 1.3.0-preview.2
         - 1.3.0-preview.3
         - 1.3.0-preview.5
@@ -959,6 +812,7 @@ m_PackageAssets:
         - 1.3.4
         - 1.3.5
         - 1.3.6
+        - 1.3.7
         - 1.4.0-preview.1
         - 1.4.0-preview.2
         - 1.4.0-preview.3
@@ -971,6 +825,8 @@ m_PackageAssets:
         - 1.4.3
         - 1.4.4
         - 1.4.5
+        - 1.4.6
+        - 1.4.7
         - 1.5.0-pre.2
         - 1.5.0-preview.1
         - 1.5.0-preview.2
@@ -980,7 +836,11 @@ m_PackageAssets:
         - 1.5.1-pre.1
         - 1.5.1-pre.2
         - 1.5.1-pre.3
-        verified: 1.4.5
+        - 1.5.2
+        - 1.5.4
+        - 1.6.0-pre.1
+        - 1.6.0-pre.3
+        verified: 1.4.7
       dependencies:
       - name: com.unity.modules.director
         version: 1.0.0
@@ -1030,7 +890,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -1093,7 +953,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1141,7 +1001,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1189,7 +1049,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1237,7 +1097,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1285,7 +1145,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1333,7 +1193,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1385,7 +1245,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1441,7 +1301,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1490,7 +1350,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1538,7 +1398,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1586,7 +1446,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1634,7 +1494,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1682,7 +1542,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1730,7 +1590,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1782,7 +1642,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1830,7 +1690,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1886,7 +1746,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1938,7 +1798,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1986,7 +1846,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -2050,7 +1910,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -2098,7 +1958,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2154,7 +2014,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2202,7 +2062,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2258,7 +2118,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2314,7 +2174,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2370,7 +2230,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2442,7 +2302,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2494,7 +2354,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2554,7 +2414,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2616,7 +2476,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2664,7 +2524,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2724,7 +2584,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2776,7 +2636,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
+      resolvedPath: C:\Program Files\Unity\2020.2.1f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielementsnative
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2835,7 +2695,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.5
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.ext.nunit@1.0.5
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.ext.nunit@1.0.5
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2891,12 +2751,87 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 1b3e542964a65210e966f5bf8751f62b1dcd8d69
         path: 
+    - packageId: com.unity.mathematics@1.1.0
+      testable: 0
+      isDirectDependency: 0
+      version: 1.1.0
+      source: 1
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.mathematics@1.1.0
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
+        - 1.1.0
+        - 1.2.1
+        verified: 1.2.1
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - unity
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 636984649280000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
+        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
+        path: 
     - packageId: com.unity.render-pipelines.core@10.2.2
       testable: 0
       isDirectDependency: 0
       version: 10.2.2
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.render-pipelines.core@10.2.2
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.render-pipelines.core@10.2.2
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -2985,6 +2920,7 @@ m_PackageAssets:
         - 7.4.3
         - 7.5.1
         - 7.5.2
+        - 7.5.3
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -2999,6 +2935,9 @@ m_PackageAssets:
         - 10.2.0
         - 10.2.1
         - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -3038,7 +2977,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.2.2
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.shadergraph@10.2.2
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.shadergraph@10.2.2
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3125,6 +3064,7 @@ m_PackageAssets:
         - 7.4.3
         - 7.5.1
         - 7.5.2
+        - 7.5.3
         - 8.0.1
         - 8.1.0
         - 8.2.0
@@ -3138,6 +3078,9 @@ m_PackageAssets:
         - 10.2.0
         - 10.2.1
         - 10.2.2
+        - 10.3.1
+        - 10.3.2
+        - 10.4.0
         compatible:
         - 10.2.2
         verified: 10.2.2
@@ -3178,217 +3121,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/Graphics.git
         revision: a197e35ba4e93349ccbb4fddd4f3f80ba7b1c113
         path: 
-    - packageId: com.unity.visualeffectgraph@10.2.2
-      testable: 0
-      isDirectDependency: 0
-      version: 10.2.2
-      source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.visualeffectgraph@10.2.2
-      assetPath: Packages/com.unity.visualeffectgraph
-      name: com.unity.visualeffectgraph
-      displayName: Visual Effect Graph
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: The Visual Effect Graph is a node based visual effect editor.
-        It allows you to author next generation visual effects that Unity simulates
-        directly on the GPU. The Visual Effect Graph is production-ready for the
-        High Definition Render Pipeline and runs on all platforms supported by it.
-        Full support for the Universal Render Pipeline and compatible mobile devices
-        is still in development.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 4.3.0-preview
-        - 4.6.0-preview
-        - 4.8.0-preview
-        - 4.9.0-preview
-        - 4.10.0-preview
-        - 5.2.0-preview
-        - 5.2.1-preview
-        - 5.2.3-preview
-        - 5.3.1-preview
-        - 5.6.1-preview
-        - 5.7.2-preview
-        - 5.8.2-preview
-        - 5.10.0-preview
-        - 5.13.0-preview
-        - 5.16.1-preview
-        - 6.5.2-preview
-        - 6.5.3-preview
-        - 6.7.1-preview
-        - 6.9.0-preview
-        - 6.9.1-preview
-        - 6.9.2-preview
-        - 7.0.0
-        - 7.0.1
-        - 7.1.1
-        - 7.1.2
-        - 7.1.5
-        - 7.1.6
-        - 7.1.7
-        - 7.1.8
-        - 7.2.0
-        - 7.2.1
-        - 7.3.1
-        - 7.4.1
-        - 7.4.2
-        - 7.4.3
-        - 7.5.1
-        - 7.5.2
-        - 8.0.1
-        - 8.1.0
-        - 8.2.0
-        - 8.3.1
-        - 9.0.0-preview.13
-        - 9.0.0-preview.33
-        - 9.0.0-preview.54
-        - 9.0.0-preview.71
-        - 10.0.0-preview.27
-        - 10.1.0
-        - 10.2.0
-        - 10.2.1
-        - 10.2.2
-        compatible:
-        - 10.2.2
-        verified: 10.2.2
-      dependencies:
-      - name: com.unity.shadergraph
-        version: 10.2.2
-      resolvedDependencies:
-      - name: com.unity.shadergraph
-        version: 10.2.2
-      - name: com.unity.render-pipelines.core
-        version: 10.2.2
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      - name: com.unity.searcher
-        version: 4.3.1
-      keywords:
-      - vfx
-      - visualeffect
-      - graph
-      - effect
-      - particles
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637430485340000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: a197e35ba4e93349ccbb4fddd4f3f80ba7b1c113
-        path: 
-    - packageId: com.unity.render-pipelines.high-definition-config@10.2.2
-      testable: 0
-      isDirectDependency: 0
-      version: 10.2.2
-      source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.render-pipelines.high-definition-config@10.2.2
-      assetPath: Packages/com.unity.render-pipelines.high-definition-config
-      name: com.unity.render-pipelines.high-definition-config
-      displayName: High Definition RP Config
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Configuration files for the High Definition Render Pipeline.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 7.0.0
-        - 7.0.1
-        - 7.1.1
-        - 7.1.2
-        - 7.1.5
-        - 7.1.6
-        - 7.1.7
-        - 7.1.8
-        - 7.2.0
-        - 7.2.1
-        - 7.3.1
-        - 7.4.1
-        - 7.4.2
-        - 7.4.3
-        - 7.5.1
-        - 7.5.2
-        - 8.0.1
-        - 8.1.0
-        - 8.2.0
-        - 8.3.1
-        - 9.0.0-preview.15
-        - 9.0.0-preview.35
-        - 9.0.0-preview.57
-        - 9.0.0-preview.74
-        - 10.0.0-preview.27
-        - 10.1.0
-        - 10.2.0
-        - 10.2.1
-        - 10.2.2
-        compatible:
-        - 10.2.2
-        verified: 10.2.2
-      dependencies:
-      - name: com.unity.render-pipelines.core
-        version: 10.2.2
-      resolvedDependencies:
-      - name: com.unity.render-pipelines.core
-        version: 10.2.2
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637430487320000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: a197e35ba4e93349ccbb4fddd4f3f80ba7b1c113
-        path: 
     - packageId: com.unity.searcher@4.3.1
       testable: 0
       isDirectDependency: 0
       version: 4.3.1
       source: 1
-      resolvedPath: C:\Users\Morgan\Desktop\Haywire\Haywire\Library\PackageCache\com.unity.searcher@4.3.1
+      resolvedPath: E:\Uni\Uni year 2\Group 2\Build\0.1\Haywire\Library\PackageCache\com.unity.searcher@4.3.1
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3404,33 +3142,9 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 4.0.0-preview
-        - 4.0.0
-        - 4.0.7-preview
-        - 4.0.7
-        - 4.0.8-preview
-        - 4.0.9
-        - 4.1.0-preview
-        - 4.1.0
-        - 4.2.0
-        - 4.3.0
         - 4.3.1
-        - 4.6.0-preview
-        - 4.7.0-preview
         compatible:
-        - 4.0.0-preview
-        - 4.0.0
-        - 4.0.7-preview
-        - 4.0.7
-        - 4.0.8-preview
-        - 4.0.9
-        - 4.1.0-preview
-        - 4.1.0
-        - 4.2.0
-        - 4.3.0
         - 4.3.1
-        - 4.6.0-preview
-        - 4.7.0-preview
         verified: 4.3.1
       dependencies: []
       resolvedDependencies: []
@@ -3449,7 +3163,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637272602300000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3459,5 +3173,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/Morgan/Desktop/Haywire/Haywire/Packages
+m_ProjectPath: E:/Uni/Uni year 2/Group 2/Build/0.1/Haywire/Packages
 m_EditorVersion: 2020.2.1f1 (270dd8c3da1c)
