@@ -37,7 +37,7 @@ namespace Haywire.Character
 		[SerializeField]
 		public Rigidbody PlayerRigidbody;
 		public Animator PlayerAnimator;
-		public CapsuleCollider PlayerCollider;
+		public Collider PlayerCollider;
 		public GameObject _mainCamera;
 
 		[HideInInspector]

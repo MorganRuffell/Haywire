@@ -48,6 +48,11 @@ namespace Haywire.AI
 			HyenaRigidBody = GetComponent<Rigidbody>();
 			_hyenaNavMeshComponent = GetComponent<HyenaNavMeshComponent>();
 			HyenaAnimator = GetComponent<Animator>();
+	
+			if (HyenaAnimator != null)
+			{
+				HyenaAnimator = GetComponentInChildren<Animator>();
+			}
 		}
 
 		private void OnTriggerEnter(Collider other)
