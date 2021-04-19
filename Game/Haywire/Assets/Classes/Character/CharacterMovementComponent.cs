@@ -238,9 +238,7 @@ namespace Haywire.Character
 			else
 			{
 				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
-				throw new Exception();
 			}
-
 		}
 
 		public void StopGameSounds(List<AudioSource> SoundList)
@@ -261,7 +259,6 @@ namespace Haywire.Character
 			else
 			{
 				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
-				throw new Exception();
 			}
 
 

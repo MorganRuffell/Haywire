@@ -49,7 +49,7 @@ namespace Haywire.AI
 			_hyenaNavMeshComponent = GetComponent<HyenaNavMeshComponent>();
 			HyenaAnimator = GetComponent<Animator>();
 	
-			if (HyenaAnimator != null)
+			if (HyenaAnimator == null)
 			{
 				HyenaAnimator = GetComponentInChildren<Animator>();
 			}
