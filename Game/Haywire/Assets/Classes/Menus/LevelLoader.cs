@@ -25,6 +25,7 @@ public class LevelLoader : MonoBehaviour
 		StartCoroutine(LoadSceneAsyncrounously(sceneIndex));
 	}
 
+	//Coroutines are not async, 
 	public IEnumerator LoadSceneAsyncrounously (int SceneIndex)
 	{
 		Application.backgroundLoadingPriority = ThreadPriority.Low;
@@ -52,6 +53,8 @@ public class LevelLoader : MonoBehaviour
 
 			Debug.Log(operation.progress);
 			yield return null;
+			//Could artifically prlonge this... Google
+			
 		}
 	}
 }

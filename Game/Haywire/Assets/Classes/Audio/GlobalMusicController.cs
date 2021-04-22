@@ -64,11 +64,11 @@ namespace Haywire.Audio
 					break;
 			}
 		}
-	
+
 		#region PlaySounds
 
 
-			private void PlayInstantiatingMusic(List<AudioSource> SpawningMusic)
+		private void PlayInstantiatingMusic(List<AudioSource> SpawningMusic)
 		{
 			for (int index = 0; index <= SpawningMusic.Count; index++)
 			{
@@ -84,7 +84,7 @@ namespace Haywire.Audio
 			}
 		}
 
-			private void PlayWaitingMusic(List<AudioSource> WaitingMusic)
+		private void PlayWaitingMusic(List<AudioSource> WaitingMusic)
 		{
 			for (int index = 0; index <= WaitingMusic.Count; index++)
 			{
@@ -100,7 +100,7 @@ namespace Haywire.Audio
 			}
 		}
 
-			private void PlayCountingMusic(List<AudioSource> CountingMusic)
+		private void PlayCountingMusic(List<AudioSource> CountingMusic)
 		{
 			for (int index = 0; index <= CountingMusic.Count; index++)
 			{
@@ -115,59 +115,94 @@ namespace Haywire.Audio
 			}
 		}
 
-			private void PlayErrorMusic()
+		private void PlayErrorMusic()
 		{
 			Debug.LogError("The Wavespawner is in an error state.");
 		}
 
 
 		#endregion
-			
+
+		//private void StopAllGameSounds(List<AudioSource> SoundList0, List<AudioSource> SoundList1, List<AudioSource> SoundList2, List<AudioSource> SoundList3)
+		//{
+		//	if (SoundList0.Count > 1 || SoundList1.Count > 1 || SoundList2.Count > 1 || SoundList3.Count > 1)
+		//	{
+		//		var TotalAmountofGameplayMusic = SoundList0.Count + SoundList1.Count + SoundList2.Count + SoundList3.Count;
+
+		//		for (int index = 0; index == TotalAmountofGameplayMusic;)
+		//		{
+		//			for() 
+
+
+		//			foreach (AudioSource audioSource in SoundList0)
+		//			{
+		//				if (SoundList0[index].isPlaying == true)
+		//				{
+		//					SoundList0[index].Stop();
+		//				}
+		//			}
+
+		//			foreach (AudioSource audioSource in SoundList1)
+		//			{
+		//				if (SoundList1[index].isPlaying == true)
+		//				{
+		//					SoundList1[index].Stop();
+		//				}
+		//			}
+
+		//			foreach (AudioSource audioSource in SoundList2)
+		//			{
+		//				if (SoundList2[index].isPlaying == true)
+		//				{
+		//					SoundList2[index].Stop();
+		//				}
+		//			}
+
+		//			foreach (AudioSource audioSource in SoundList3)
+		//			{
+		//				if (SoundList3[index].isPlaying == true)
+		//				{
+		//					SoundList3[index].Stop();
+		//				}
+		//			}
+
+		//			index++;
+		//		}
+
+		//	}
+
+		//}
+
 		private void StopAllGameSounds(List<AudioSource> SoundList0, List<AudioSource> SoundList1, List<AudioSource> SoundList2, List<AudioSource> SoundList3)
 		{
-			if (SoundList0.Count > 1 || SoundList1.Count > 1 || SoundList2.Count > 1 || SoundList3.Count > 1)
+			StopSounds(SoundList0);
+			StopSounds(SoundList1);
+			StopSounds(SoundList2);
+			StopSounds(SoundList3);
+		}
+
+		private void StopSounds(List<AudioSource> list)
+		{
+			if (list.Count > 1)
 			{
-				var TotalAmountofGameplayMusic = SoundList0.Count + SoundList1.Count + SoundList2.Count + SoundList3.Count;
-
-				for (int index = 0; index == TotalAmountofGameplayMusic;)
+				foreach (AudioSource source in list)
 				{
-					foreach (AudioSource audioSource in SoundList0)
+					if (source.isPlaying == true)
 					{
-						if (SoundList0[index].isPlaying == true)
-						{
-							SoundList0[index].Stop();
-						}
+						source.Stop();
 					}
-
-					foreach (AudioSource audioSource in SoundList1)
-					{
-						if (SoundList1[index].isPlaying == true)
-						{
-							SoundList1[index].Stop();
-						}
-					}
-
-					foreach (AudioSource audioSource in SoundList2)
-					{
-						if (SoundList2[index].isPlaying == true)
-						{
-							SoundList2[index].Stop();
-						}
-					}
-
-					foreach (AudioSource audioSource in SoundList3)
-					{
-						if (SoundList3[index].isPlaying == true)
-						{
-							SoundList3[index].Stop();
-						}
-					}
-
-					index++;
 				}
 
+				// Comparable to the foreach above
+				//for (int i =0; i < list.Count; i++)
+				//{
+				//	AudioSource a = list[i];
+				//	if (a.isPlaying == true)
+				//	{
+				//		a.Stop();
+				//	}
+				//}
 			}
-
 		}
 
 
