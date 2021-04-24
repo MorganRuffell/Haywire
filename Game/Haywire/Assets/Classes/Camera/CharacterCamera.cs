@@ -14,6 +14,8 @@ namespace Haywire.Systems
 		[Tooltip("PlayerLocation and player should be the same gameObject")]
 		public GameObject Player;
 
+		public bool IsAiming;
+
 		public Vector3 _CameraOffset;
 
 		public void Awake()
@@ -23,7 +25,14 @@ namespace Haywire.Systems
 
 		public void LateUpdate()
 		{
+			HandleAiming();
+
 			transform.position = Player.transform.position + _CameraOffset;
+		}
+
+		private void HandleAiming()
+		{
+			
 		}
 	}
 

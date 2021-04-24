@@ -16,9 +16,9 @@ namespace Haywire.Character
 	[DisallowMultipleComponent]
 	public class CharacterMovementComponent : MonoBehaviour, ISoundSystem, IAnimationSystem
 	{
-		
+
 		private Vector3 velocity;
-	
+
 		private float horizontal;
 		private float vertical;
 
@@ -28,10 +28,11 @@ namespace Haywire.Character
 		public Int16 JumpPower = 4;
 		public float AnimationTurnSpeed = 0f;
 		public float SprintTrigger = 0.5f;
+		public float AimingSpeed = 3.0f;
 
 		[HideInInspector, SerializeField]
 		public bool IsTouchingEnviroment = true;
-		private bool IsHeld = false;
+		//private bool IsHeld = false;
 
 		[Header("Setup for GameObjects")]
 		[SerializeField]
@@ -71,7 +72,7 @@ namespace Haywire.Character
 
 		private void Awake()
 		{
-			
+
 		}
 
 		//Could make it automatic so that field are automatically assigned on Awake
@@ -91,7 +92,7 @@ namespace Haywire.Character
 
 				PlayerAnimator.SetFloat("Movement", 0.0f);
 				PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
-				ChangeAnimationState(Player_Jump);
+				//ChangeAnimationState(Player_Jump);
 			}
 
 			Move(horizontal, vertical);
@@ -104,22 +105,36 @@ namespace Haywire.Character
 				PlayerAnimator.SetFloat("IsBored", 0.0f);
 				PlayerAnimator.SetBool("IsIdle", false);
 
+				//Make these play on animation events only.
 				PlayGameSounds(MovementSounds);
 
 				velocity.Set(horizontal, 0.0f, 0.0f);
 
-				velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
-				PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
-				PlayerAnimator.SetFloat("Movement", 0.9f);
+				if (PlayerAnimator.GetBool("IsIdle").Equals(false))
+				{
+					velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
+				
+					PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
+					PlayerAnimator.SetFloat("Movement", 0.9f);
+				
+					HandleCharacterOrientation(horizontal, vertical);
+				}
 
-				HandleCharacterOrientation(horizontal, vertical);
+				else
+				{
+					velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
 
+					PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
+					PlayerAnimator.SetFloat("Movement", 0.9f);
+
+					HandleCharacterOrientation(horizontal, vertical);
+				}
 			}
 			else
 			{
 				PlayerAnimator.SetBool("IsIdle", true);
 				StopGameSounds(MovementSounds);
-			
+
 				//Probably should do this with a coroutine?
 				Invoke("HandleCharacterBoredom", _IdleDelay);
 
@@ -143,7 +158,6 @@ namespace Haywire.Character
 			{
 				StartCoroutine(PlayerRightMovement(AnimationTurnSpeed, horizontal));
 			}
-
 		}
 
 		private void HandleCharacterBoredom()
@@ -153,7 +167,15 @@ namespace Haywire.Character
 
 		private IEnumerator PlayerRightMovement(float AnimationTurnSpeed, float MovementSpeed)
 		{
-			transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
+			if (PlayerAnimator.GetBool("IsIdle").Equals(false))
+			{
+				transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
+
+				if (MovementSpeed > SprintTrigger)
+				{
+					Sprinting(MovementSpeed);
+				}
+			}
 
 			if (MovementSpeed > SprintTrigger)
 			{
@@ -165,12 +187,21 @@ namespace Haywire.Character
 
 		private IEnumerator PlayerLeftMovement(float AnimationTurnSpeed, float MovementSpeed)
 		{
+			if (PlayerAnimator.GetBool("IsIdle").Equals(false))
+			{
+				transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
+
+				if (MovementSpeed > SprintTrigger)
+				{
+					Sprinting(MovementSpeed);
+				}
+			}
+
 			if (MovementSpeed > SprintTrigger)
 			{
 				Sprinting(MovementSpeed);
 			}
 
-			transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
 			yield return new WaitForSeconds(AnimationTurnSpeed);
 		}
 
@@ -179,6 +210,7 @@ namespace Haywire.Character
 			transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
 			yield return new WaitForSeconds(AnimationTurnSpeed);
 		}
+
 
 		public void ChangeAnimationState(string NewState)
 		{

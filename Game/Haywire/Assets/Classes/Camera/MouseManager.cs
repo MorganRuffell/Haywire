@@ -47,7 +47,10 @@ namespace Haywire.UI
 		// Update is called once per frame
 		void Update()
 		{
-			_CanFire = false;
+			//_CanFire = false;
+		}
+		private void FixedUpdate()
+		{
 			UISwap();
 		}
 
@@ -59,7 +62,7 @@ namespace Haywire.UI
 			{
 				if (raycastHit.collider.gameObject.tag == "Enemy")
 				{
-					CursorSwap(ShootingReticleTexture, CursorSizeInt, true, true);
+					CursorSwap(ShootingReticleTexture, CursorSizeInt, true, false);
 					Debug.DrawLine(FiringLocation.transform.position, raycastHit.transform.position);
 					Shooting();
 				}
@@ -67,7 +70,7 @@ namespace Haywire.UI
 				else if (raycastHit.collider.gameObject.tag == "Environment" || raycastHit.collider.gameObject.tag == "Untagged")
 				{
 					CursorSwap(BaseMouseTexture, CursorSizeInt);
-					Shooting();
+					NonTargetShooting();
 				}
 
 				else
@@ -99,8 +102,23 @@ namespace Haywire.UI
 				CursorSwap(NoAmmoRemainingTexture, CursorSizeInt);
 			}
 
+			PlayerAnimator.SetBool("CanFire", true);
 			_CanFire = true;
 		}
+
+		//Method used for when you're not aiming at an enemy
+		private void NonTargetShooting()
+		{
+			if (GameManager.GetComponent<GameManagerComponent>().AmmoAmount <= 0)
+			{
+				Debug.Log("Out of Ammo");
+				CursorSwap(NoAmmoRemainingTexture, CursorSizeInt);
+			}
+
+			PlayerAnimator.SetBool("CanFire", true);
+			_CanFire = true;
+		}
+
 
 	}
 }

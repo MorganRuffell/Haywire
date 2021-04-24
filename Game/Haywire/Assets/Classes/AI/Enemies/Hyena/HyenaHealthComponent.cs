@@ -16,17 +16,15 @@ namespace Haywire.AI
 		public int HyenaMaxHealth = 50;
 		public int HyenaCurrentHealth;
 
-
-		public new void Awake()
+		public override void Awake()
 		{
 			HyenaMaxHealth = HyenaCurrentHealth;
 		}
 
-		public new void TakeDamage(int Amount)
+		public override void TakeDamage(int Amount)
 		{
 			HyenaCurrentHealth =- Amount;
 		}
-
 	}
 
 }

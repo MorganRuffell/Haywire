@@ -26,7 +26,7 @@ namespace Haywire.AI
 	{
 		Thread ChasePlayerThread;
 
-		private string currentState;
+		private string currentState = "";
 
 		[Header("Movement Values")]
 		[Tooltip("Hyena Movement Speed")] public float HyenaMovementSpeed = 5.0f;

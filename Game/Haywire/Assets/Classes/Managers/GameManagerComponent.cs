@@ -20,6 +20,7 @@ namespace Haywire.Singletons
 		public static GameManagerComponent GameManager;
 		public CharacterScoreComponent characterScoreComponent;
 		public GlobalMusicController GlobalMusicComponent;
+		public MouseManager mouseManager;
 
 		public static FadeToBlack Ending;
 
@@ -35,6 +36,10 @@ namespace Haywire.Singletons
 
 		[HideInInspector]
 		public bool IsGamePaused = false;
+
+		[HideInInspector]
+		public bool IsAiming = false;
+
 
 		[HideInInspector]
 		public bool IsCleanupDone;
@@ -63,7 +68,6 @@ namespace Haywire.Singletons
 			GameplayCanvas.SetActive(true);
 		}
 
-		//Enforces the singleton design pattern for the GameManager
 		void GameManagerEnforce()
 		{
 			if (GameManager == null)
@@ -85,7 +89,6 @@ namespace Haywire.Singletons
 			if (IsAlive == false)
 			{
 				Debug.Log("I am dead.");
-
 				Finale();
 				///Ending.Call();
 			}

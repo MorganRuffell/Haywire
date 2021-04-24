@@ -58,6 +58,17 @@ namespace Haywire.Character
 					GameManager.PauseGame();
 				}
 			}
+
+			if (Input.GetMouseButtonUp(1))
+			{
+				PlayerAnimator.SetBool("IsIdle", true);
+			}
+
+			if (Input.GetMouseButton(1))
+			{
+				PlayerAnimator.SetBool("IsIdle", false);
+			}
+
 		}
 
 		public void ChangeAnimationState(string NewState)

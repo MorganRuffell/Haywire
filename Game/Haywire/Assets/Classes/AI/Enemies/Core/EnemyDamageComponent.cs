@@ -15,14 +15,14 @@ namespace Haywire.AI
 	public abstract class EnemyDamageComponent : MonoBehaviour
 	{
 		[Header("Enemy Damage Control Fields")]
-		private int damage;
-		private float EnemyDamageMultiplier = 1.0f;
+		//private int damage;
+		//private float EnemyDamageMultiplier = 1.0f;
 
 		[Space]
 
 		[Header("Enemy Damage Audio Sounds")] List<AudioSource> EnemyAudioAttackSounds;
 
-		private Animator animationController;
+		//private Animator animationController;
 
 		public virtual void OnTriggerEnter(Collider other)
 		{
@@ -31,20 +31,20 @@ namespace Haywire.AI
 
 		public virtual void EnemyCollisionHandler(Collider CollidingObject)
 		{
-			if (CollidingObject.gameObject.CompareTag("Player"))
-			{
-				StartCoroutine(PlayAttackAnimation());
-				CollidingObject.GetComponent<CharacterHealthComponent>().TakeDamage(damage);
-			}
+			//if (CollidingObject.gameObject.CompareTag("Player"))
+			//{
+			//	StartCoroutine(PlayAttackAnimation());
+			//	CollidingObject.GetComponent<CharacterHealthComponent>().TakeDamage(damage);
+			//}
 		}
 
 		public virtual IEnumerator PlayAttackAnimation()
 		{
-			animationController.SetBool("AttackTrigger", true);
-
-			//Create a system similar to the player, will not take too long.
-			PlayGameSounds(EnemyAudioAttackSounds);
-
+			//animationController.SetBool("AttackTrigger", true);
+			//
+			////Create a system similar to the player, will not take too long.
+			//PlayGameSounds(EnemyAudioAttackSounds);
+			//
 			yield return new WaitForSeconds(2.0f);
 		}
 		

@@ -12,7 +12,7 @@ public class ThreadQueuer : MonoBehaviour
     // So here we are just saying that we need a function that returns nothing and requires no paramaters
     // public delegate void SameThingAsAction();
 
-    Thread Newthread;
+    //Thread Newthread;
 
     List<Action> functionsToRuninMainThread;
 
@@ -25,7 +25,7 @@ public class ThreadQueuer : MonoBehaviour
 	//Action is shortform for a delegate that takes no paramaters
 	public void StartThreadedFuction(Action someFunction)
     {
-        Newthread.Start(someFunction);
+        //Newthread.Start(someFunction);
 	}
 
     public void QueueMainThreadFunction(Action someFunction)
