@@ -134,12 +134,12 @@ namespace Haywire.Character
 				StartCoroutine(PlayerForwardMovement(AnimationTurnSpeed, vertical));
 			}
 
-			if (horizontal > 0)
+			if (horizontal < 0)
 			{
 				StartCoroutine(PlayerLeftMovement(AnimationTurnSpeed, horizontal));
 			}
 
-			if (horizontal < 0)
+			if (horizontal > 0)
 			{
 				StartCoroutine(PlayerRightMovement(AnimationTurnSpeed, horizontal));
 			}
@@ -176,7 +176,7 @@ namespace Haywire.Character
 
 		private IEnumerator PlayerForwardMovement(float AnimationTurnSpeed, float MovementSpeed)
 		{
-			transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
+			transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
 			yield return new WaitForSeconds(AnimationTurnSpeed);
 		}
 

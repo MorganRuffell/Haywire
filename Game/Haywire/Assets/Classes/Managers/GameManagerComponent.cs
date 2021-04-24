@@ -10,6 +10,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Haywire.Character;
 using Haywire.UI;
+using Haywire.Audio;
 
 namespace Haywire.Singletons
 {
@@ -18,9 +19,13 @@ namespace Haywire.Singletons
 		//This is a static object reference it exists for the entire program lifetime. Regardless of state changes
 		public static GameManagerComponent GameManager;
 		public CharacterScoreComponent characterScoreComponent;
+		public GlobalMusicController GlobalMusicComponent;
+
 		public static FadeToBlack Ending;
 
-		[Header("Pause Canvas")]
+
+		[Header("Pause Information")]
+		public bool Turn_Sound_off_OnPause;
 		public GameObject PauseCanvas;
 		public GameObject GameplayCanvas;
 
@@ -36,6 +41,9 @@ namespace Haywire.Singletons
 
 		[Space]
 		[Space]
+
+		[Header ("Audio Playing objects in scene")]
+		
 
 		public Int32 PlayerScore;
 
@@ -85,19 +93,40 @@ namespace Haywire.Singletons
 
 		public void PauseGame()
 		{
-			GameplayCanvas.SetActive(false);
-			Time.timeScale = 0;
-
-			PauseCanvas.SetActive(true);
-			IsGamePaused = true;
+			if (Turn_Sound_off_OnPause == true)
+			{
+				GlobalMusicComponent.StopAllGameSounds(GlobalMusicComponent.CountingMusic, GlobalMusicComponent.GameplayMusic, GlobalMusicComponent.SpawningMusic, GlobalMusicComponent.WaitingMusic);
+				GameplayCanvas.SetActive(false);
+				Time.timeScale = 0;
+				PauseCanvas.SetActive(true);
+				IsGamePaused = true;
+			}
+			else
+			{
+				GameplayCanvas.SetActive(false);
+				Time.timeScale = 0;
+				PauseCanvas.SetActive(true);
+				IsGamePaused = true;
+			}
 		}
+
 		public void ResumeGame()
 		{
-			GameplayCanvas.SetActive(true);
-			Time.timeScale = 1;
-
-			PauseCanvas.SetActive(false);
-			IsGamePaused = false;
+			if (Turn_Sound_off_OnPause == true)
+			{
+				GlobalMusicComponent.CheckSpawnState();
+				GameplayCanvas.SetActive(true);
+				Time.timeScale = 1;
+				PauseCanvas.SetActive(false);
+				IsGamePaused = false;
+			}
+			else
+			{
+				GameplayCanvas.SetActive(true);
+				Time.timeScale = 1;
+				PauseCanvas.SetActive(false);
+				IsGamePaused = false;
+			}
 		}
 
 		void Finale()

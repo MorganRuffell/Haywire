@@ -88,9 +88,7 @@ namespace Haywire.Character
 						Debug.Log("You must have a selected firing mode");
 						break;
 				}
-
 			}
-
 		}
 
 		private void StartAutomaticFiring()
