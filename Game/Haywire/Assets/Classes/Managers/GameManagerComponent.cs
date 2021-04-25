@@ -37,7 +37,7 @@ namespace Haywire.Singletons
 		[HideInInspector]
 		public bool IsGamePaused = false;
 
-		[HideInInspector]
+		[HideInInspector, SerializeField]
 		public bool IsAiming = false;
 
 
