@@ -13,18 +13,21 @@ namespace Haywire.AI
 {
 	public abstract class EnemyHealthComponent : MonoBehaviour
 	{
-		public int Enemy_MaxHealth = 50;
-		public int Enemy_CurrentHealth;
+		public virtual void Awake()
+		{
+	
+		}
 
-		public abstract void Awake();
+		public virtual void TakeDamage(int Damage)
+		{
 
-		public abstract void TakeDamage(int Amount);
-		
-			//Enemy_CurrentHealth = Enemy_MaxHealth;
-			//Enemy_CurrentHealth =- Amount;
+		}
 
-		//You can create an implementation so that healthbars appear when health goes below 0. 
-		//Write this in pseudocode, 
+		public virtual void TakeDamage(float Damage)
+		{
+
+		}
+
 	}
 }
 

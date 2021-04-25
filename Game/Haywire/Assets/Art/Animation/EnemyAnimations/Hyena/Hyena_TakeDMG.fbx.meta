@@ -38,7 +38,7 @@ ModelImporter:
       name: A_HyenaTakeDamage
       takeName: Take 001
       internalID: 0
-      firstFrame: 1
+      firstFrame: 0
       lastFrame: 125
       wrapMode: 0
       orientationOffsetY: -90
@@ -58,7 +58,14 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.19369937
+        functionName: TakeDamage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4737a617cb5829e41ac731c72103b6f9, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
