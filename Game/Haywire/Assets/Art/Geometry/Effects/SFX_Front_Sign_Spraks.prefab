@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3128865996849199658}
   - component: {fileID: 4166330477536994128}
   m_Layer: 0
-  m_Name: SFX_Spraks (2)
+  m_Name: SFX_Front_Sign_Spraks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4990,7 +4990,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5b27eb35a1617944e8f770a81d8de181, type: 2}
+  - {fileID: 2100000, guid: 14db02328d5dde34a9e72bf29a76b783, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

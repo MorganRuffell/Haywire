@@ -9,10 +9,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Haywire.Singletons;
+using Haywire.UI;
 
 namespace Haywire.Character
 {
-
 	[RequireComponent(typeof(CharacterMovementComponent))]
 	public class CharacterHealthComponent : MonoBehaviour
 	{
@@ -22,6 +22,10 @@ namespace Haywire.Character
 
 		public float DeathDelay = 2.0f;
 		public Rigidbody PlayerRigidBody;
+
+		[Header("Health UI Alpha Control")]
+		public UIAlphaControl AlphaController;
+		public float HealthUIAlphaController = 1.0f;
 
 		[SerializeField]
 		[Header("Take Damage Sounds")]
@@ -57,14 +61,16 @@ namespace Haywire.Character
 
 		public void TakeDamage(int Amount)
 		{
-			CurrentHealth -= Amount;
+			AlphaController.Appear(HealthUIAlphaController);
 			DamageSoundPlay(TakeDamageSounds_Set1, TakeDamageSounds_Set2);
+			CurrentHealth -= Amount;
 		}
 
 		public void TakeDamage(float Amount)
-		{
-			CurrentHealth -= (int) Amount;
+		{	
+			AlphaController.Appear(HealthUIAlphaController);
 			DamageSoundPlay(TakeDamageSounds_Set2, TakeDamageSounds_Set2);
+			CurrentHealth -= (int) Amount;
 		}
 
 
@@ -126,7 +132,6 @@ namespace Haywire.Character
 
 					SoundList1[SoundIndex].Play();
 				}
-				
 			}
 			else
 			{
