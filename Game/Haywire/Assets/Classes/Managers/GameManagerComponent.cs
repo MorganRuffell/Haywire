@@ -81,6 +81,11 @@ namespace Haywire.Singletons
 			}
 		}
 
+		public void IncreaseScore(int Score)
+		{
+			PlayerScore += Score;
+		}
+
 		// Update is called once per frame
 		void Update()
 		{

@@ -10,6 +10,8 @@ using UnityEngine.EventSystems;
 using System.Collections.Generic;
 using Haywire.Systems;
 using Haywire.Singletons;
+using Haywire.Character;
+using Haywire.AI;
 
 namespace Haywire.UI
 {
@@ -21,6 +23,9 @@ namespace Haywire.UI
 
 		[Header("Player Animation Controller")]
 		public Animator PlayerAnimator;
+
+		[Header("Player Firing Controller")]
+		public CharacterFiringController characterFiringController;
 
 		[Header("Firing Location and Ammo Controller")]
 		public GameObject FiringLocation;
@@ -100,10 +105,27 @@ namespace Haywire.UI
 			{
 				Debug.Log("Out of Ammo");
 				CursorSwap(NoAmmoRemainingTexture, CursorSizeInt);
+				return;
 			}
 
 			PlayerAnimator.SetBool("CanFire", true);
 			_CanFire = true;
+
+			characterFiringController.MuzzleFlash.intensity = characterFiringController.MuzzleFlashLightShootingIntensity;
+
+			RaycastHit hit;
+			if(Physics.Raycast(FiringLocation.transform.position, this.transform.forward, out hit, characterFiringController.FiringRange))
+			{
+				if(hit.transform.tag != "Enemy")
+				{
+					Debug.Log(hit.transform.name);
+				}
+				else
+				{
+					hit.transform.GetComponent<EnemyHealthComponent>().TakeDamage(characterFiringController.Damage);
+				}
+			}
+	
 		}
 
 		//Method used for when you're not aiming at an enemy

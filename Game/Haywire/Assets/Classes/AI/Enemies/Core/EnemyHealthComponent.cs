@@ -15,7 +15,12 @@ namespace Haywire.AI
 	{
 		public virtual void Awake()
 		{
-	
+
+		}
+
+		public virtual void Update()
+		{
+
 		}
 
 		public virtual void TakeDamage(int Damage)
@@ -26,6 +31,16 @@ namespace Haywire.AI
 		public virtual void TakeDamage(float Damage)
 		{
 
+		}
+
+		public virtual void Die()
+		{
+
+		}
+
+		public virtual void Slow(float HyenaMovementSpeed)
+		{
+			
 		}
 
 	}

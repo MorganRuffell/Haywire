@@ -36,11 +36,29 @@ namespace Haywire.Character
 		public float FireRate = 1.0f;
 		public float timer = 0.0f;
 
+		public float FiringRange = 500.0f;
+
+		[Header("Gun Spot Light")]
+		public Light GunSpotLight;
+		private bool GunLightOn = true;
+		
+
+		[Header("Muzzle Flash Attributes")]
+		public Light MuzzleFlash;
+		public float MuzzleFlashLightShootingIntensity = 15.0f;
+		private float GunLightNormal = 0.0f;
+
+		[Header("Character Damage Component")]
+		public float Damage = 50.0f;
+
 		public WeaponModes PlayerWeaponMode;
 
+		[Header("UI Components")]
 		[Space]
-		[Space]
+		public GameObject AmmoUI;
 
+		[Space]
+		[Space]
 
 		[Header("Weapon Audio Slots")]
 		[Tooltip("These are audio slots for the firing sounds, when you add more, I need to expand the logic checks in code.")]
@@ -49,12 +67,23 @@ namespace Haywire.Character
 		[Tooltip("These are audio slots for the firing sounds, when you add more, I need to expand the logic checks in code.")]
 		public List<AudioSource> SemiautomaticSounds;
 
-		[Header("UI Components")]
-		[Space]
-		public GameObject AmmoUI;
 
 		private void Update()
 		{
+			if(Input.GetKeyDown(KeyCode.Q))
+			{
+				if (GunLightOn == true)
+				{
+					GunLightOn = !GunLightOn;
+					GunSpotLight.intensity = 0;
+				}
+				else
+				{
+					GunLightOn = !GunLightOn;
+					GunSpotLight.intensity = 60;
+				}
+			}
+
 			if (MouseManager._CanFire == true)
 			{
 				Fire();
@@ -109,8 +138,11 @@ namespace Haywire.Character
 		{
 			yield return new WaitForSecondsRealtime(delay);
 			GameManager.AmmoAmount--;
-
+			
 			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+			MuzzleFlash.intensity = GunLightNormal;
+
+
 			FirearmSoundPlay(AutomaticSounds);
 			StartCoroutine("AutomaticFiring", 0.1f);
 		}

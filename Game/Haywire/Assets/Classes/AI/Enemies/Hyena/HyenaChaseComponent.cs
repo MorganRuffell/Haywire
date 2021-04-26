@@ -29,9 +29,15 @@ namespace Haywire.AI
 		private string currentState = "";
 
 		[Header("Movement Values")]
-		[Tooltip("Hyena Movement Speed")] public float HyenaMovementSpeed = 5.0f;
-		[Tooltip("Hyena Movement speed addition, this is added to the movement speed when closing within a range")] public float MovementSpeedAddition = 8.0f;
-		[Tooltip("Movement Speed Coroutine wait delay, default is .25 seconds")] public float CorountineDelay = 0.25f;
+
+		[Tooltip("Hyena Movement Speed")] 
+		public float HyenaMovementSpeed = 5.0f;
+
+		[Tooltip("Hyena Movement speed addition, this is added to the movement speed when closing within a range")] 
+		public float MovementSpeedAddition = 8.0f;
+
+		[Tooltip("Movement Speed Coroutine wait delay, default is .25 seconds")] 
+		public float CorountineDelay = 0.25f;
 
 		[Header("Movement Sounds")]
 		public List<AudioSource> EnemyRunningSounds;

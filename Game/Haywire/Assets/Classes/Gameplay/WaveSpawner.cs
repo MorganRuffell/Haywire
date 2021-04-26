@@ -34,12 +34,6 @@ namespace Haywire.Gameplay
 	[RequireComponent(typeof(GameManagerComponent))]
 	public class WaveSpawner : MonoBehaviour
 	{
-		public Wave[] waves;
-		private int NextWave = 0;
-
-		[Tooltip("GameObject wave spawn transform array, store each transform in this array")]
-		public Transform[] spawnPoints;
-
 		[Header("Wave timings and delays")]
 		[Tooltip("Time in second from when this object enters the scene to the first wave.")]
 		public float StartDelay = 2.0f;
@@ -47,10 +41,15 @@ namespace Haywire.Gameplay
 		private float waveCountdown;
 		public WaveUIComponent WaveUIController;
 
+		public Wave[] waves;
+		private int NextWave = 0;
+
+		[Tooltip("GameObject wave spawn transform array, store each transform in this array")]
+		public Transform[] spawnPoints;
+
 		[HideInInspector, Header("Spawn States")]
 		public SpawnState WaveSpawnState = SpawnState.COUNTING;
 		private bool IsSpawnLocation0 = true;
-
 		private float searchCountdown = 1.5f;
 
 		void Start()
