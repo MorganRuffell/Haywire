@@ -127,7 +127,7 @@ namespace Haywire.Gameplay
 
 		void SpawnEnemy(GameObject _enemy, GameObject _enemy1)
 		{
-			Debug.Log("Spawning Enemy" + _enemy.name);
+			//Debug.Log("Spawning Enemy" + _enemy.name);
 
 			AlternateSpawnLocation(_enemy, _enemy1);
 		}

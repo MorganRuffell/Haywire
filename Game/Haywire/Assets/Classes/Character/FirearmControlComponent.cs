@@ -47,7 +47,6 @@ namespace Haywire.Gameplay
 			if (PlayerAnimator.GetBool("CanFire").Equals(true) && PlayerAnimator.GetBool("IsIdle").Equals(false))
 			{
 				gameObject.transform.localPosition = FiringPosition;
-				//gameObject.transform.localRotation = FiringRotation;
 				gameObject.transform.localScale = GunSize;
 			}
 			else

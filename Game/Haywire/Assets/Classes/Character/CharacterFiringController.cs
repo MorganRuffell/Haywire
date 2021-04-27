@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Haywire.Character
 {
@@ -41,7 +42,7 @@ namespace Haywire.Character
 		[Header("Gun Spot Light")]
 		public Light GunSpotLight;
 		private bool GunLightOn = true;
-		
+
 
 		[Header("Muzzle Flash Attributes")]
 		public Light MuzzleFlash;
@@ -51,7 +52,10 @@ namespace Haywire.Character
 		[Header("Character Damage Component")]
 		public float Damage = 50.0f;
 
+		[Header("Firing mode controller")]
 		public WeaponModes PlayerWeaponMode;
+		public Image FullAutoIcon;
+		public Image SemiAutoIcon;
 
 		[Header("UI Components")]
 		[Space]
@@ -67,10 +71,31 @@ namespace Haywire.Character
 		[Tooltip("These are audio slots for the firing sounds, when you add more, I need to expand the logic checks in code.")]
 		public List<AudioSource> SemiautomaticSounds;
 
+		[Tooltip("These are audio slots for the swap of the gun mode sounds.")]
+		public List<AudioSource> ModeSwapSounds;
+
 
 		private void Update()
 		{
-			if(Input.GetKeyDown(KeyCode.Q))
+			if(Input.GetKeyDown(KeyCode.E))
+			{
+				if (PlayerWeaponMode == WeaponModes.AUTOMATIC)
+				{
+					PlayerWeaponMode = WeaponModes.SEMI_AUTOMATIC;
+					FirearmSoundPlay(ModeSwapSounds);
+					FullAutoIcon.enabled = false;
+					SemiAutoIcon.enabled = true;
+				}
+				else
+				{
+					PlayerWeaponMode = WeaponModes.AUTOMATIC;
+					FirearmSoundPlay(ModeSwapSounds);
+					FullAutoIcon.enabled = true;
+					SemiAutoIcon.enabled = false;
+				}
+			}
+
+			if (Input.GetKeyDown(KeyCode.Q))
 			{
 				if (GunLightOn == true)
 				{
@@ -95,9 +120,10 @@ namespace Haywire.Character
 			if (Input.GetMouseButtonUp(0))
 			{
 				StopAllCoroutines();
+				MuzzleFlash.intensity = GunLightNormal;
 			}
 
-			if (Input.GetMouseButtonDown(0))
+			if (Input.GetMouseButton(0))
 			{
 				switch (PlayerWeaponMode)
 				{
@@ -136,15 +162,28 @@ namespace Haywire.Character
 
 		IEnumerator AutomaticFiring(float delay)
 		{
-			yield return new WaitForSecondsRealtime(delay);
+			while (Input.GetMouseButton(0))
+			{
+				GameManager.AmmoAmount--;
+
+				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+				MuzzleFlash.intensity = GunLightNormal;
+				FirearmSoundPlay(AutomaticSounds);
+
+				yield return new WaitForSecondsRealtime(delay);
+			}
+		}
+
+		//Make it so that this instantiates projectiles on only click and then finish the system
+		IEnumerator SemiAutomaticFiring(float delay)
+		{
 			GameManager.AmmoAmount--;
-			
+
 			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
 			MuzzleFlash.intensity = GunLightNormal;
-
-
 			FirearmSoundPlay(AutomaticSounds);
-			StartCoroutine("AutomaticFiring", 0.1f);
+
+			yield return null;
 		}
 
 
@@ -160,7 +199,9 @@ namespace Haywire.Character
 			{
 				GameManager.AmmoAmount--;
 				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+				MuzzleFlash.intensity = MuzzleFlashLightShootingIntensity;
 				FirearmSoundPlay(SemiautomaticSounds);
+				StartCoroutine(SemiAutomaticFiring(2.0f));
 			}
 		}
 
