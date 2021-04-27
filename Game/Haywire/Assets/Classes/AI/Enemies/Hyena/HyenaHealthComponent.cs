@@ -50,7 +50,7 @@ namespace Haywire.AI
 			{
 				Slow(chaseComponent.HyenaMovementSpeed);
 
-				if (HyenaCurrentHealth < 0)
+				if (HyenaCurrentHealth >= 0)
 				{
 					Die();
 				}
@@ -64,6 +64,7 @@ namespace Haywire.AI
 		public override void Die()
 		{
 			GameManager.IncreaseScore(Score);
+			
 		}
 
 		public override void Slow(float HyenaMovementSpeed)

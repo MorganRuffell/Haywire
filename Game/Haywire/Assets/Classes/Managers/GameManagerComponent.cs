@@ -21,6 +21,8 @@ namespace Haywire.Singletons
 		public CharacterScoreComponent characterScoreComponent;
 		public GlobalMusicController GlobalMusicComponent;
 		public MouseManager mouseManager;
+		[Header("The list of Alpha Controllers for the UI."), Tooltip("0. Health, 1. Score, 2. Automatic State, 3. Ammo")]
+		public List<UIAlphaControl> AlphaControllers;
 
 		public static FadeToBlack Ending;
 
@@ -83,6 +85,7 @@ namespace Haywire.Singletons
 
 		public void IncreaseScore(int Score)
 		{
+			AlphaControllers[0].Appear(2);
 			PlayerScore += Score;
 		}
 

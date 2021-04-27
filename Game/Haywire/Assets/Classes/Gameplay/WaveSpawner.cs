@@ -109,7 +109,7 @@ namespace Haywire.Gameplay
 
 		IEnumerator SpawnWave(Wave _wave)
 		{
-			Debug.Log("Spawning Wave" + _wave.WaveName);
+			//Debug.Log("Spawning Wave" + _wave.WaveName);
 			WaveSpawnState = SpawnState.INSTANTIATING;
 
 			for (int index = 0; index < _wave.EnemyCount;)

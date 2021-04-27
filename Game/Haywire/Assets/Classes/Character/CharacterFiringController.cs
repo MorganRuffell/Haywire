@@ -14,13 +14,6 @@ using UnityEngine.UI;
 
 namespace Haywire.Character
 {
-	public enum WeaponModes
-	{
-		SEMI_AUTOMATIC,
-		AUTOMATIC,
-		ERROR,
-	}
-
 	[RequireComponent(typeof(CharacterHealthComponent)), DisallowMultipleComponent]
 	public class CharacterFiringController : MonoBehaviour
 	{
@@ -53,7 +46,7 @@ namespace Haywire.Character
 		public float Damage = 50.0f;
 
 		[Header("Firing mode controller")]
-		public WeaponModes PlayerWeaponMode;
+		public bool IsPlayerAutomatic = true;
 		public Image FullAutoIcon;
 		public Image SemiAutoIcon;
 
@@ -79,19 +72,21 @@ namespace Haywire.Character
 		{
 			if(Input.GetKeyDown(KeyCode.E))
 			{
-				if (PlayerWeaponMode == WeaponModes.AUTOMATIC)
+				if (IsPlayerAutomatic == true)
 				{
-					PlayerWeaponMode = WeaponModes.SEMI_AUTOMATIC;
+					IsPlayerAutomatic = false;
 					FirearmSoundPlay(ModeSwapSounds);
 					FullAutoIcon.enabled = false;
 					SemiAutoIcon.enabled = true;
+					return;
 				}
 				else
 				{
-					PlayerWeaponMode = WeaponModes.AUTOMATIC;
+					IsPlayerAutomatic = true;
 					FirearmSoundPlay(ModeSwapSounds);
 					FullAutoIcon.enabled = true;
 					SemiAutoIcon.enabled = false;
+					return;
 				}
 			}
 
@@ -125,23 +120,13 @@ namespace Haywire.Character
 
 			if (Input.GetMouseButton(0))
 			{
-				switch (PlayerWeaponMode)
+				if (IsPlayerAutomatic)
 				{
-					case WeaponModes.SEMI_AUTOMATIC:
-						StartSemiAutomaticFiring();
-						break;
-
-					case WeaponModes.AUTOMATIC:
-						StartAutomaticFiring();
-						break;
-
-					case WeaponModes.ERROR:
-						Debug.Log("There is an error with the character weapon mode");
-						break;
-
-					default:
-						Debug.Log("You must have a selected firing mode");
-						break;
+					StartAutomaticFiring();
+				}
+				else
+				{
+					StartSemiAutomaticFiring();
 				}
 			}
 		}
@@ -156,7 +141,7 @@ namespace Haywire.Character
 			}
 			else
 			{
-				StartCoroutine("AutomaticFiring", 0.1f);
+				StartCoroutine("AutomaticFiring", 1f);
 			}
 		}
 
@@ -164,26 +149,12 @@ namespace Haywire.Character
 		{
 			while (Input.GetMouseButton(0))
 			{
-				GameManager.AmmoAmount--;
-
 				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
 				MuzzleFlash.intensity = GunLightNormal;
 				FirearmSoundPlay(AutomaticSounds);
-
-				yield return new WaitForSecondsRealtime(delay);
+				yield return new WaitForSeconds(delay);
+				GameManager.AmmoAmount--;
 			}
-		}
-
-		//Make it so that this instantiates projectiles on only click and then finish the system
-		IEnumerator SemiAutomaticFiring(float delay)
-		{
-			GameManager.AmmoAmount--;
-
-			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
-			MuzzleFlash.intensity = GunLightNormal;
-			FirearmSoundPlay(AutomaticSounds);
-
-			yield return null;
 		}
 
 
@@ -197,12 +168,20 @@ namespace Haywire.Character
 			}
 			else
 			{
-				GameManager.AmmoAmount--;
-				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
-				MuzzleFlash.intensity = MuzzleFlashLightShootingIntensity;
-				FirearmSoundPlay(SemiautomaticSounds);
 				StartCoroutine(SemiAutomaticFiring(2.0f));
 			}
+		}
+
+		//Make it so that this instantiates projectiles on only click and then finish the system
+		IEnumerator SemiAutomaticFiring(float delay)
+		{
+			GameManager.AmmoAmount--;
+
+			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+			yield return new WaitForSeconds(3);
+			MuzzleFlash.intensity = GunLightNormal;
+			FirearmSoundPlay(AutomaticSounds);
+
 		}
 
 		private void FirearmSoundPlay(List<AudioSource> SoundList)

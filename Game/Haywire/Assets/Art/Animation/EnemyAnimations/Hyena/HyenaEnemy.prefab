@@ -43,7 +43,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 73e827384391acc42b322193c225ef9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.648
+  m_Volume: 0.047
   m_Pitch: 0.05
   Loop: 0
   Mute: 0
@@ -203,7 +203,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 73e827384391acc42b322193c225ef9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.499
+  m_Volume: 0.047
   m_Pitch: 0.77
   Loop: 0
   Mute: 0
@@ -330,7 +330,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 73e827384391acc42b322193c225ef9a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.595
+  m_Volume: 0.047
   m_Pitch: 0.77
   Loop: 0
   Mute: 0
@@ -1208,10 +1208,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a7409e999dfb9148b7e6f0f671b48ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy_MaxHealth: 50
-  Enemy_CurrentHealth: 0
+  Score: 10
   HyenaMaxHealth: 50
   HyenaCurrentHealth: 0
+  HyenaSlowedThreshold: 10
+  HyenaSlowedIncrement: 20
 --- !u!114 &-2639184730778991741
 MonoBehaviour:
   m_ObjectHideFlags: 0
