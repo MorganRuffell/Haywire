@@ -3,14 +3,15 @@
 ////	Programmer: Morgan Ruffell
 //////////////////////////////////////////////////////////////////////////
 
-using Haywire.Singletons;
-using Haywire.UI;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.UI;
+using Haywire.Singletons;
+using Haywire.Gameplay;
+using Haywire.UI;
 
 namespace Haywire.Character
 {
@@ -20,6 +21,8 @@ namespace Haywire.Character
 		[Header("Game Manager Component")]
 		public GameManagerComponent GameManager;
 
+		[Header("")]
+		public FirearmControlComponent firearmControl;
 
 		[Header("Character Firing Attributes")]
 		[Tooltip("This is the place that bullet GameObjects instantiate from")]
@@ -51,9 +54,9 @@ namespace Haywire.Character
 		public Image SemiAutoIcon;
 
 		[Header("UI Components")]
-		[Space]
 		public GameObject AmmoUI;
 
+		[Space]
 		[Space]
 		[Space]
 
@@ -150,13 +153,25 @@ namespace Haywire.Character
 			while (Input.GetMouseButton(0))
 			{
 				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+				
 				MuzzleFlash.intensity = GunLightNormal;
 				FirearmSoundPlay(AutomaticSounds);
+				firearmControl.FiringParticles.Play();
 				yield return new WaitForSeconds(delay);
 				GameManager.AmmoAmount--;
 			}
 		}
 
+		//Make it so that this instantiates projectiles on only click and then finish the system
+		IEnumerator SemiAutomaticFiring(float delay)
+		{
+			GameManager.AmmoAmount--;
+			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+			firearmControl.FiringParticles.Play();
+			yield return new WaitForSeconds(3);
+			MuzzleFlash.intensity = GunLightNormal;
+			FirearmSoundPlay(AutomaticSounds);
+		}
 
 		private void StartSemiAutomaticFiring()
 		{
@@ -172,17 +187,6 @@ namespace Haywire.Character
 			}
 		}
 
-		//Make it so that this instantiates projectiles on only click and then finish the system
-		IEnumerator SemiAutomaticFiring(float delay)
-		{
-			GameManager.AmmoAmount--;
-
-			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
-			yield return new WaitForSeconds(3);
-			MuzzleFlash.intensity = GunLightNormal;
-			FirearmSoundPlay(AutomaticSounds);
-
-		}
 
 		private void FirearmSoundPlay(List<AudioSource> SoundList)
 		{

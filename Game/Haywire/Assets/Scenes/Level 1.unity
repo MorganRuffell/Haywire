@@ -2986,6 +2986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameManager: {fileID: 448110703}
+  firearmControl: {fileID: 0}
   spawnPoint: {fileID: 332383104}
   projectile: {fileID: 6904723188148136264, guid: 943be34e440d2c941a057844f745a923, type: 3}
   FireRate: 1
@@ -18358,7 +18359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9571d9030ba452b4dbee5d393a029644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FiringParticles: {fileID: 0}
+  FiringParticles: {fileID: 784807565993198558, guid: 1659566af23d7474fb185ec47c62b908, type: 3}
   ParticleSystemLocation: {fileID: 332383103}
   rotation:
     x: 35
