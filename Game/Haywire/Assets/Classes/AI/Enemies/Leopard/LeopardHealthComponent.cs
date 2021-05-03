@@ -68,9 +68,9 @@ namespace Haywire.AI
 			throw new NotImplementedException();
 		}
 
-		public override void Slow(float HyenaMovementSpeed)
+		public override void Slow(float LeopardMovementSpeed)
 		{
-			throw new NotImplementedException();
+			LeopardMovementSpeed -= LeopardSlowedIncrement;
 		}
 	}
 }

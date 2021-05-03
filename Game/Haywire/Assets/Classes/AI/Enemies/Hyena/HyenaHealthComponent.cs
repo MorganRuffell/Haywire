@@ -64,12 +64,12 @@ namespace Haywire.AI
 		public override void Die()
 		{
 			GameManager.IncreaseScore(Score);
-			
+			Destroy(this);
 		}
 
 		public override void Slow(float HyenaMovementSpeed)
 		{
-			HyenaMovementSpeed = - HyenaSlowedIncrement;
+			HyenaMovementSpeed = HyenaMovementSpeed - HyenaSlowedIncrement;
 		}
 	}
 

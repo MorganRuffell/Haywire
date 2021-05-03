@@ -22,17 +22,11 @@ namespace Haywire.AI
 
 		[SerializeField] public Animator animationController;
 
-		public override void OnTriggerEnter(Collider other)
+		public void OnTriggerEnter(Collider collision)
 		{
-			EnemyCollisionHandler(other);
-		}
-
-		public override void EnemyCollisionHandler(Collider CollidingObject)
-		{
-			if (CollidingObject.gameObject.CompareTag("Player"))
+			if (collision.gameObject.CompareTag("Player"))
 			{
 				StartCoroutine(PlayAttackAnimation());
-				CollidingObject.GetComponent<CharacterHealthComponent>().TakeDamage(_Damage);
 			}
 		}
 

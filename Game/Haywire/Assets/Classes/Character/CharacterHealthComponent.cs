@@ -59,20 +59,20 @@ namespace Haywire.Character
 			}
 		}
 
+		public void OnTriggerEnter(Collider collision)
+		{
+			if (collision.gameObject.CompareTag("Enemy"))
+			{
+				TakeDamage(10);
+			}
+		}
+
 		public void TakeDamage(int Amount)
 		{
+			CurrentHealth = CurrentHealth - Amount;
 			AlphaController.Appear(HealthUIAlphaController);
 			DamageSoundPlay(TakeDamageSounds_Set1, TakeDamageSounds_Set2);
-			CurrentHealth -= Amount;
 		}
-
-		public void TakeDamage(float Amount)
-		{	
-			AlphaController.Appear(HealthUIAlphaController);
-			DamageSoundPlay(TakeDamageSounds_Set2, TakeDamageSounds_Set2);
-			CurrentHealth -= (int) Amount;
-		}
-
 
 		public void Death()
 		{
