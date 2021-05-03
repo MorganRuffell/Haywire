@@ -70,6 +70,8 @@ namespace Haywire.Character
 		[Tooltip("These are audio slots for the swap of the gun mode sounds.")]
 		public List<AudioSource> ModeSwapSounds;
 
+		[Tooltip("These are the audio slots for the swapping of the flashlight on the player")]
+		public List<AudioSource> LightSwapSounds;
 
 		private void Update()
 		{
@@ -98,11 +100,13 @@ namespace Haywire.Character
 				if (GunLightOn == true)
 				{
 					GunLightOn = !GunLightOn;
+					FirearmSoundPlay(LightSwapSounds);
 					GunSpotLight.intensity = 0;
 				}
 				else
 				{
 					GunLightOn = !GunLightOn;
+					FirearmSoundPlay(LightSwapSounds);
 					GunSpotLight.intensity = 60;
 				}
 			}

@@ -11,6 +11,8 @@ namespace Haywire.Gameplay
 	{
 		public ParticleSystem FiringParticles;
 		public GameObject ParticleSystemLocation;
+		public GameObject FirearmLight;
+
 
 		public float4 rotation;
 
