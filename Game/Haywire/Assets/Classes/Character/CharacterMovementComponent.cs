@@ -16,7 +16,6 @@ namespace Haywire.Character
 	[DisallowMultipleComponent]
 	public class CharacterMovementComponent : MonoBehaviour, ISoundSystem, IAnimationSystem
 	{
-
 		private Vector3 velocity;
 
 		private float horizontal;
@@ -46,7 +45,6 @@ namespace Haywire.Character
 
 		[Header("Player Sounds")]
 		public List<AudioSource> breathingSounds;
-		public List<AudioSource> MovementSounds;
 		public List<AudioSource> LandingSounds;
 
 		[Header("PlayerAnimations")]
@@ -105,8 +103,6 @@ namespace Haywire.Character
 				PlayerAnimator.SetFloat("IsBored", 0.0f);
 				PlayerAnimator.SetBool("IsIdle", false);
 
-				//Make these play on animation events only.
-				PlayGameSounds(MovementSounds);
 
 				velocity.Set(horizontal, 0.0f, 0.0f);
 
@@ -132,9 +128,6 @@ namespace Haywire.Character
 			}
 			else
 			{
-				PlayerAnimator.SetBool("IsIdle", true);
-				StopGameSounds(MovementSounds);
-
 				//Probably should do this with a coroutine?
 				Invoke("HandleCharacterBoredom", _IdleDelay);
 

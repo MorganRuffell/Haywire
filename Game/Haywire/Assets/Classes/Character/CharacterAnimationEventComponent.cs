@@ -10,15 +10,23 @@ namespace Haywire.Character
 		public CharacterMovementComponent characterMovementComponent;
 		public CharacterControlComponent characterControlComponent;
 
+	
+		[Header("Sounds")]
+		public List<AudioSource> MovementSounds;
+		public List<AudioSource> ReloadingSounds;
+		public List<AudioSource> breathingSounds;
+
+
+
 		//Called when the players foot touches the ground
 		public void Touch()
 		{
-			characterMovementComponent.PlayGameSounds(characterMovementComponent.MovementSounds);
+			characterMovementComponent.PlayGameSounds(MovementSounds);
 		}
 
 		public void Reload()
 		{
-			characterControlComponent.PlayGameSounds(characterControlComponent.ReloadingSounds);
+			characterControlComponent.PlayGameSounds(ReloadingSounds);
 		}
 	}
 }

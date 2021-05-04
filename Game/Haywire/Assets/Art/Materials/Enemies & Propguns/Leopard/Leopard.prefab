@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4883988049624513351}
   - component: {fileID: 8461566531042056747}
   - component: {fileID: 5110848664006344529}
+  - component: {fileID: -5327976889315946357}
   - component: {fileID: 3354352048387321379}
   m_Layer: 0
   m_Name: Leopard
@@ -128,11 +129,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bec3434c1d6ab3d4db46d83d833754b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FiringComponent: {fileID: 0}
   LeopardMovementSpeed: 5
   MovementSpeedAddition: 8
   CorountineDelay: 0.25
   EnemyRunningSounds: []
   LeopardAnimator: {fileID: 4650851404568009754}
+  FiringLocations:
+  - {x: -29.533, y: 3.087, z: 16.22}
+  - {x: -40, y: 3, z: 9.71}
+  - {x: -14.1, y: 3, z: 7}
+  - {x: -1.2, y: 3, z: 7}
+  - {x: -8, y: 3, z: 13.05}
+  - {x: -52, y: 3, z: 5.82}
+  - {x: -47, y: 3, z: 13}
+  - {x: -36, y: 3, z: 7}
+  - {x: -24, y: 3.087, z: 6.23}
+  - {x: -60, y: 3.087, z: 9.16}
+  - {x: 1.877, y: 3.087, z: 12.08}
+  PlayerRadius: 50
+--- !u!114 &-5327976889315946357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4199450724461736951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6041e62b5d47c254abe5cf4583fb980a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireRate: 2
+  ProjectileObjects:
+  - {fileID: 7075523029147835000, guid: 96aff2204cd715c488842b57f4788476, type: 3}
+  - {fileID: 795006793929067332, guid: 78867ae2b1a09f14d9b9e6cd96967bc1, type: 3}
+  - {fileID: 7075523029147835000, guid: 96aff2204cd715c488842b57f4788476, type: 3}
+  UpperDamage: 5
+  LowerDamage: 1
+  TargetTag: Player
 --- !u!195 &3354352048387321379
 NavMeshAgent:
   m_ObjectHideFlags: 0
