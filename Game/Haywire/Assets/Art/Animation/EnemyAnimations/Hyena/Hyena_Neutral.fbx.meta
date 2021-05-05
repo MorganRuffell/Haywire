@@ -16,7 +16,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -31,7 +31,65 @@ ModelImporter:
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
-    extraExposedTransformPaths: []
+    extraExposedTransformPaths:
+    - MeshGroup
+    - MeshGroup/Yeen_Body
+    - BindGroup
+    - BindGroup/Root_jnt
+    - BindGroup/Root_jnt/Spine_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Snout_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Left_Ear_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Left_Ear_jnt/Left_EarEnd_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Right_Ear_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Right_Ear_jnt/Right_EarEnd_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Jaw_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Jaw_jnt/Jaw_End_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Neck_jnt/Neck_1_jnt/Head_jnt/Head_Center_jnt/Jaw_jnt/Hyena:Jaw
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt/Left_Wrist_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt/Left_Wrist_jnt/Left_FrontPaw_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt/Left_Wrist_jnt/Left_FrontPaw_jnt/Left_FrontPawEnd_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt/Left_Wrist_jnt/Left_FrontPaw_jnt/Hyena:Paw_Left
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt/Left_Wrist_jnt/Hyena:Arm_Mid_Lower_Left
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Left_LowerArm_jnt/Hyena:Arm_Mid_Upper_Left
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Left_MidArmjnt/Hyena:Arm_Center_Left
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Left_Shoulder_jnt/Hyena:Arm_Top_Left
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt/Right_Wrist_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt/Right_Wrist_jnt/Right_FrontPaw_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt/Right_Wrist_jnt/Right_FrontPaw_jnt/Right_FrontPawEnd_jnt
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt/Right_Wrist_jnt/Right_FrontPaw_jnt/Hyena:Paw_Right
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt/Right_Wrist_jnt/Hyena:Arm_Mid_Lower_Right
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Right_LowerArm_jnt/Hyena:Arm_Mid_Upper_Right
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Right_MidArmjnt/Hyena:Arm_Center_Right
+    - BindGroup/Root_jnt/Spine_jnt/Spine_1_jnt/Spine_2_jnt/Right_Shoulder_jnt/Hyena:Arm_Top_Right
+    - BindGroup/Root_jnt/Left_UpperLeg_jnt
+    - BindGroup/Root_jnt/Left_UpperLeg_jnt/Left_MidLeg_jnt
+    - BindGroup/Root_jnt/Left_UpperLeg_jnt/Left_MidLeg_jnt/Left_LowerLeg_jnt
+    - BindGroup/Root_jnt/Left_UpperLeg_jnt/Left_MidLeg_jnt/Left_LowerLeg_jnt/Left_Ankle_jnt
+    - BindGroup/Root_jnt/Left_UpperLeg_jnt/Left_MidLeg_jnt/Left_LowerLeg_jnt/Left_Ankle_jnt/Left_BackPaw_jnt
+    - BindGroup/Root_jnt/Right_UpperLeg_jnt
+    - BindGroup/Root_jnt/Right_UpperLeg_jnt/Right_MidLeg_jnt
+    - BindGroup/Root_jnt/Right_UpperLeg_jnt/Right_MidLeg_jnt/Right_LowerLeg_jnt
+    - BindGroup/Root_jnt/Right_UpperLeg_jnt/Right_MidLeg_jnt/Right_LowerLeg_jnt/Right_Ankle_jnt
+    - BindGroup/Root_jnt/Right_UpperLeg_jnt/Right_MidLeg_jnt/Right_LowerLeg_jnt/Right_Ankle_jnt/Right_BackPaw_jnt
+    - BindGroup/Root_jnt/Right_UpperLeg_jnt/Right_MidLeg_jnt/Right_LowerLeg_jnt/Right_Ankle_jnt/Right_BackPaw_jnt/Right_BackPawEnd_jnt
+    - BindGroup/Root_jnt/Tail_jnt
+    - BindGroup/Root_jnt/Tail_jnt/Tail_1_jnt
+    - BindGroup/Root_jnt/Tail_jnt/Tail_1_jnt/Tail_2_jnt
+    - BindGroup/Root_jnt/Tail_jnt/Tail_1_jnt/Tail_2_jnt/Tail_3_jnt
+    - BindGroup/Root_jnt/Tail_jnt/Tail_1_jnt/Tail_2_jnt/Tail_3_jnt/Tail_4_jnt
+    - BindGroup/Root_jnt/Tail_jnt/Tail_1_jnt/Tail_2_jnt/Tail_3_jnt/Tail_4_jnt/Tail_End_jnt
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16

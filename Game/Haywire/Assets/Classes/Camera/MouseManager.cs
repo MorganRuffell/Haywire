@@ -44,6 +44,8 @@ namespace Haywire.UI
 		[HideInInspector, SerializeField]
 		public static bool _CanFire = false;
 
+		private RaycastHit raycastHit;
+
 		private void Awake()
 		{
 
@@ -61,9 +63,8 @@ namespace Haywire.UI
 
 		private void UISwap()
 		{
-			RaycastHit raycastHit;
 
-			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, 60, ClickableLayer.value))
+			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, 600, ClickableLayer.value))
 			{
 				if (raycastHit.collider.gameObject.tag == "Enemy")
 				{
@@ -113,19 +114,7 @@ namespace Haywire.UI
 
 			characterFiringController.MuzzleFlash.intensity = characterFiringController.MuzzleFlashLightShootingIntensity;
 
-			RaycastHit hit;
-			if(Physics.Raycast(FiringLocation.transform.position, this.transform.forward, out hit, characterFiringController.FiringRange))
-			{
-				if(hit.transform.tag != "Enemy")
-				{
-					Debug.Log(hit.transform.name);
-				}
-				else
-				{
-					hit.transform.GetComponent<EnemyHealthComponent>().TakeDamage(characterFiringController.Damage);
-				}
-			}
-	
+			raycastHit.collider.gameObject.GetComponent<EnemyHealthComponent>().TakeDamage(characterFiringController.Damage);
 		}
 
 		//Method used for when you're not aiming at an enemy

@@ -7,7 +7,8 @@ namespace Haywire.AI
 {
 	public class HyenaAnimationEventComponent : EnemyAnimationEventComponent
 	{
-		public override void Touch()
+
+		public void Touch()
 		{
 			base.Attack();
 		}

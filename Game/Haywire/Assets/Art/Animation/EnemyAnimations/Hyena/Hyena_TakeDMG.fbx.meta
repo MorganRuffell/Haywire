@@ -62,7 +62,7 @@ ModelImporter:
       - time: 0.19369937
         functionName: TakeDamage
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 4737a617cb5829e41ac731c72103b6f9, type: 3}
+        objectReferenceParameter: {fileID: 7296780184083240052, guid: 3f8eee03453bd9d429e487370f248c60, type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
