@@ -1,200 +1,855 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 32665 MB
+OS: 'Windows 10 Education; OS build 19041.928; Version 2004; 64bit' Language: 'en' Physical Memory: 32586 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
+C:\Program Files\Unity2020.3.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Morgan/Desktop/Haywire/Haywire/Game/Haywire
+C:/Users/1804824/Desktop/VeronicaProject/Haywire/Game/Haywire
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62048
-Successfully changed project path to: C:/Users/Morgan/Desktop/Haywire/Haywire/Game/Haywire
-C:/Users/Morgan/Desktop/Haywire/Haywire/Game/Haywire
+64557
+Successfully changed project path to: C:/Users/1804824/Desktop/VeronicaProject/Haywire/Game/Haywire
+C:/Users/1804824/Desktop/VeronicaProject/Haywire/Game/Haywire
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 57.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Morgan/Desktop/Haywire/Haywire/Game/Haywire/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/1804824/Desktop/VeronicaProject/Haywire/Game/Haywire/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   
-    VRAM:     24348 MB
-    Driver:   27.21.14.6231
+    VRAM:     8010 MB
+    Driver:   27.21.14.5167
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Mono path[0] = 'C:/Program Files/Unity2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002347 seconds.
+Register platform support module: C:/Program Files/Unity2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity2020.3.2f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.002436 seconds.
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 69.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.360 seconds
+- Completed reload, in  1.190 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001697 seconds.
+Registered in 0.001737 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1CB6020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F28BD890 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6E086A0B0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2C3A030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2C3A030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F16B6AB0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F16A2820 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2442A30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED016600 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2E18030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2442A30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED016600 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1C62020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2442A30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECED2F00 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED05F030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2442A30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1D9B020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED017620 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F16A2820 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F16A2820 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED016240 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1DADC30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1DADC30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1CB6020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.094 seconds
+- Completed reload, in  0.993 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2994 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 150.0 MB.
-System memory in use after: 150.2 MB.
+Unloading 2995 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 150.5 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3448.
-Total: 2.640800 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.180600 ms MarkObjects: 2.083700 ms  DeleteObjects: 0.019500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Classes/AI/Enemies/Leopard/LeopardChaseComponent.cs
-  artifactKey: Guid(bec3434c1d6ab3d4db46d83d833754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/AI/Enemies/Leopard/LeopardChaseComponent.cs using Guid(bec3434c1d6ab3d4db46d83d833754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5c65d79b291f42209d3e51a64959ed') in 0.026701 seconds
-  Import took 0.031383 seconds .
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 2.498500 ms (FindLiveObjects: 0.363500 ms CreateObjectMapping: 0.264200 ms MarkObjects: 1.849500 ms  DeleteObjects: 0.020200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.577633 seconds.
-  path: Assets/Classes/AI/Enemies/Leopard/LeopardChaseComponent.cs
-  artifactKey: Guid(bec3434c1d6ab3d4db46d83d833754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/AI/Enemies/Leopard/LeopardChaseComponent.cs using Guid(bec3434c1d6ab3d4db46d83d833754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5246e7f27ae7b3ce3125bd23896327ce') in 0.003136 seconds
-  Import took 0.007704 seconds .
+  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
+  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43e60c7973c5f7abcc040ec43470158') in 0.295386 seconds
+  Import took 0.300753 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001672 seconds.
+Registered in 0.001741 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F3F41020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED624A20 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88B24EA00 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F16AB840 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2F56010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED0BD5F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED4541A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A889188650 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED6A2E40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2E5A010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A889189EB0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1D9B020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED4541A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD87A40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD5D020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1949020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8849D9AE0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88CE0FAB0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED30EED0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED0BD5F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A889186DF0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F16AB840 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1CF8010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F3F41020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.6 MB.
+System memory in use after: 161.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3504.
+Total: 2.330800 ms (FindLiveObjects: 0.339500 ms CreateObjectMapping: 0.159400 ms MarkObjects: 1.813400 ms  DeleteObjects: 0.017700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.963846 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80704a97826322743551c4a9f355fb94') in 0.238777 seconds
+  Import took 0.244716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.904072 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968a4f94a3669b4ae4bec0967491a2d8') in 0.274632 seconds
+  Import took 0.279141 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010700 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.8 MB.
+System memory in use after: 163.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3581.
+Total: 2.001400 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.089000 ms MarkObjects: 1.671200 ms  DeleteObjects: 0.011800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.814459 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_TakeDMG.fbx
+  artifactKey: Guid(a097437c546a2dc43b1aa6f2082da78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_TakeDMG.fbx using Guid(a097437c546a2dc43b1aa6f2082da78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039cda993e16f6e5b1d44d16d0b8a738') in 0.290438 seconds
+  Import took 0.306789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.835229 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx
+  artifactKey: Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx using Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a706968208424a32fa8c75f64d6ee38') in 0.060758 seconds
+  Import took 0.065382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.839750 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx
+  artifactKey: Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx using Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e617019bcdf9270f9309fca0f4a0bbe8') in 0.059137 seconds
+  Import took 0.063786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004939 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx
+  artifactKey: Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx using Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e617019bcdf9270f9309fca0f4a0bbe8') in 0.060055 seconds
+  Import took 0.064692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.892727 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9557bc3ad1d095f6b49d1e474f365a3f') in 0.063729 seconds
+  Import took 0.068348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063856 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9557bc3ad1d095f6b49d1e474f365a3f') in 0.070216 seconds
+  Import took 0.162639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.1 MB.
+System memory in use after: 163.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3621.
+Total: 2.562800 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.221200 ms MarkObjects: 1.761300 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.706678 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Death.fbx
+  artifactKey: Guid(60a5098e95f08324eaa7463ef5f89025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Death.fbx using Guid(60a5098e95f08324eaa7463ef5f89025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8793cc61a9c785f66d0457c1d14b9d92') in 0.356878 seconds
+  Import took 0.361942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.224286 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Death.fbx
+  artifactKey: Guid(60a5098e95f08324eaa7463ef5f89025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Death.fbx using Guid(60a5098e95f08324eaa7463ef5f89025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a416a59b632b54bc61602b7a5608a303') in 0.178929 seconds
+  Import took 0.185016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.035843 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df00b7c88bb506bf98a6608f5b93b48') in 0.063861 seconds
+  Import took 0.068539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041193 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df00b7c88bb506bf98a6608f5b93b48') in 0.101700 seconds
+  Import took 0.143066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.067461 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.304 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.3 MB.
+System memory in use after: 163.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3661.
+Total: 2.081300 ms (FindLiveObjects: 0.276500 ms CreateObjectMapping: 0.121100 ms MarkObjects: 1.670400 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 660.129952 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd41b7a8fc0dccd1500284adb3b31601') in 0.256608 seconds
+  Import took 0.261797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3701.
+Total: 2.246500 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.116100 ms MarkObjects: 1.831500 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.092 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3704.
+Total: 2.637400 ms (FindLiveObjects: 0.450700 ms CreateObjectMapping: 0.160800 ms MarkObjects: 2.011900 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.822955 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx
+  artifactKey: Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Running.fbx using Guid(423c8b7b1b1b5ff4fb1a9841875df6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d17f4956f231e0de9c6390c48f4a1e') in 0.260786 seconds
+  Import took 0.273531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.029757 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Neutral.fbx
+  artifactKey: Guid(d54ae64025597f343b1c3ccac4a0049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Neutral.fbx using Guid(d54ae64025597f343b1c3ccac4a0049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afad7976f88d5e248b17aadaa3b05381') in 0.081531 seconds
+  Import took 0.086032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b046b69e2ecbc28e89fe47dd58b19fff') in 0.027914 seconds
+  Import took 0.032676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.053 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.6 MB.
+System memory in use after: 163.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3743.
+Total: 2.564500 ms (FindLiveObjects: 0.379800 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.030900 ms  DeleteObjects: 0.015100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.292169 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Neutral.fbx
+  artifactKey: Guid(d54ae64025597f343b1c3ccac4a0049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Neutral.fbx using Guid(d54ae64025597f343b1c3ccac4a0049b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f5ea62c5428e08f901b88cc8f2a300') in 0.454665 seconds
+  Import took 0.460448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82da67ccc47762760c9017239cac80fe') in 0.027797 seconds
+  Import took 0.033028 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.073 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.9 MB.
+System memory in use after: 164.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3783.
+Total: 2.545700 ms (FindLiveObjects: 0.289500 ms CreateObjectMapping: 0.127500 ms MarkObjects: 2.113300 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.711415 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx
+  artifactKey: Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx using Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd530b2ca8e96717081b4528d352227') in 0.207958 seconds
+  Import took 0.213001 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002573 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3823.
+Total: 2.590000 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.162800 ms MarkObjects: 2.048800 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.055 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3826.
+Total: 2.471600 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.128100 ms MarkObjects: 2.019900 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001909 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.1 MB.
+System memory in use after: 164.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3829.
+Total: 2.672900 ms (FindLiveObjects: 0.373600 ms CreateObjectMapping: 0.142100 ms MarkObjects: 2.142500 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.898 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.2 MB.
+System memory in use after: 164.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3832.
+Total: 2.368400 ms (FindLiveObjects: 0.450500 ms CreateObjectMapping: 0.142600 ms MarkObjects: 1.762900 ms  DeleteObjects: 0.011400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 304.572053 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5f05667dd87db2aa3c73aa28963b24') in 0.224872 seconds
+  Import took 0.230604 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.078 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.3 MB.
+System memory in use after: 164.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3871.
+Total: 2.467400 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.149700 ms MarkObjects: 2.007800 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.932817 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29361f4c2a43aad9d1def3e45637588') in 0.177033 seconds
+  Import took 0.182321 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.4 MB.
+System memory in use after: 164.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3911.
+Total: 2.476400 ms (FindLiveObjects: 0.312200 ms CreateObjectMapping: 0.132400 ms MarkObjects: 2.017400 ms  DeleteObjects: 0.013400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.530864 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd0f038be9ff534317e82a31b8b492b') in 0.207414 seconds
+  Import took 0.214384 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001811 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.5 MB.
+System memory in use after: 164.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3951.
+Total: 2.765600 ms (FindLiveObjects: 0.353300 ms CreateObjectMapping: 0.179800 ms MarkObjects: 2.217700 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.296868 seconds.
+  path: Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab
+  artifactKey: Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/EnemyAnimations/Hyena/HyenaEnemy.prefab using Guid(3f8eee03453bd9d429e487370f248c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f05d5f1642e82359d3ccf4c66b9ac78') in 0.193471 seconds
+  Import took 0.199358 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001801 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.089 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3991.
+Total: 2.516600 ms (FindLiveObjects: 0.347800 ms CreateObjectMapping: 0.152300 ms MarkObjects: 2.001700 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3994.
+Total: 3.350600 ms (FindLiveObjects: 0.398300 ms CreateObjectMapping: 0.159300 ms MarkObjects: 2.775200 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001715 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3997.
+Total: 2.933200 ms (FindLiveObjects: 0.468100 ms CreateObjectMapping: 0.147500 ms MarkObjects: 2.301500 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.7 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4000.
+Total: 2.970100 ms (FindLiveObjects: 0.415700 ms CreateObjectMapping: 0.168800 ms MarkObjects: 2.365700 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4003.
+Total: 2.506000 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.124600 ms MarkObjects: 2.042500 ms  DeleteObjects: 0.012700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001778 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4006.
+Total: 2.845000 ms (FindLiveObjects: 0.387400 ms CreateObjectMapping: 0.214500 ms MarkObjects: 2.225900 ms  DeleteObjects: 0.015700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.074 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.8 MB.
+System memory in use after: 165.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4009.
+Total: 2.582300 ms (FindLiveObjects: 0.379700 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.007800 ms  DeleteObjects: 0.014400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 165.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4012.
+Total: 2.865300 ms (FindLiveObjects: 0.363300 ms CreateObjectMapping: 0.160000 ms MarkObjects: 2.326600 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -202,181 +857,26 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
+- Completed reload, in  1.013 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.3 MB.
-System memory in use after: 142.5 MB.
+Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 165.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3451.
-Total: 2.246600 ms (FindLiveObjects: 0.335700 ms CreateObjectMapping: 0.185800 ms MarkObjects: 1.707500 ms  DeleteObjects: 0.016400 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4015.
+Total: 2.888700 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.131300 ms MarkObjects: 2.380200 ms  DeleteObjects: 0.015000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001667 seconds.
+Registered in 0.001778 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F5C3EA00 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88AD9A3F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88B251580 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7BFC030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F4E3C040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88147F0D0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88AD6C020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F6FC9560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A889188470 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F78C04C0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F183B010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A889188A10 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F5AB18A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F6FC9560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883EFDDD0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED0A4FA0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1695010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F35B7020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BFCE91C0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED016820 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F8716860 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A889188A10 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7BFC030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FBE7C050 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A881E94010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.4 MB.
-System memory in use after: 142.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3454.
-Total: 2.249200 ms (FindLiveObjects: 0.334700 ms CreateObjectMapping: 0.186200 ms MarkObjects: 1.710800 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 192.677939 seconds.
-  path: Assets/Classes/AI/Enemies/Leopard/LeopardAnimationEventComponent.cs
-  artifactKey: Guid(3ab8b691772075e45b0291760477ab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/AI/Enemies/Leopard/LeopardAnimationEventComponent.cs using Guid(3ab8b691772075e45b0291760477ab42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd9f9dd33d82ee46888548a467475a') in 0.007453 seconds
-  Import took 0.012555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Classes/AI/Enemies/Leopard/LeopardChaseComponent.cs
-  artifactKey: Guid(bec3434c1d6ab3d4db46d83d833754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/AI/Enemies/Leopard/LeopardChaseComponent.cs using Guid(bec3434c1d6ab3d4db46d83d833754b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c96e518a0ec4b343fdcd2ee9dc1e740') in 0.003145 seconds
-  Import took 0.007727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a613fc3b36e31c6f1ad46f7fe34c68b1') in 0.413644 seconds
-  Import took 0.419361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Art/Animation/EnemyAnimations/Leopard/LeopardAnimationController.controller
-  artifactKey: Guid(82fe1de7e7761de469fa7ce4991fc0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/EnemyAnimations/Leopard/LeopardAnimationController.controller using Guid(82fe1de7e7761de469fa7ce4991fc0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b922b3c42bd4c240dc917f74a9e546') in 0.007830 seconds
-  Import took 0.012287 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001612 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8831B2040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A881971430 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887E08010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F3342010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F9091030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C0070B30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F9DDE010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A886985FC0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8899BDCA0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB2D8010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A886986380 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88ACD8430 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F9DDE010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED1DD980 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B9C2E030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A885971F60 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88CE2A300 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F51250C0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88CA5C010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A886986560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887E08010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8878BD560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -385,1120 +885,23 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.046 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.4 MB.
-System memory in use after: 161.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3503.
-Total: 2.218200 ms (FindLiveObjects: 0.237600 ms CreateObjectMapping: 0.142400 ms MarkObjects: 1.820800 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 773.569446 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ea21198eec8538f5460c1b2fb5975c') in 0.234157 seconds
-  Import took 0.240531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.195542 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445e1659000a547512fd73bd15710e57') in 0.036385 seconds
-  Import took 0.042142 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.466999 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9f12e09150c09772c28d3d98354f3b') in 0.032231 seconds
-  Import took 0.037833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.631466 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc589e1b8711d51d2be531427672c118') in 0.031975 seconds
-  Import took 0.037723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.585810 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f7a85cd1c84c2e231e4d17941f6079') in 0.032030 seconds
-  Import took 0.037859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.083900 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d89a5b23c4c6b397e9754f018415dc') in 0.036266 seconds
-  Import took 0.043218 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.877025 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d8a4309d487b9c7e9d50d4d1e87635') in 0.032339 seconds
-  Import took 0.038060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.134296 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2be401ac7ea17ea0d526e7525762d36') in 0.036866 seconds
-  Import took 0.042758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.536279 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7515cba762f66c31c2edd61068657293') in 0.032069 seconds
-  Import took 0.037811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.813149 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09409ad04d7b825c02e2c99ba80db975') in 0.032141 seconds
-  Import took 0.037855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.573060 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5b548b929256c1718137dc8afbdef6') in 0.032987 seconds
-  Import took 0.039325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.575963 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb0ba0a877f5dc7171e0e7bccaf9de5') in 0.032508 seconds
-  Import took 0.038249 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001830 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F7452020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883E56030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BCF97840 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7C99820 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B75E0010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F5344030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C679D020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BE297940 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FBBDFF80 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88AA7A020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BE296680 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1D9B020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C679D020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F904AE40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B9C2E030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F17E7010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F225B960 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F3022010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F5AE5C60 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BE296680 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7C99820 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD89070 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7452020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.068 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.9 MB.
-System memory in use after: 162.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3547.
-Total: 2.364900 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.150600 ms MarkObjects: 1.900300 ms  DeleteObjects: 0.014100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 515.472465 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1862542c1458dc699c818d3227f4d8c4') in 0.232286 seconds
-  Import took 0.238340 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001552 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB8ACAC0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A884348210 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2F56010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F3342010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883EF2560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7A47020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C711AE00 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B3B766A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F86FF410 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C7117980 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FA11C020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7A47020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FBDCFA10 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B8481020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88C07E010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BFCCF720 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88703E010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FCCF8020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C7119F00 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88159F010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BCB88040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887749020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 162.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3587.
-Total: 2.646000 ms (FindLiveObjects: 0.406800 ms CreateObjectMapping: 0.270400 ms MarkObjects: 1.952600 ms  DeleteObjects: 0.014800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001621 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BABBC030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BCF64C40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2F56010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F5AFCF90 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F52ACA20 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A888DEA440 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B00FF620 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED6A2E40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FA46B830 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B0100700 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1D9B020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A888DEA440 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B5F66310 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2FC0010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F451E010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CA3C6DB0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F52ACA20 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F52ACA20 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B00FF620 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECF91C30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECF91C30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.002 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 162.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3590.
-Total: 2.310400 ms (FindLiveObjects: 0.307200 ms CreateObjectMapping: 0.164000 ms MarkObjects: 1.824800 ms  DeleteObjects: 0.013100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001513 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883E56030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8DCB08EB0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FBE7A040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A884D73030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8829D3F30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8887C0D60 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D9D46C40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F8197030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FAB75030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D9D46C40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1D9B020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C679D020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88B81B6A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8889BE030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B67E7010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8846C2760 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8841FA010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8829D3F30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D9D46C40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FBE7A040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F561A010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.995 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.1 MB.
-System memory in use after: 162.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3593.
-Total: 2.383200 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.153100 ms MarkObjects: 1.950500 ms  DeleteObjects: 0.012500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.488483 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bc984ba7bf140e88a349fb21f10f7f') in 0.234333 seconds
-  Import took 0.240322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.580179 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32ba59cb5264b6fa56ae38754bdc5f3') in 0.032192 seconds
-  Import took 0.038102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.298239 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf5e1f48954a077fa50f46584f66bc0') in 0.031348 seconds
-  Import took 0.037182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.595592 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296460e1a4c938a317458a861890a914') in 0.033752 seconds
-  Import took 0.039543 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.913672 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e983ef28662fdc1bdb0a2dc40c3fb0e8') in 0.031772 seconds
-  Import took 0.037569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.352969 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be2d0216b0862362af67952fe4456e9') in 0.030915 seconds
-  Import took 0.036871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.057191 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94acf5c72df6819a5fe30183b5994be3') in 0.032584 seconds
-  Import took 0.038609 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.435859 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3facb64e7c2ec21654a45e63d2270fbf') in 0.032283 seconds
-  Import took 0.038121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.879944 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181658829b69ac9a434899bf22bf2951') in 0.032791 seconds
-  Import took 0.038633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.592223 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679db583a0425ab2465ea8a24fb0cbd2') in 0.032444 seconds
-  Import took 0.038283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.846699 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa09006ad189afb3c64fbab972cbadd') in 0.031526 seconds
-  Import took 0.037470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.542556 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb271bf44431f61daf52f002d78e6a7') in 0.034041 seconds
-  Import took 0.040176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.218763 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bd76c34ca507ea70f535705f54c48e') in 0.038856 seconds
-  Import took 0.044759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.398850 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f225218b64f0e1d906e8b29ec496704') in 0.031673 seconds
-  Import took 0.037628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.481125 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f59a757815ad60c87c2abcbcf2d8806') in 0.031419 seconds
-  Import took 0.037329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.397679 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b0d79051397597df41fc00ee899b7f') in 0.034864 seconds
-  Import took 0.040759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.033333 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ea5212808db6cc2642201eaa67802f') in 0.031671 seconds
-  Import took 0.037827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.668651 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ca0452b3da1e2b105656a393a7bcfe') in 0.032478 seconds
-  Import took 0.038396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.836332 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d31162e4872797a1634bf47fcbe7ad4') in 0.030814 seconds
-  Import took 0.037313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.201550 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc053015fd4bc2fcd011f241a022d81') in 0.033102 seconds
-  Import took 0.038979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.539041 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85724dbd92ab95fa8ee527cec1fdfce6') in 0.030556 seconds
-  Import took 0.036398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.203869 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0abea3876cab8e411943cb3f9e6124') in 0.035534 seconds
-  Import took 0.041430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.235444 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0bd20d011c428e430dd67ccf4660b95') in 0.033086 seconds
-  Import took 0.038942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.345782 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01c4387ee15372c1854c72134715ce4') in 0.034134 seconds
-  Import took 0.039996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.179671 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df00e724329e7b30087a41f22a81acc2') in 0.033163 seconds
-  Import took 0.039359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.587007 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbdc76e4d8eaaccb454fbb06fe7bee4c') in 0.031404 seconds
-  Import took 0.037228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.031576 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b82de59a6d41eb3ddfbada26869bd5d') in 0.030138 seconds
-  Import took 0.035956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.023667 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f15347e6b0415c20837ed227239d0f') in 0.033030 seconds
-  Import took 0.038855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.204607 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fe9ab0de193f21879f8d5f71039c3c') in 0.031551 seconds
-  Import took 0.037364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.727252 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b78dc4448d92ac320c9ae3d7e475fcd') in 0.031945 seconds
-  Import took 0.037737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.241912 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b197e9bd8bb138c51e860b52f4be8a3c') in 0.032696 seconds
-  Import took 0.038567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.859258 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0700779f555c423cfd37c9d99ea2259b') in 0.032915 seconds
-  Import took 0.038862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.102316 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb04ab1d4a112d36c9d0bd1454d1d0b') in 0.031884 seconds
-  Import took 0.037898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.844760 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbf023bbb1a269fb7ab9510a9f52018') in 0.031717 seconds
-  Import took 0.037593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.081755 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6cdad1656c88b4c8ef8775359b4b72') in 0.032284 seconds
-  Import took 0.038120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.768829 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb2d04ae89172c0eb107c902be7aba2') in 0.031410 seconds
-  Import took 0.037347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.450394 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ebcf468674cb8ef2d049271e186a53') in 0.030949 seconds
-  Import took 0.036895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.370572 seconds.
-  path: Assets/Art/UI/Score & Ammo/BulletAuto.png
-  artifactKey: Guid(41d37de39c6871f46b68cfee6c54f5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Score & Ammo/BulletAuto.png using Guid(41d37de39c6871f46b68cfee6c54f5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb45b7a6a7c4ba683a58307a26c605') in 0.078603 seconds
-  Import took 0.084219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Art/UI/Erin/MainMenuBackground1.png
-  artifactKey: Guid(e69ca561430c473448fb6e33c5dbedfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Erin/MainMenuBackground1.png using Guid(e69ca561430c473448fb6e33c5dbedfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325f04a2d4813e488345b04a723c2333') in 0.025040 seconds
-  Import took 0.029563 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Art/UI/Score & Ammo/BulletAuto.png
-  artifactKey: Guid(41d37de39c6871f46b68cfee6c54f5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Score & Ammo/BulletAuto.png using Guid(41d37de39c6871f46b68cfee6c54f5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eb45b7a6a7c4ba683a58307a26c605') in 0.022308 seconds
-  Import took 0.026603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Art/UI/Erin/MainMenuBackground.png
-  artifactKey: Guid(ed135dbb386da4b459ec534446875e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Erin/MainMenuBackground.png using Guid(ed135dbb386da4b459ec534446875e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa27f7c5095d025ad0f468eb8d0a6560') in 0.016064 seconds
-  Import took 0.020612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Art/UI/Score & Ammo/BulletUI.png
-  artifactKey: Guid(6f3c79c87d7c79346bb1f32f172cfc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/UI/Score & Ammo/BulletUI.png using Guid(6f3c79c87d7c79346bb1f32f172cfc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57889092e5fbfd56e76eeaf59216f1ed') in 0.014216 seconds
-  Import took 0.018572 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001624 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F8DC8580 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B9DCA010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BB0E6A70 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A880A7C050 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F8933040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883EF2560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A884A37020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C71195A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B7FF4AA0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B8A81010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C711DB00 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FA11C020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A882EDE030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B5F5F6B0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B9FFD030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8AE11E010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CCA7F670 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C7B7C010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F5AE5C60 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C711AA40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A880A7C050 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B6ABA020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887749020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 163.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3639.
-Total: 2.272700 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.155900 ms MarkObjects: 1.801700 ms  DeleteObjects: 0.014000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001636 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F44F9020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B38DA7E0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887A89930 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B50E6020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883EF2560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B1938020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CB54D440 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED6A2E40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FA46B830 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CB5519A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FA11C020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8802764F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B5F5E4A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B3104010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B18E1010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D67FD910 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D830D010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F5AE5C60 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CB5519A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887A89930 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B18E1010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 163.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3642.
-Total: 2.549300 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.143000 ms MarkObjects: 2.103500 ms  DeleteObjects: 0.014900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001674 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FBDCCBD0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CACE5C20 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F2F56010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FC1E9010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB97E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883EF2560 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B1938020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CE811FC0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ED6A2E40 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F373E190 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CE80F4A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1D9B020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A885965030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88B81ECD0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FAF18020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F53B4020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A882211470 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CD264010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BD76D010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CE80E5A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FC1E9010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD89070 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2878 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.0 MB.
-System memory in use after: 163.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3645.
-Total: 2.983900 ms (FindLiveObjects: 0.683800 ms CreateObjectMapping: 0.210100 ms MarkObjects: 2.073000 ms  DeleteObjects: 0.015400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 836.804158 seconds.
-  path: Assets/Classes/AI/Enemies/Leopard/LeopardFiringComponent.cs
-  artifactKey: Guid(6041e62b5d47c254abe5cf4583fb980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/AI/Enemies/Leopard/LeopardFiringComponent.cs using Guid(6041e62b5d47c254abe5cf4583fb980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90052244e0dd252b83c970c6159d9c32') in 0.008533 seconds
-  Import took 0.014846 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001692 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A887749020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88856BFF0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BCF615E0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887A89930 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F8933040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F99B15F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C015E7D0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B1938020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C71173E0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B7FF4AA0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F8D5E600 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C711A860 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECF91C30 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B327CED0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B5F5E4A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88DD1B0C0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6ECD73230 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F1809020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D67DB590 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C7B7C010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FCCF8020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C7119780 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887A89930 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F7942570 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A887749020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.1 MB.
-System memory in use after: 163.3 MB.
+System memory in use before: 164.9 MB.
+System memory in use after: 165.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3649.
-Total: 2.521100 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.156100 ms MarkObjects: 2.080900 ms  DeleteObjects: 0.013700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.858052 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6371f4325192bfea287ac456ae5faadc') in 0.262055 seconds
-  Import took 0.268027 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4018.
+Total: 3.158100 ms (FindLiveObjects: 0.457900 ms CreateObjectMapping: 0.175200 ms MarkObjects: 2.511800 ms  DeleteObjects: 0.012600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001753 seconds.
+Registered in 0.001759 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002A6F1AE2020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A883E56030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D65C17F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F99A15E0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B50E6020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FB80E010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BCFE0020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B1938020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CE802A20 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CBF76020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8BE127440 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CE7FC8A0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FAB8D3D0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F3D64020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8B5F63EF0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88A33A040 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A881C2A030 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6FC44E020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8C7FAA940 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8D7BB2010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CB469020 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A8CE802840 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F99A15E0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A6F8D4E5F0 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A88778B010 doesn't match image C:\Users\Morgan\Desktop\Haywire\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for Lumin target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -1507,253 +910,13 @@ Mono: successfully reloaded assembly
 - Completed reload, in  1.069 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2879 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.2 MB.
-System memory in use after: 163.4 MB.
+System memory in use before: 165.0 MB.
+System memory in use after: 165.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3688.
-Total: 2.585900 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.163500 ms MarkObjects: 2.080500 ms  DeleteObjects: 0.015400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1127.721284 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdd43aac88468332d4a7e8f1e73486a') in 0.244172 seconds
-  Import took 0.251693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Classes/AI/Enemies/Leopard/LeopardFiringComponent.cs
-  artifactKey: Guid(6041e62b5d47c254abe5cf4583fb980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/AI/Enemies/Leopard/LeopardFiringComponent.cs using Guid(6041e62b5d47c254abe5cf4583fb980a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cade358a9f120f276888ed66dd58290') in 0.003920 seconds
-  Import took 0.008409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.683695 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd0e48275143a7c6bd360425e2ac53b') in 0.035638 seconds
-  Import took 0.041846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 124.409361 seconds.
-  path: Assets/Prefab/LeopardProjectiles
-  artifactKey: Guid(e5d8b0a6c51583441b6d39fdfe214fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LeopardProjectiles using Guid(e5d8b0a6c51583441b6d39fdfe214fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45eb41e1f5687acd82caf1ebdcba514') in 0.004927 seconds
-  Import took 0.010439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 117.606658 seconds.
-  path: Assets/Art/Geometry/Effects/Billboard1.obj
-  artifactKey: Guid(5fb00830787b061479ce8e2b279f6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Geometry/Effects/Billboard1.obj using Guid(5fb00830787b061479ce8e2b279f6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381fbbb238737582df975f78170dc606') in 0.094326 seconds
-  Import took 0.099389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Art/Animation/CharacterAnimations/Jump Up.fbx
-  artifactKey: Guid(51b2fc330d3bafc40a73ad67c8c67c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/CharacterAnimations/Jump Up.fbx using Guid(51b2fc330d3bafc40a73ad67c8c67c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e59144dac6e7818433ad2bcf2a19b9') in 0.048675 seconds
-  Import took 0.053616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Art/Animation/CharacterAnimations/Walking/Jog With Rifle.fbx
-  artifactKey: Guid(8cfd531b8252b9f4ab1c5d847879cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/CharacterAnimations/Walking/Jog With Rifle.fbx using Guid(8cfd531b8252b9f4ab1c5d847879cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bba7758a3c9dec83be67723c081a73d') in 0.060643 seconds
-  Import took 0.065582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Art/Animation/CharacterAnimations/Walking/Walk With Rifle.fbx
-  artifactKey: Guid(536eba6d5da3e9d49becf13c336f043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/CharacterAnimations/Walking/Walk With Rifle.fbx using Guid(536eba6d5da3e9d49becf13c336f043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c64ac1aa1b1dfd473180d66509a63d') in 0.066131 seconds
-  Import took 0.070737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Art/Animation/CharacterAnimations/Reload.fbx
-  artifactKey: Guid(36ef675c4b40d074f8f25c9a8da959ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/CharacterAnimations/Reload.fbx using Guid(36ef675c4b40d074f8f25c9a8da959ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32802a6240afd8b3aa02bbe1dce90456') in 0.032202 seconds
-  Import took 0.037889 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.726860 seconds.
-  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx
-  artifactKey: Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Attack.fbx using Guid(7a2566ae1d021df479573e9566d9479d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef186a30497a11bb139ceba1c98f871') in 0.092354 seconds
-  Import took 0.097521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Death.fbx
-  artifactKey: Guid(60a5098e95f08324eaa7463ef5f89025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_Death.fbx using Guid(60a5098e95f08324eaa7463ef5f89025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c609651c3343a2774d783985c2372cd') in 0.070283 seconds
-  Import took 0.075036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_TakeDMG.fbx
-  artifactKey: Guid(a097437c546a2dc43b1aa6f2082da78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Animation/EnemyAnimations/Hyena/Hyena_TakeDMG.fbx using Guid(a097437c546a2dc43b1aa6f2082da78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbeab8036a892e640345f2c93b6b5609') in 0.072411 seconds
-  Import took 0.077312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.891992 seconds.
-  path: Assets/Art/Geometry/Effects/Billboard3.obj
-  artifactKey: Guid(d3761841b3af7b8418420474b586083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Geometry/Effects/Billboard3.obj using Guid(d3761841b3af7b8418420474b586083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3496a3887b795f8d219d5ee6c61d2897') in 0.026821 seconds
-  Import took 0.032256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Art/Geometry/Effects/Billboard2.obj
-  artifactKey: Guid(b9e0168ed2e12e845ae6acac490cde40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Geometry/Effects/Billboard2.obj using Guid(b9e0168ed2e12e845ae6acac490cde40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62e3afb084f77a4ddba89449babbe0a') in 0.026292 seconds
-  Import took 0.031387 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.387676 seconds.
-  path: Assets/Art/Geometry/Effects/Loris_Sign.obj
-  artifactKey: Guid(c4a956dab0be536469fdd5955f5541ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Geometry/Effects/Loris_Sign.obj using Guid(c4a956dab0be536469fdd5955f5541ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f60e4f619c3da7b03aef6793f80d250f') in 0.026441 seconds
-  Import took 0.031677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 59.140675 seconds.
-  path: Assets/Classes/Gameplay/ProjectileComponent.cs
-  artifactKey: Guid(9e0cf54f85da8e648a524b9c0d5d95b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Classes/Gameplay/ProjectileComponent.cs using Guid(9e0cf54f85da8e648a524b9c0d5d95b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e0ad8a02a15faf4602d7a4f890c2fc') in 0.005431 seconds
-  Import took 0.010483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.723488 seconds.
-  path: Assets/Prefab/LeopardProjectiles/Leopard_Projectile0.prefab
-  artifactKey: Guid(96aff2204cd715c488842b57f4788476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LeopardProjectiles/Leopard_Projectile0.prefab using Guid(96aff2204cd715c488842b57f4788476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336760ed8cddb09d63556e9ac8426924') in 0.016839 seconds
-  Import took 0.021673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.048426 seconds.
-  path: Assets/Prefab/LeopardProjectiles/Leopard_Projectile0 1.prefab
-  artifactKey: Guid(78867ae2b1a09f14d9b9e6cd96967bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LeopardProjectiles/Leopard_Projectile0 1.prefab using Guid(78867ae2b1a09f14d9b9e6cd96967bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b89efce934ccb7f66bb9009156a79') in 0.016282 seconds
-  Import took 0.022121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/Prefab/LeopardProjectiles/Leopard_Projectile0 1.prefab
-  artifactKey: Guid(78867ae2b1a09f14d9b9e6cd96967bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LeopardProjectiles/Leopard_Projectile0 1.prefab using Guid(78867ae2b1a09f14d9b9e6cd96967bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3b89efce934ccb7f66bb9009156a79') in 0.011753 seconds
-  Import took 0.016771 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.499355 seconds.
-  path: Assets/Prefab/LeopardProjectiles/Leopard_Projectile1.prefab
-  artifactKey: Guid(78867ae2b1a09f14d9b9e6cd96967bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LeopardProjectiles/Leopard_Projectile1.prefab using Guid(78867ae2b1a09f14d9b9e6cd96967bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a8eec15ce8569c9ac5c6b9a017017d') in 0.016134 seconds
-  Import took 0.020992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.414125 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e57d57306dca0e8a4aa54d6716592e6') in 0.039608 seconds
-  Import took 0.046323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.125647 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4900371576897df8dd2fedf807fc7e') in 0.034808 seconds
-  Import took 0.041567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001185 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4900371576897df8dd2fedf807fc7e') in 0.033719 seconds
-  Import took 0.039802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.765224 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f89032a017185df297c6b53e75bf2c') in 0.031958 seconds
-  Import took 0.037819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003258 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f89032a017185df297c6b53e75bf2c') in 0.031743 seconds
-  Import took 0.038350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.210344 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b933c90062d77bb90ebac39f0a2790') in 0.033250 seconds
-  Import took 0.039439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002572 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b933c90062d77bb90ebac39f0a2790') in 0.032345 seconds
-  Import took 0.038366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378593 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74093337a22a1638325bf1b6d2d1784') in 0.033653 seconds
-  Import took 0.039640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000907 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74093337a22a1638325bf1b6d2d1784') in 0.032145 seconds
-  Import took 0.038544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.825198 seconds.
-  path: Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab
-  artifactKey: Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Materials/Enemies & Propguns/Leopard/Leopard.prefab using Guid(4331ada0accd12641bb4354fae2e3e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83034ee680e9b93d9b78cc7f9a9ab093') in 0.035917 seconds
-  Import took 0.041988 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4021.
+Total: 2.581200 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.088000 ms  DeleteObjects: 0.014500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -11,11 +11,12 @@ using Haywire.Singletons;
 
 namespace Haywire.AI
 {
-	public class HyenaHealthComponent : EnemyHealthComponent
+	public class HyenaHealthComponent : MonoBehaviour
 	{
 		[Header("Hyena Movement Component")]
 		private HyenaChaseComponent chaseComponent;
 		private GameManagerComponent GameManager;
+		private Animator HyenaAnimator;
 
 		[Header("Hyena Score")]
 		public int Score = 10;
@@ -28,29 +29,31 @@ namespace Haywire.AI
 		public int HyenaSlowedThreshold = 10;
 		public float HyenaSlowedIncrement = 20.0f;
 
-		public override void Awake()
+		public void Awake()
 		{
-			HyenaMaxHealth = HyenaCurrentHealth;
+			HyenaCurrentHealth = HyenaMaxHealth;
 			chaseComponent = GetComponent<HyenaChaseComponent>();
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 		}
 
-		public override void TakeDamage(int Amount)
+		public void TakeDamage(int Amount)
 		{
-			base.TakeDamage(Amount);
-
-			HyenaCurrentHealth = -Amount;
+			HyenaCurrentHealth =- Amount;
 		}
 
-		public override void Update()
+		public void TakeDamage(float Amount)
 		{
-			base.Update();
+			HyenaCurrentHealth =- (int) Amount;
+		}
 
-			if (HyenaCurrentHealth % HyenaSlowedThreshold == 0 )
+
+		public void Update()
+		{
+			if (HyenaCurrentHealth < HyenaSlowedThreshold)
 			{
 				Slow(chaseComponent.HyenaMovementSpeed);
 
-				if (HyenaCurrentHealth >= 0)
+				if (HyenaCurrentHealth <= 0)
 				{
 					Die();
 				}
@@ -61,13 +64,13 @@ namespace Haywire.AI
 			}
 		}
 
-		public override void Die()
+		public void Die()
 		{
 			GameManager.IncreaseScore(Score);
-			Destroy(this);
+			Destroy(this, 0.5f);
 		}
 
-		public override void Slow(float HyenaMovementSpeed)
+		public void Slow(float HyenaMovementSpeed)
 		{
 			HyenaMovementSpeed = HyenaMovementSpeed - HyenaSlowedIncrement;
 		}

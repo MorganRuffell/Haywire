@@ -25,7 +25,7 @@ namespace Haywire.UI
 
 		public void Start()
 		{
-			Fade(OnBeginPlay, BeginPlayDuration);
+			//Fade(OnBeginPlay, BeginPlayDuration);
 		}
 
 		public void Fade(bool OnBeginPlay, float Duration)

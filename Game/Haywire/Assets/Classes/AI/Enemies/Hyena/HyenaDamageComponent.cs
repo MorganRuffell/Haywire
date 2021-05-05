@@ -7,7 +7,7 @@ using Haywire.Character;
 
 namespace Haywire.AI
 {
-	//[RequireComponent(typeof())]
+	[RequireComponent(typeof(HyenaHealthComponent))]
 	public class HyenaDamageComponent : EnemyDamageComponent, ISoundSystem
 	{
 		[Header("Enemy Damage Control Fields")]

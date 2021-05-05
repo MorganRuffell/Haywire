@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Haywire.Singletons;
 using Haywire.UI;
+using UnityEngine.UI;
 
 namespace Haywire.Character
 {
@@ -22,6 +23,9 @@ namespace Haywire.Character
 
 		public float DeathDelay = 2.0f;
 		public Rigidbody PlayerRigidBody;
+		public List<GameObject> DamageIndicationImages;
+		public Animator PlayerAnimator;
+		
 
 		[Header("Health UI Alpha Control")]
 		public UIAlphaControl AlphaController;
@@ -52,18 +56,34 @@ namespace Haywire.Character
 		{
 			UI_HealthPercentage();
 
-			if (CurrentHealth <= 0)
+			if (CurrentHealth < 60)
 			{
-				GameManagerComponent.GameManager.IsAlive = false;
-				Death();
+				DamageIndicationImages[0].SetActive(true);
+
+				if (CurrentHealth < 40)
+				{
+					DamageIndicationImages[1].SetActive(true);
+
+					if(CurrentHealth < 20)
+					{
+						DamageIndicationImages[2].SetActive(true);
+
+						if (CurrentHealth <= 0)
+						{
+							Death();
+						}
+					}
+
+				}
 			}
+
 		}
 
 		public void OnTriggerEnter(Collider collision)
 		{
 			if (collision.gameObject.CompareTag("Enemy"))
 			{
-				TakeDamage(10);
+				TakeDamage(1);
 			}
 		}
 
@@ -74,24 +94,38 @@ namespace Haywire.Character
 			DamageSoundPlay(TakeDamageSounds_Set1, TakeDamageSounds_Set2);
 		}
 
+		public void OnTakeDamageImage()
+		{
+		}
+
+		public void OffTakeDamageImage()
+		{
+
+		}
+
+
 		public void Death()
 		{
-			if (GameManagerComponent.GameManager.IsAlive == false)
-			{
-				DamageSoundPlay(DeathSounds);
 
-				//Lock all rb constraints
-				PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionX;
-				PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionZ;
-				PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionY;
+			//Lock all rb constraints
+			PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionX;
+			PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionZ;
+			PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionY;
 
-				Destroy(gameObject, 1.0f);
-			}
+			PlayerAnimator.SetBool("IsDead",true);
+			DamageSoundPlay(DeathSounds);
+			Invoke("DropDead", 5.0f);
+		}
+
+		void DropDead()
+		{
+			GameManagerComponent.GameManager.IsAlive = false;
+			Destroy(gameObject);
 		}
 
 		public float UI_HealthPercentage()
 		{
-			return (float) CurrentHealth / MaxHealth;
+			return (float)CurrentHealth / MaxHealth;
 		}
 
 		private void DamageSoundPlay(List<AudioSource> SoundList)
@@ -116,7 +150,7 @@ namespace Haywire.Character
 			var HasPlayed = false;
 
 			if (SoundList0.Count > 0 || SoundList1.Count > 0)
-			{ 
+			{
 				if (HasPlayed)
 				{
 					var random = new System.Random();

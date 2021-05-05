@@ -18,22 +18,43 @@ namespace Haywire.Systems
 
 		public Vector3 _CameraOffset;
 
+		public List<GameObject> Cameras;
+
 		public void Awake()
 		{
 			_CameraOffset = transform.position - Player.transform.position;
 		}
 
-		public void LateUpdate()
+		public void Update()
 		{
-			HandleAiming();
-
 			transform.position = Player.transform.position + _CameraOffset;
+
+			if (Input.GetMouseButtonDown(1) || Input.GetMouseButton(1))
+			{
+				IsAiming = !IsAiming;
+				Invoke("HandleAiming", 0.2f);
+			}
 		}
 
 		private void HandleAiming()
 		{
+			if (Cameras[0].activeSelf)
+			{
+				Cameras[0].SetActive(false);
+				Cameras[1].SetActive(true);
+				return;
+			}
+
+			else if (Cameras[1].activeSelf)
+			{
+				Cameras[1].SetActive(false);
+				Cameras[0].SetActive(true);
+
+				return;
+			}
 			
 		}
+
 	}
 
 }

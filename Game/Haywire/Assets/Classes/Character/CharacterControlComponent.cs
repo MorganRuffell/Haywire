@@ -42,9 +42,8 @@ namespace Haywire.Character
 		{
 			if (Input.GetKeyDown(KeyCode.R) && GameManager.AmmoAmount < AmmoReloadThreshold)
 			{
-				ChangeAnimationState(PlayerAnimations.PLAYER_RELOADING);
-				PlayGameSounds(ReloadingSounds);
 				GameManager.AmmoAmount++;
+				PlayGameSounds(ReloadingSounds);
 			}
 
 			if (Input.GetKey(KeyCode.Escape))
