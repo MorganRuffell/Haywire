@@ -11,7 +11,7 @@ using Haywire.Singletons;
 
 namespace Haywire.AI
 {
-	public class HyenaHealthComponent : MonoBehaviour
+	public class HyenaHealthComponent : MonoBehaviour, IAnimationSystem
 	{
 		[Header("Hyena Movement Component")]
 		private HyenaChaseComponent chaseComponent;
@@ -39,11 +39,13 @@ namespace Haywire.AI
 		public void TakeDamage(int Amount)
 		{
 			HyenaCurrentHealth =- Amount;
+			ChangeAnimationState("HyenaTakeDamage");
 		}
 
 		public void TakeDamage(float Amount)
 		{
 			HyenaCurrentHealth =- (int) Amount;
+			ChangeAnimationState("HyenaTakeDamage");
 		}
 
 
@@ -55,6 +57,7 @@ namespace Haywire.AI
 
 				if (HyenaCurrentHealth <= 0)
 				{
+					ChangeAnimationState("HyenaDeath");
 					Die();
 				}
 			}
@@ -73,6 +76,11 @@ namespace Haywire.AI
 		public void Slow(float HyenaMovementSpeed)
 		{
 			HyenaMovementSpeed = HyenaMovementSpeed - HyenaSlowedIncrement;
+		}
+
+		public void ChangeAnimationState(string NewState)
+		{
+			HyenaAnimator.Play(NewState);
 		}
 	}
 

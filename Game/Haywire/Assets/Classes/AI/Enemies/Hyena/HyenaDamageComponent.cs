@@ -8,7 +8,7 @@ using Haywire.Character;
 namespace Haywire.AI
 {
 	[RequireComponent(typeof(HyenaHealthComponent))]
-	public class HyenaDamageComponent : EnemyDamageComponent, ISoundSystem
+	public class HyenaDamageComponent : EnemyDamageComponent, ISoundSystem, IAnimationSystem
 	{
 		[Header("Enemy Damage Control Fields")]
 		public int _Damage;
@@ -22,6 +22,11 @@ namespace Haywire.AI
 
 		[SerializeField] public Animator animationController;
 
+		public void ChangeAnimationState(string NewState)
+		{
+			animationController.Play(NewState);
+		}
+
 		public void OnTriggerEnter(Collider collision)
 		{
 			if (collision.gameObject.CompareTag("Player"))
@@ -32,8 +37,7 @@ namespace Haywire.AI
 
 		public override IEnumerator PlayAttackAnimation()
 		{
-			animationController.SetBool("AttackTrigger", true);
-
+			ChangeAnimationState("HyenaAttack");
 			//Create a system similar to the player, will not take too long.
 			PlayGameSounds(EnemyAudioAttackSounds);
 

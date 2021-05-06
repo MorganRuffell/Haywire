@@ -38,7 +38,7 @@ namespace Haywire.Character
 		public Rigidbody PlayerRigidbody;
 		public Animator PlayerAnimator;
 		public Collider PlayerCollider;
-		public GameObject _mainCamera;
+		public Camera[] _mainCamera;
 
 		[HideInInspector]
 		public bool IsSprinting;
