@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068b09262bfd9de429ef0b68992e5341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Damage: 10
+  _Damage: 20
   EnemyDamageMultiplier: 1
   TargetTag: Player
   EnemyAudioAttackSounds:

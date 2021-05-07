@@ -37,7 +37,7 @@ namespace Haywire.AI
 
 		public override IEnumerator PlayAttackAnimation()
 		{
-			ChangeAnimationState("HyenaAttack");
+			animationController.SetTrigger("Attacking");
 			//Create a system similar to the player, will not take too long.
 			PlayGameSounds(EnemyAudioAttackSounds);
 

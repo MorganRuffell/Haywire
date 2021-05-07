@@ -15,7 +15,6 @@ namespace Haywire.UI
 		public WaveSpawner WaveSpawnerManager;
 
 		[Header("Wavespawner UI Components")]
-
 		public GameObject _WaveStartingUIComponent;
 
 		void Awake()
@@ -36,14 +35,17 @@ namespace Haywire.UI
 			}
 		}
 
-		void Start()
+		void FixedUpdate()
 		{
+			if (WaveSpawnerManager.waveCountdown < 8 && WaveSpawnerManager.waveCountdown != 0)
+			{
+				_WaveStartingUIComponent.SetActive(true);
+			}
+			else
+			{
+				_WaveStartingUIComponent.SetActive(false);
 
-		}
-
-		void Update()
-		{
-
+			}
 		}
 	}
 

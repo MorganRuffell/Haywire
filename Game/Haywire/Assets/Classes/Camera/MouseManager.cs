@@ -15,7 +15,6 @@ using Haywire.AI;
 
 namespace Haywire.UI
 {
-	[RequireComponent(typeof(CharacterCamera)), DisallowMultipleComponent]
 	public class MouseManager : MonoBehaviour
 	{
 		[Header("Game Manager Component")]

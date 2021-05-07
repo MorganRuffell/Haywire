@@ -98,8 +98,8 @@ namespace Haywire.Singletons
 			{
 				Debug.Log("I am dead.");
 				Finale();
-				///Ending.Call();
 			}
+
 		}
 
 		public void PauseGame()

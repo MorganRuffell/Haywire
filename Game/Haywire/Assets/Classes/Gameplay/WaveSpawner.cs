@@ -38,7 +38,7 @@ namespace Haywire.Gameplay
 		[Tooltip("Time in second from when this object enters the scene to the first wave.")]
 		public float StartDelay = 2.0f;
 		public float DelayBetweenEnemyWaves = 6.0f;
-		private float waveCountdown;
+		public float waveCountdown;
 		public WaveUIComponent WaveUIController;
 
 		public Wave[] waves;
@@ -62,6 +62,8 @@ namespace Haywire.Gameplay
 		{
 			if (WaveSpawnState == SpawnState.WAITING)
 			{
+				WaveUIController._WaveStartingUIComponent.SetActive(false);
+
 				if (!EnemiesAreStillAlive())
 				{
 					WaveCompleted();
@@ -72,6 +74,7 @@ namespace Haywire.Gameplay
 					return;
 				}
 			}
+
 
 			if (waveCountdown <= 0)
 			{

@@ -8,6 +8,7 @@ using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Haywire.Singletons;
 
 namespace Haywire.Character
 {
@@ -38,7 +39,7 @@ namespace Haywire.Character
 		public Rigidbody PlayerRigidbody;
 		public Animator PlayerAnimator;
 		public Collider PlayerCollider;
-		public Camera[] _mainCamera;
+		public GameObject mainCamera;
 
 		[HideInInspector]
 		public bool IsSprinting;
@@ -67,33 +68,38 @@ namespace Haywire.Character
 				_IdleDelay = IdleDelay;
 			}
 		}
+		private GameManagerComponent GameManager;
+
 
 		private void Awake()
 		{
-
+			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 		}
 
 		//Could make it automatic so that field are automatically assigned on Awake
 
 		void Update()
 		{
-			PlayerAnimator.SetFloat("Movement", 0.0f);
-
-			float horizontal = Input.GetAxisRaw("Horizontal");
-			float vertical = Input.GetAxisRaw("Vertical");
-
-			PlayGameSounds(breathingSounds);
-
-			if (Input.GetKeyDown(KeyCode.Space))
+			if (GameManager.IsAlive == true)
 			{
-				//Replace this with animationController.Play(Jump);
-
 				PlayerAnimator.SetFloat("Movement", 0.0f);
-				PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
-				//ChangeAnimationState(Player_Jump);
-			}
 
-			Move(horizontal, vertical);
+				float horizontal = Input.GetAxisRaw("Horizontal");
+				float vertical = Input.GetAxisRaw("Vertical");
+
+				PlayGameSounds(breathingSounds);
+
+				if (Input.GetKeyDown(KeyCode.Space))
+				{
+					PlayerAnimator.SetFloat("Movement", 0.0f);
+					PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
+				}
+				Move(horizontal, vertical);
+			}
+			else
+			{
+			
+			}
 		}
 
 		private void Move(float horizontal, float vertical)
@@ -103,16 +109,18 @@ namespace Haywire.Character
 				PlayerAnimator.SetFloat("IsBored", 0.0f);
 				PlayerAnimator.SetBool("IsIdle", false);
 
+				PlayerAnimator.SetFloat("Movement", 0.4f);
+
 
 				velocity.Set(horizontal, 0.0f, 0.0f);
 
 				if (PlayerAnimator.GetBool("IsIdle").Equals(false))
 				{
 					velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
-				
+
 					PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
 					PlayerAnimator.SetFloat("Movement", 0.9f);
-				
+
 					HandleCharacterOrientation(horizontal, vertical);
 				}
 

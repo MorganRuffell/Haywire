@@ -4,6 +4,7 @@ using UnityEngine;
 using Haywire.Singletons;
 using Unity.Mathematics;
 using System;
+using Haywire.UI;
 
 namespace Haywire.Gameplay
 {
@@ -13,7 +14,6 @@ namespace Haywire.Gameplay
 		public GameObject ParticleSystemLocation;
 		public GameObject FirearmLight;
 
-
 		public float4 rotation;
 
 		public Animator PlayerAnimator;
@@ -22,8 +22,9 @@ namespace Haywire.Gameplay
 		private Vector3 FiringPosition = new Vector3();
 		private Vector3 GunSize = new Vector3();
 
-
 		private quaternion FiringRotation = new quaternion();
+
+		private MouseManager MouseManagerComponent;
 
 		private void Start()
 		{
@@ -50,6 +51,11 @@ namespace Haywire.Gameplay
 			{
 				gameObject.transform.localPosition = FiringPosition;
 				gameObject.transform.localScale = GunSize;
+
+				if (MouseManager._CanFire == true)
+				{
+					FiringParticles.Play(true);
+				}
 			}
 			else
 			{
