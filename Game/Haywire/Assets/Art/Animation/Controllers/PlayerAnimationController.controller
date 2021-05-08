@@ -39,7 +39,7 @@ AnimatorStateMachine:
     m_Position: {x: -360, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1485183166766931493}
-    m_Position: {x: 290, y: 110, z: 0}
+    m_Position: {x: 150, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2183379642309648248}
     m_Position: {x: -530, y: 610, z: 0}
@@ -54,13 +54,13 @@ AnimatorStateMachine:
     m_Position: {x: -530, y: 230, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2602857890759076684}
-    m_Position: {x: -1120, y: 450, z: 0}
+    m_Position: {x: -1000, y: 410, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7259331302031689224}
-    m_Position: {x: 430, y: 450, z: 0}
+    m_Position: {x: 290, y: 420, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8946681116900856276}
-    m_Position: {x: 10, y: 800, z: 0}
+    m_Position: {x: -60, y: 710, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -547,49 +547,49 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Movement
     m_Type: 1
     m_DefaultFloat: 0.1
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: CanFire
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsIdle
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 1
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsBored
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: IsDead
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Reloading
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Swapping
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
