@@ -19,7 +19,7 @@ namespace Haywire.AI
 		private Animator HyenaAnimator;
 
 		[Header("Hyena Score")]
-		public int Score = 10;
+		public int Score = 20;
 
 		[Header("Hyena Health")]
 		public int HyenaMaxHealth = 50;
@@ -29,9 +29,13 @@ namespace Haywire.AI
 		public int HyenaSlowedThreshold = 10;
 		public float HyenaSlowedIncrement = 20.0f;
 
+		[HideInInspector]
+		public bool EnemyisDead;
+
 		public void Awake()
 		{
 			HyenaCurrentHealth = HyenaMaxHealth;
+			HyenaAnimator = GetComponentInChildren<Animator>();
 			chaseComponent = GetComponent<HyenaChaseComponent>();
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 		}
@@ -61,7 +65,9 @@ namespace Haywire.AI
 		public void Die()
 		{
 			GameManager.IncreaseScore(Score);
-			Debug.Log("An Enemy has been destroyed!");
+			HyenaAnimator.SetBool("IsDead", true);
+			EnemyisDead = true;
+			Destroy(gameObject, 4.0f);
 		}
 
 		public void Slow(float HyenaMovementSpeed)

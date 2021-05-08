@@ -12,7 +12,6 @@ namespace Haywire.AI
 	{
 		private string currentState = "";
 
-		public LeopardFiringComponent FiringComponent;
 
 		[Header("Movement Values")]
 		[Tooltip("Hyena Movement Speed")]
@@ -33,15 +32,22 @@ namespace Haywire.AI
 		private Rigidbody LeopardRigidBody;
 
 		private LeopardNavMeshComponent _LeopardNavmeshComponent;
+		private HyenaHealthComponent leopardHealthComponent;
 
 		[Header("AI Controller")]
 		private bool isRanged;
 
+		[Tooltip("Do not use, depreceated")]
 		public List<Vector3> FiringLocations = new List<Vector3>();
-
 		public float PlayerRadius;
 
 		private System.Random random = new System.Random();
+
+		[Header("Ranged Components")]
+		public Collider RangedTrigger;
+		public LeopardFiringComponent FiringComponent;
+
+
 
 		void Awake()
 		{
@@ -69,40 +75,14 @@ namespace Haywire.AI
 		// Update is called once per frame
 		void Update()
 		{
-			if (isRanged)
+			if (leopardHealthComponent.EnemyisDead)
 			{
-				//Gets a list of locations, selects a random one.
-				Int32 locallocationindex = random.Next(0, FiringLocations.Count);
+				Destroy(this);
+			}
 
-				for (int i = 0; i <= FiringLocations.Count; i++)
-				{
-					if (i == locallocationindex)
-					{
-						MoveToTargetLocation(FiringLocations[locallocationindex]);	
-					}
-				}
-					
-			}
-			else
-			{
-				ChasePlayer();
-			}
+			ChasePlayer();
 		}
 
-		private void MoveToTargetLocation(Vector3 FiringLocation)
-		{
-			LeopardAnimator.SetFloat("Movement", 0.5f);
-			Vector3 MovementVelocity = transform.forward * LeopardMovementSpeed * Time.deltaTime;
-			PlayGameSounds(EnemyRunningSounds);
-
-			if (gameObject.transform.position == FiringLocation)
-			{
-				FiringComponent.FireProjectile();
-
-				//Fire projectiles at the players location
-				//The projectiles cause damage, using a projectile damage component;
-			}
-		}
 
 		private void ChasePlayer()
 		{
@@ -112,7 +92,13 @@ namespace Haywire.AI
 			LeopardRigidBody.MovePosition(LeopardRigidBody.position + MovementVelocity);
 		}
 
-		
+		public void OnTriggerEnter(Collider hit)
+		{
+			if (hit.gameObject.tag == "Player")
+			{
+				FiringComponent.FireProjectile();
+			}
+		}
 
 		public void ChangeAnimationState(string NewState)
 		{

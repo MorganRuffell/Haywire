@@ -1,19 +1,23 @@
 using Haywire.Singletons;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 namespace Haywire.Systems
 {
-	public class Pause : MonoBehaviour
+	public class Pause : MonoBehaviour, ISoundSystem
 	{
 		private GameManagerComponent gameManager;
 
 		[Header("Colors and Images")]
 		public Image image;
 		public Color[] colors;
-	
+
+		[Header("Sounds")]
+		public List<AudioSource> PauseSounds;
 
 		public void Awake()
 		{
@@ -41,5 +45,28 @@ namespace Haywire.Systems
 			image.GetComponent<Image>().color = colors[1];
 		}
 
+		public void PlayGameSounds(List<AudioSource> SoundList)
+		{
+			if (SoundList.Count > 0)
+			{
+				var random = new System.Random();
+				int SoundIndex = random.Next(SoundList.Count);
+
+				SoundList[SoundIndex].Play();
+			}
+			else
+			{
+				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
+				throw new Exception();
+			}
+		}
+
+		public void StopGameSounds(List<AudioSource> SoundList)
+		{
+			throw new System.NotImplementedException();
+		}
 	}
 }
+
+
+

@@ -66,6 +66,7 @@ namespace Haywire.Singletons
 
 		void Start()
 		{
+			PlayerScore = characterScoreComponent.PlayerScore;
 			PauseCanvas.SetActive(false);
 			GameplayCanvas.SetActive(true);
 		}
@@ -92,7 +93,6 @@ namespace Haywire.Singletons
 		// Update is called once per frame
 		void Update()
 		{
-			PlayerScore = characterScoreComponent.PlayerScore;
 
 			if (IsAlive == false)
 			{

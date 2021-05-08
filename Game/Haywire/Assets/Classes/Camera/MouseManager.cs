@@ -50,14 +50,10 @@ namespace Haywire.UI
 
 		}
 
-		// Update is called once per frame
-		void Update()
-		{
-			UISwap();
-			//_CanFire = false;
-		}
+	
 		private void FixedUpdate()
 		{
+			UISwap();
 		}
 
 		private void UISwap()

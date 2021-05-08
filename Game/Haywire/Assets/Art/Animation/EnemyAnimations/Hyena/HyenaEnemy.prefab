@@ -281,7 +281,6 @@ GameObject:
   - component: {fileID: 5915675114794282333}
   - component: {fileID: 3026592504010550842}
   - component: {fileID: 4114695916703885987}
-  - component: {fileID: 627299752054497380}
   m_Layer: 0
   m_Name: HyenaEnemy
   m_TagString: Enemy
@@ -436,8 +435,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1461334, y: 1.5772014, z: 1.7173486}
-  m_Center: {x: -0.060768127, y: 0.817497, z: -0.12493396}
+  m_Size: {x: 1.6326637, y: 1.8856802, z: 1.7173486}
+  m_Center: {x: -0.014837265, y: 0.97173643, z: -0.12493396}
 --- !u!82 &3026592504010550842
 AudioSource:
   m_ObjectHideFlags: 0
@@ -546,25 +545,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a7409e999dfb9148b7e6f0f671b48ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: 10
+  Score: 100
   HyenaMaxHealth: 50
   HyenaCurrentHealth: 0
   HyenaSlowedThreshold: 10
   HyenaSlowedIncrement: 20
---- !u!114 &627299752054497380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3938530226736904083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4737a617cb5829e41ac731c72103b6f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MovementSounds: []
-  AttackSounds: []
 --- !u!1 &3938530227094037800
 GameObject:
   m_ObjectHideFlags: 0
