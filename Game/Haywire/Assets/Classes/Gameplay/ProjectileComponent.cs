@@ -47,21 +47,20 @@ namespace Haywire.Gameplay
 
 		private void CollisionHandler(Collision collision)
 		{
-			if (collision.gameObject.CompareTag(targetTag) && collision.gameObject.GetComponent<EnemyHealthComponent>())
+			if (collision.transform.gameObject.CompareTag(targetTag))
 			{
-				collision.gameObject.GetComponent<EnemyHealthComponent>().TakeDamage(Damage);
-				Invoke("Despawn", EnemyCollisionLifetime);
+				collision.gameObject.GetComponent<HyenaHealthComponent>().TakeDamage(Damage);
+				Destroy(gameObject);
 			}
-	
-			if (collision.gameObject.CompareTag("Environment"))
+
+			if (collision.transform.gameObject.CompareTag("Environment"))
 			{
-				Invoke("Despawn", Lifetime);
+				Destroy(gameObject);
 			}
 		}
 
 		private void Despawn()
 		{
-			Destroy(gameObject);
 		}
 
 

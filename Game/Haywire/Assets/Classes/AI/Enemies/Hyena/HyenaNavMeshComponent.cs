@@ -29,7 +29,7 @@ namespace Haywire.AI
 		private void Awake()
 		{
 			NavMeshComponent = GetComponent<NavMeshAgent>();
-			target = GameObject.Find("Player").transform;
+			target = GameObject.FindGameObjectWithTag("Player").transform;
 
 			if (!target)
 			{

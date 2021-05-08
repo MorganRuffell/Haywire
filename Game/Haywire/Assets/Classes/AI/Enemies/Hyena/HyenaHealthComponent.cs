@@ -51,22 +51,16 @@ namespace Haywire.AI
 
 		public void Update()
 		{
-			if (HyenaCurrentHealth <= 0)
+			if (HyenaCurrentHealth < 0 || HyenaCurrentHealth == 0)
 			{
-				//ChangeAnimationState("HyenaDeath");
+				HyenaAnimator.SetTrigger("IsDead");
 				Die();
-			}
-
-			else
-			{
-
 			}
 		}
 
 		public void Die()
 		{
 			GameManager.IncreaseScore(Score);
-			Destroy(gameObject, 0.5f);
 			Debug.Log("An Enemy has been destroyed!");
 		}
 

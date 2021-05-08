@@ -3503,8 +3503,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.030592, y: 1.8319769, z: 0.9527364}
-  m_Center: {x: -0.07327747, y: 0.95259714, z: 0.09334111}
+  m_Size: {x: 0.7914982, y: 1.8319769, z: 0.9527364}
+  m_Center: {x: 0.046269417, y: 0.95259714, z: 0.09334111}
 --- !u!114 &131653226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12626,10 +12626,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 307409069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c46d14c1eb7649439d811996226dd10, type: 3}
+  m_Script: {fileID: 11500000, guid: 0650817eef99daa44982d2406aef5fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Loading
+  sceneToLoad: Loading
 --- !u!114 &307409072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12674,9 +12674,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 448110703}
-        m_TargetAssemblyTypeName: Haywire.Singletons.GameManagerComponent, Assembly-CSharp
-        m_MethodName: ResumeGame
+      - m_Target: {fileID: 307409071}
+        m_TargetAssemblyTypeName: Haywire.Systems.RestartScene, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

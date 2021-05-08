@@ -48,13 +48,15 @@ namespace Haywire.AI
 		private Rigidbody HyenaRigidBody;
 
 		private HyenaNavMeshComponent _hyenaNavMeshComponent;
+		private HyenaHealthComponent hyenaHealth;
 
 		private void Awake()
 		{
 			HyenaRigidBody = GetComponent<Rigidbody>();
 			_hyenaNavMeshComponent = GetComponent<HyenaNavMeshComponent>();
 			HyenaAnimator = GetComponent<Animator>();
-	
+			hyenaHealth = GetComponent<HyenaHealthComponent>();	
+
 			if (HyenaAnimator == null)
 			{
 				HyenaAnimator = GetComponentInChildren<Animator>();
@@ -72,10 +74,23 @@ namespace Haywire.AI
 
 		public void Update()
 		{
-			HyenaAnimator.SetFloat("Movement", 0.5f);
-			PlayGameSounds(EnemyRunningSounds);
-			Vector3 MovementVelocity = transform.forward * HyenaMovementSpeed * Time.deltaTime;
-			HyenaRigidBody.MovePosition(HyenaRigidBody.position + MovementVelocity);
+			if (hyenaHealth.HyenaCurrentHealth < 0 || hyenaHealth.HyenaCurrentHealth == 0)
+			{
+				HyenaRigidBody.constraints = RigidbodyConstraints.FreezeAll;
+				//This worked, we need to destroy the movement component!
+				Debug.Log("Hyena is frozen");
+				Destroy(_hyenaNavMeshComponent);
+				Destroy(this);
+				return;
+			}
+			else
+			{
+				HyenaAnimator.SetFloat("Movement", 0.5f);
+				PlayGameSounds(EnemyRunningSounds);
+				Vector3 MovementVelocity = transform.forward * HyenaMovementSpeed * Time.deltaTime;
+				HyenaRigidBody.MovePosition(HyenaRigidBody.position + MovementVelocity);
+			}
+			
 		}
 
 		private IEnumerator SpeedUp()

@@ -115,10 +115,7 @@ namespace Haywire.UI
 			//characterFiringController.MuzzleFlash.intensity = characterFiringController.MuzzleFlashLightShootingIntensity;
 
 			HyenaHealthComponent enemyHealth = raycastHit.collider.GetComponent<HyenaHealthComponent>();
-			
 			enemyHealth.TakeDamage(characterFiringController.Damage);
-
-			//raycastHit.collider.gameObject.GetComponent<HyenaHealthComponent>().TakeDamage(characterFiringController.Damage);
 		}
 
 		//Method used for when you're not aiming at an enemy
