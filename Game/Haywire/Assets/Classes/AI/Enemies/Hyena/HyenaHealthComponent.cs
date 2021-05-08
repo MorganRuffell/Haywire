@@ -51,16 +51,12 @@ namespace Haywire.AI
 
 		public void Update()
 		{
-			if (HyenaCurrentHealth < HyenaSlowedThreshold)
+			if (HyenaCurrentHealth <= 0)
 			{
-				Slow(chaseComponent.HyenaMovementSpeed);
-
-				if (HyenaCurrentHealth <= 0)
-				{
-					ChangeAnimationState("HyenaDeath");
-					Die();
-				}
+				//ChangeAnimationState("HyenaDeath");
+				Die();
 			}
+
 			else
 			{
 
@@ -70,7 +66,8 @@ namespace Haywire.AI
 		public void Die()
 		{
 			GameManager.IncreaseScore(Score);
-			Destroy(this, 0.5f);
+			Destroy(gameObject, 0.5f);
+			Debug.Log("An Enemy has been destroyed!");
 		}
 
 		public void Slow(float HyenaMovementSpeed)

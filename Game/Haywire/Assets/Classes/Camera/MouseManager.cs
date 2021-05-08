@@ -53,26 +53,27 @@ namespace Haywire.UI
 		// Update is called once per frame
 		void Update()
 		{
+			UISwap();
 			//_CanFire = false;
 		}
 		private void FixedUpdate()
 		{
-			UISwap();
 		}
 
 		private void UISwap()
 		{
-
-			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, 600, ClickableLayer.value))
+			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, 1000.0f))
 			{
-				if (raycastHit.collider.gameObject.tag == "Enemy")
+				Debug.DrawRay(Camera.main.ScreenPointToRay(Input.mousePosition).direction, Input.mousePosition * 1000, Color.green, 10.0f, false);
+
+				if (raycastHit.transform.gameObject.tag == "Enemy")
 				{
 					CursorSwap(ShootingReticleTexture, CursorSizeInt, true, false);
 					Debug.DrawLine(FiringLocation.transform.position, raycastHit.transform.position);
 					Shooting();
 				}
 
-				else if (raycastHit.collider.gameObject.tag == "Environment" || raycastHit.collider.gameObject.tag == "Untagged")
+				else if (raycastHit.transform.gameObject.tag == "Environment" || raycastHit.collider.gameObject.tag == "Untagged")
 				{
 					CursorSwap(BaseMouseTexture, CursorSizeInt);
 					NonTargetShooting();
@@ -111,10 +112,13 @@ namespace Haywire.UI
 			PlayerAnimator.SetBool("CanFire", true);
 			_CanFire = true;
 
-			characterFiringController.MuzzleFlash.intensity = characterFiringController.MuzzleFlashLightShootingIntensity;
+			//characterFiringController.MuzzleFlash.intensity = characterFiringController.MuzzleFlashLightShootingIntensity;
 
+			HyenaHealthComponent enemyHealth = raycastHit.collider.GetComponent<HyenaHealthComponent>();
 			
-			raycastHit.collider.gameObject.GetComponent<HyenaHealthComponent>().TakeDamage(characterFiringController.Damage);
+			enemyHealth.TakeDamage(characterFiringController.Damage);
+
+			//raycastHit.collider.gameObject.GetComponent<HyenaHealthComponent>().TakeDamage(characterFiringController.Damage);
 		}
 
 		//Method used for when you're not aiming at an enemy

@@ -72,7 +72,10 @@ namespace Haywire.AI
 
 		public void Update()
 		{
-			ChasePlayer();
+			HyenaAnimator.SetFloat("Movement", 0.5f);
+			PlayGameSounds(EnemyRunningSounds);
+			Vector3 MovementVelocity = transform.forward * HyenaMovementSpeed * Time.deltaTime;
+			HyenaRigidBody.MovePosition(HyenaRigidBody.position + MovementVelocity);
 		}
 
 		private IEnumerator SpeedUp()
@@ -80,14 +83,6 @@ namespace Haywire.AI
 			HyenaMovementSpeed += MovementSpeedAddition;
 			HyenaAnimator.SetFloat("Movement", 0.8f);
 			yield return new WaitForSeconds(1.0f);
-		}
-
-		void ChasePlayer()
-		{
-			HyenaAnimator.SetFloat("Movement", 0.5f);
-			PlayGameSounds(EnemyRunningSounds);
-			Vector3 MovementVelocity = transform.forward * HyenaMovementSpeed * Time.deltaTime;
-			HyenaRigidBody.MovePosition(HyenaRigidBody.position + MovementVelocity);
 		}
 
 		public void ChangeAnimationState(string NewState)
