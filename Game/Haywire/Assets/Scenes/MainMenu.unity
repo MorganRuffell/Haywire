@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!82 &238108856 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4900128749282065307, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+  m_PrefabInstance: {fileID: 4900128749046184739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &365224340
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,14 +390,14 @@ RectTransform:
   m_GameObject: {fileID: 867792520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1599852, y: 0.1599852, z: 0.1599852}
+  m_LocalScale: {x: 0.14238682, y: 0.14238682, z: 0.14238682}
   m_Children: []
   m_Father: {fileID: 1478409388}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 211, y: 67.7}
+  m_AnchoredPosition: {x: 195.2, y: 64.1}
   m_SizeDelta: {x: 2543.8315, y: 826}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867792522
@@ -440,8 +445,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867792525}
-        m_TargetAssemblyTypeName: Haywire.Systems.MainMenu, Assembly-CSharp
-        m_MethodName: Begin
+        m_TargetAssemblyTypeName: Haywire.Systems.SwapToLoadingScreen, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -498,10 +503,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 867792520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cc5c3cc40e783848840b96361cb402e, type: 3}
+  m_Script: {fileID: 11500000, guid: 239398dc1e8262642ade48b78a16336f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: Loading
+  Scenes:
+  - Loading
+  - Loading0
+  - Loading1
+  - Loading2
+  audios:
+  - {fileID: 1384628533}
+  - {fileID: 1258285303}
+  - {fileID: 1478394587}
+  - {fileID: 238108856}
+  - {fileID: 971793889}
+  - {fileID: 1718775157}
+--- !u!82 &971793889 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4900128748927442626, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+  m_PrefabInstance: {fileID: 4900128749046184739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &996339146
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,14 +743,14 @@ RectTransform:
   m_GameObject: {fileID: 1250176995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16068125, y: 0.1661934, z: 0.13675092}
+  m_LocalScale: {x: 0.15104038, y: 0.15622179, z: 0.12854587}
   m_Children: []
   m_Father: {fileID: 1478409388}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -217.1, y: 71.3}
+  m_AnchoredPosition: {x: -206.5, y: 62.3}
   m_SizeDelta: {x: 2543.8315, y: 826}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1250176997
@@ -777,8 +798,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1250177000}
-        m_TargetAssemblyTypeName: Haywire.Systems.MainMenu, Assembly-CSharp
-        m_MethodName: QuitApplication
+        m_TargetAssemblyTypeName: Haywire.Systems.ExitApplication, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -835,10 +856,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 1250176995}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8cc5c3cc40e783848840b96361cb402e, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e6201038ff17084e8d19325b0971e71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: 
+  ButtonSounds:
+  - {fileID: 1384628533}
+  - {fileID: 1258285303}
+  - {fileID: 1478394587}
+  - {fileID: 238108856}
+  - {fileID: 971793889}
+  - {fileID: 1718775157}
+--- !u!82 &1258285303 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4900128750285116372, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+  m_PrefabInstance: {fileID: 4900128749046184739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1384628533 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4900128750413576726, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+  m_PrefabInstance: {fileID: 4900128749046184739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1478394587 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4900128750522153464, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+  m_PrefabInstance: {fileID: 4900128749046184739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1478409384
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,6 +985,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!82 &1718775157 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4900128749688837718, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+  m_PrefabInstance: {fileID: 4900128749046184739}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1885435095
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,7 +1019,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c10c5679f6a40c4449201d0ad0243c3e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.01
+  m_Volume: 0.005
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1070,3 +1117,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4900128749046184739
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4900128749448709988, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Name
+      value: ClickAudioParent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 649.5848
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 328.04565
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 310.9785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}

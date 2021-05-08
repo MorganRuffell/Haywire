@@ -10,7 +10,9 @@ namespace Haywire.Systems
 	public class RestartScene : MonoBehaviour
 	{
 		public string sceneToLoad;
-		
+
+		public List<AudioSource> ButtonSounds;
+
 		public void OnClick()
 		{
 			Scene scene = SceneManager.GetActiveScene(); 

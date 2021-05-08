@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0cf54f85da8e648a524b9c0d5d95b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: -100
+  force: -80
   Lifetime: 6
   EnemyCollisionLifetime: 1
   BulletCollsionRb: {fileID: 8261206481517958476}

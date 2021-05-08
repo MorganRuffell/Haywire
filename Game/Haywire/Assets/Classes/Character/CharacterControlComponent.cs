@@ -42,7 +42,7 @@ namespace Haywire.Character
 		{
 			if (Input.GetKeyDown(KeyCode.R) && GameManager.AmmoAmount < AmmoReloadThreshold)
 			{
-				GameManager.AmmoAmount++;
+				GameManager.AmmoAmount += 10;
 				PlayGameSounds(ReloadingSounds);
 			}
 
