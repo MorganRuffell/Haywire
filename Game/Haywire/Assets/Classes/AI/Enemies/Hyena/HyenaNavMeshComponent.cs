@@ -25,6 +25,7 @@ namespace Haywire.AI
 		[Tooltip("The Unity tag of the thing that we are chasing, this is normally the player.")]
 		public string targetTag;
 
+		private Rigidbody playerRigidbody;
 
 		private void Awake()
 		{
@@ -41,6 +42,17 @@ namespace Haywire.AI
 		{
 			NavMeshComponent.SetDestination(target.position);
 		}
+
+		private void LookAtTarget()
+		{
+			Vector3 directiontoTarget = target.position - playerRigidbody.position;
+
+			Quaternion newRotation = Quaternion.LookRotation(directiontoTarget);
+
+			playerRigidbody.MoveRotation(newRotation);
+		}
+
+
 	}
 
 }

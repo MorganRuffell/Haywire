@@ -93,7 +93,7 @@ namespace Haywire.AI
 			
 		}
 
-		private IEnumerator SpeedUp()
+			private IEnumerator SpeedUp()
 		{
 			HyenaMovementSpeed += MovementSpeedAddition;
 			HyenaAnimator.SetFloat("Movement", 0.8f);

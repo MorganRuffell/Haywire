@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4135133819490868712}
   - component: {fileID: 1066554701148459597}
   - component: {fileID: 2966146541358343815}
+  - component: {fileID: 8238945551366623651}
   m_Layer: 0
   m_Name: Floor_3_Low_poly
   m_TagString: Untagged
@@ -81,3 +82,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8238945551366623651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3614458522814990162}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 400, y: 100, z: 397.37817}
+  m_Center: {x: 0, y: 0, z: 0}

@@ -403,14 +403,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3938530226736904083}
   serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
+  m_Mass: 50
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!135 &3938530226736904088
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -550,6 +550,7 @@ MonoBehaviour:
   HyenaCurrentHealth: 0
   HyenaSlowedThreshold: 10
   HyenaSlowedIncrement: 20
+  EnemyisDead: 0
 --- !u!1 &3938530227094037800
 GameObject:
   m_ObjectHideFlags: 0
