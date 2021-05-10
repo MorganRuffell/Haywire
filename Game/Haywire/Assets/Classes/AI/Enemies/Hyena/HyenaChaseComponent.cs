@@ -77,7 +77,7 @@ namespace Haywire.AI
 			{
 				HyenaRigidBody.constraints = RigidbodyConstraints.FreezeAll;
 				//This worked, we need to destroy the movement component!
-				Debug.Log("Hyena is frozen");
+				//Debug.Log("Hyena is frozen");
 				Destroy(_hyenaNavMeshComponent);
 				Destroy(this);
 				return;

@@ -15,7 +15,7 @@ using UnityEngine.UI;
 namespace Haywire.Character
 {
 	[RequireComponent(typeof(CharacterMovementComponent))]
-	public class CharacterHealthComponent : MonoBehaviour
+	public class CharacterHealthComponent : MonoBehaviour, ISoundSystem
 	{
 		//Player Health Values
 		public float MaxHealth = 100;
@@ -46,6 +46,9 @@ namespace Haywire.Character
 		[Tooltip("These are death sounds, they are just TakeDamage sounds but they have their own little collection. I like to collect things...")]
 		public List<AudioSource> DeathSounds;
 
+		public List<AudioSource> HeartbeatSounds;
+
+
 		private CharacterMovementComponent movementComponent;
 		private CharacterFiringController FiringController;
 
@@ -55,7 +58,6 @@ namespace Haywire.Character
 			CurrentHealth = MaxHealth;
 			movementComponent = GetComponent<CharacterMovementComponent>();
 			FiringController = GetComponent<CharacterFiringController>();
-
 		}
 
 		// Update is called once per frame
@@ -66,7 +68,7 @@ namespace Haywire.Character
 			if (CurrentHealth < 60)
 			{
 				DamageIndicationImages[0].SetActive(true);
-				CurrentHealth += 0.01f;
+				CurrentHealth += 0.04f;
 
 				if (CurrentHealth < 40)
 				{
@@ -75,6 +77,8 @@ namespace Haywire.Character
 					if (CurrentHealth < 20)
 					{
 						DamageIndicationImages[2].SetActive(true);
+
+						PlayGameSounds(HeartbeatSounds);
 
 						if (CurrentHealth <= 0)
 						{
@@ -93,6 +97,8 @@ namespace Haywire.Character
 				{
 					DamageIndicationImages[1].SetActive(false);
 
+					StopGameSounds(HeartbeatSounds);
+
 					if (CurrentHealth > 20)
 					{
 						DamageIndicationImages[2].SetActive(false);
@@ -100,8 +106,6 @@ namespace Haywire.Character
 					}
 				}
 			}
-
-			
 		}
 
 		public void OnTriggerEnter(Collider collision)
@@ -194,6 +198,35 @@ namespace Haywire.Character
 
 		}
 
+		public void PlayGameSounds(List<AudioSource> SoundList)
+		{
+			if (SoundList.Count > 0)
+			{
+				var random = new System.Random();
+				int SoundIndex = random.Next(SoundList.Count);
+
+				SoundList[SoundIndex].Play();
+			}
+			else
+			{
+				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
+			}
+		}
+
+		public void StopGameSounds(List<AudioSource> SoundList)
+		{
+			if (SoundList.Count > 0)
+			{
+				var random = new System.Random();
+				int SoundIndex = random.Next(SoundList.Count);
+
+				SoundList[SoundIndex].Stop();
+			}
+			else
+			{
+				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
+			}
+		}
 	}
 }
 

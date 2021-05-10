@@ -13,7 +13,7 @@ using Haywire.UI;
 
 namespace Haywire.Character
 {
-	public class CharacterScoreComponent : MonoBehaviour
+	public class CharacterScoreComponent : MonoBehaviour, ISoundSystem
 	{
 		[Header("Score UI Alpha Controller")]
 		public UIAlphaControl alphaControl;
@@ -30,6 +30,26 @@ namespace Haywire.Character
 		{
 			alphaControl.Appear(ScoreUIApppearDuration);
 			PlayerScore += Amount;
+		}
+
+		public void PlayGameSounds(List<AudioSource> SoundList)
+		{
+			if (SoundList.Count > 0)
+			{
+				var random = new System.Random();
+				int SoundIndex = random.Next(SoundList.Count);
+
+				SoundList[SoundIndex].Play();
+			}
+			else
+			{
+				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
+			}
+		}
+
+		public void StopGameSounds(List<AudioSource> SoundList)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

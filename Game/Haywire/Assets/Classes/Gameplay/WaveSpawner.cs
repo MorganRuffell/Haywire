@@ -54,6 +54,11 @@ namespace Haywire.Gameplay
 
 		private GameManagerComponent GameManager;
 
+		private void Awake()
+		{
+			GameManager = GetComponent<GameManagerComponent>();
+		}
+
 		void Start()
 		{
 			WaveUIController._WaveStartingUIComponent.SetActive(true);
@@ -161,14 +166,12 @@ namespace Haywire.Gameplay
 
 			NextWave++;
 
-			if (NextWave >= 4)
+			if (NextWave >= waves.Length)
 			{
 				Debug.Log("Level Completed!");
 
 				GameManager.HasWon = true;
 
-				//This is where we are going to transition to another scene...
-				//Or end this bit of the game.
 			}
 		}
 	}

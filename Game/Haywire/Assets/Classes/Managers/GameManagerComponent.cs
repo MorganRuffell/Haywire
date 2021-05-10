@@ -14,7 +14,7 @@ using Haywire.Audio;
 
 namespace Haywire.Singletons
 {
-	public class GameManagerComponent : MonoBehaviour
+	public class GameManagerComponent : MonoBehaviour, ISoundSystem
 	{
 		//This is a static object reference it exists for the entire program lifetime. Regardless of state changes
 		public static GameManagerComponent GameManager;
@@ -31,6 +31,9 @@ namespace Haywire.Singletons
 		public bool Turn_Sound_off_OnPause;
 		public GameObject PauseCanvas;
 		public GameObject GameplayCanvas;
+
+		[Header("Audio")]
+		public List<AudioSource> ScoreUpSound;
 
 
 		[HideInInspector]
@@ -89,7 +92,7 @@ namespace Haywire.Singletons
 		public void IncreaseScore(int Score)
 		{
 			PlayerScore = PlayerScore + Score;
-			AlphaControllers[0].Appear(2);
+			PlayGameSounds(ScoreUpSound);
 		}
 
 		// Update is called once per frame
@@ -101,13 +104,15 @@ namespace Haywire.Singletons
 				Finale();
 			}
 		
-			if (HasWon || PlayerScore >= 50000)
+			if (HasWon || PlayerScore >= 80000)
 			{
+				Scene scene = SceneManager.GetActiveScene();
 				SceneManager.LoadScene("WinScreen");
+				//SceneManager.UnloadSceneAsync("Level1");
 			}
 
 		}
-
+ 
 		public void PauseGame()
 		{
 			if (Turn_Sound_off_OnPause == true)
@@ -151,6 +156,25 @@ namespace Haywire.Singletons
 			SceneManager.LoadScene(GameOverScene);
 		}
 
+		public void PlayGameSounds(List<AudioSource> SoundList)
+		{
+			if (SoundList.Count > 0)
+			{
+				var random = new System.Random();
+				int SoundIndex = random.Next(SoundList.Count);
+
+				SoundList[SoundIndex].Play();
+			}
+			else
+			{
+				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
+			}
+		}
+
+		public void StopGameSounds(List<AudioSource> SoundList)
+		{
+			throw new NotImplementedException();
+		}
 	}
 
 }

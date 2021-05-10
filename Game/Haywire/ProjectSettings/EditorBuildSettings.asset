@@ -30,9 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 1.unity
     guid: 848e6601e28c961438295a8635796484
   - enabled: 1
-    path: Assets/Scenes/Dead.unity
-    guid: bde5920f4b3f00f4388586cfb81d1d88
-  - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: c3dc3c9d4687a1a4b88c89b2a8e759c0
+  - enabled: 1
+    path: Assets/Scenes/Dead.unity
+    guid: bde5920f4b3f00f4388586cfb81d1d88
   m_configObjects: {}
