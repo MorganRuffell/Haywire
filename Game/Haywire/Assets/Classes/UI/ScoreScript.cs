@@ -18,12 +18,13 @@ namespace Haywire.UI
 		void Start()
 		{
 			ScoreText = gameObject.GetComponent<Text>();
+			ScoreText.text = ScoreValue.ToString();
 		}
 
 		// Update is called once per frame
-		void Update()
+		void LateUpdate()
 		{
-			ScoreText.text = ScoreValue.ToString();
+			ScoreText.text = GameManager.PlayerScore.ToString();
 		}
 	}
 }

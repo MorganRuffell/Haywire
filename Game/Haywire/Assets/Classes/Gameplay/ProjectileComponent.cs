@@ -13,7 +13,7 @@ namespace Haywire.Gameplay
 {
 	[RequireComponent(typeof(Rigidbody))]
 	[DisallowMultipleComponent]
-	public class ProjectileComponent : MonoBehaviour, IDamage
+	public class ProjectileComponent : MonoBehaviour
 	{
 		[Header("Player Projectile Controller")]
 
@@ -27,7 +27,7 @@ namespace Haywire.Gameplay
 
 		public string targetTag;
 
-		public int Damage { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+		public int Damage;
 
 		void Awake()
 		{
@@ -58,13 +58,6 @@ namespace Haywire.Gameplay
 				Destroy(gameObject);
 			}
 		}
-
-		private void Despawn()
-		{
-		}
-
-
 	}
-
 }
 

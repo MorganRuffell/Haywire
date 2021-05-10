@@ -21,7 +21,6 @@ namespace Haywire.AI
 	}
 
 	[RequireComponent(typeof(Rigidbody))]
-	[RequireComponent(typeof(HyenaNavMeshComponent))]
 	public class HyenaChaseComponent : MonoBehaviour, ISoundSystem, IAnimationSystem
 	{
 		Thread ChasePlayerThread;
@@ -85,7 +84,7 @@ namespace Haywire.AI
 			}
 			else
 			{
-				HyenaAnimator.SetFloat("Movement", 0.5f);
+				HyenaAnimator.SetFloat("Movement", 0.6f);
 				PlayGameSounds(EnemyRunningSounds);
 				Vector3 MovementVelocity = transform.forward * HyenaMovementSpeed * Time.deltaTime;
 				HyenaRigidBody.MovePosition(HyenaRigidBody.position + MovementVelocity);
@@ -93,7 +92,7 @@ namespace Haywire.AI
 			
 		}
 
-			private IEnumerator SpeedUp()
+		private IEnumerator SpeedUp()
 		{
 			HyenaMovementSpeed += MovementSpeedAddition;
 			HyenaAnimator.SetFloat("Movement", 0.8f);

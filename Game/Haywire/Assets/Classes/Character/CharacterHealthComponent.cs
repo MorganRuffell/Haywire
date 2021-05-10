@@ -18,8 +18,8 @@ namespace Haywire.Character
 	public class CharacterHealthComponent : MonoBehaviour
 	{
 		//Player Health Values
-		public int MaxHealth = 100;
-		public int CurrentHealth;
+		public float MaxHealth = 100;
+		public float CurrentHealth;
 
 		public float DeathDelay = 2.0f;
 		public Rigidbody PlayerRigidBody;
@@ -46,9 +46,16 @@ namespace Haywire.Character
 		[Tooltip("These are death sounds, they are just TakeDamage sounds but they have their own little collection. I like to collect things...")]
 		public List<AudioSource> DeathSounds;
 
+		private CharacterMovementComponent movementComponent;
+		private CharacterFiringController FiringController;
+
+
 		private void Awake()
 		{
 			CurrentHealth = MaxHealth;
+			movementComponent = GetComponent<CharacterMovementComponent>();
+			FiringController = GetComponent<CharacterFiringController>();
+
 		}
 
 		// Update is called once per frame
@@ -59,12 +66,13 @@ namespace Haywire.Character
 			if (CurrentHealth < 60)
 			{
 				DamageIndicationImages[0].SetActive(true);
+				CurrentHealth += 0.001f;
 
 				if (CurrentHealth < 40)
 				{
 					DamageIndicationImages[1].SetActive(true);
 
-					if(CurrentHealth < 20)
+					if (CurrentHealth < 20)
 					{
 						DamageIndicationImages[2].SetActive(true);
 
@@ -77,6 +85,23 @@ namespace Haywire.Character
 				}
 			}
 
+			if (CurrentHealth > 60)
+			{
+				DamageIndicationImages[0].SetActive(false);
+
+				if (CurrentHealth > 40)
+				{
+					DamageIndicationImages[1].SetActive(false);
+
+					if (CurrentHealth > 20)
+					{
+						DamageIndicationImages[2].SetActive(false);
+
+					}
+				}
+			}
+
+			
 		}
 
 		public void OnTriggerEnter(Collider collision)
@@ -94,16 +119,6 @@ namespace Haywire.Character
 			DamageSoundPlay(TakeDamageSounds_Set1, TakeDamageSounds_Set2);
 		}
 
-		public void OnTakeDamageImage()
-		{
-		}
-
-		public void OffTakeDamageImage()
-		{
-
-		}
-
-
 		public void Death()
 		{
 
@@ -111,6 +126,10 @@ namespace Haywire.Character
 			PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionX;
 			PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionZ;
 			PlayerRigidBody.constraints = RigidbodyConstraints.FreezePositionY;
+
+			Destroy(movementComponent);
+			Destroy(FiringController);
+
 
 			PlayerAnimator.SetBool("IsDead",true);
 			DamageSoundPlay(DeathSounds);

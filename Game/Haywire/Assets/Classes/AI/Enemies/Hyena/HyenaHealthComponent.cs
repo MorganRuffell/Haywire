@@ -15,8 +15,11 @@ namespace Haywire.AI
 	{
 		[Header("Hyena Movement Component")]
 		private HyenaChaseComponent chaseComponent;
+		private HyenaNavMeshComponent hyenaNavMesh;
 		private GameManagerComponent GameManager;
 		private Animator HyenaAnimator;
+		private Rigidbody HyenaRigidbody;
+
 
 		[Header("Hyena Score")]
 		public int Score = 20;
@@ -35,28 +38,51 @@ namespace Haywire.AI
 		public void Awake()
 		{
 			HyenaCurrentHealth = HyenaMaxHealth;
+
 			HyenaAnimator = GetComponentInChildren<Animator>();
 			chaseComponent = GetComponent<HyenaChaseComponent>();
+			hyenaNavMesh = GetComponent<HyenaNavMeshComponent>();
+			HyenaRigidbody = GetComponent<Rigidbody>();
+
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 		}
 
 		public void TakeDamage(int Amount)
 		{
 			HyenaCurrentHealth =- Amount;
-			ChangeAnimationState("HyenaTakeDamage");
+			HyenaAnimator.SetTrigger("TakeDamage");
 		}
 
 		public void TakeDamage(float Amount)
 		{
 			HyenaCurrentHealth =- (int) Amount;
-			ChangeAnimationState("HyenaTakeDamage");
+			HyenaAnimator.SetTrigger("TakeDamage");
 		}
 
 
 		public void Update()
 		{
-			if (HyenaCurrentHealth < 0 || HyenaCurrentHealth == 0)
+			CheckState();
+		}
+
+		public void CheckState()
+		{
+			if (EnemyisDead)
 			{
+				HyenaAnimator.SetTrigger("IsDead");
+				Die();
+			}
+
+			if (HyenaCurrentHealth == 0)
+			{
+				EnemyisDead = true;
+				HyenaAnimator.SetTrigger("IsDead");
+				Die();
+			}
+
+			if (HyenaCurrentHealth < 0)
+			{
+				EnemyisDead = true;
 				HyenaAnimator.SetTrigger("IsDead");
 				Die();
 			}
@@ -64,10 +90,14 @@ namespace Haywire.AI
 
 		public void Die()
 		{
+			Destroy(chaseComponent);
+			Destroy(hyenaNavMesh);
+			Destroy(HyenaRigidbody);
+			
 			GameManager.IncreaseScore(Score);
 			HyenaAnimator.SetBool("IsDead", true);
 			EnemyisDead = true;
-			Destroy(gameObject, 4.0f);
+			Destroy(gameObject, 2.0f);
 		}
 
 		public void Slow(float HyenaMovementSpeed)

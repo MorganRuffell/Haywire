@@ -159,10 +159,9 @@ namespace Haywire.Gameplay
 
 			if (NextWave + 1 > waves.Length - 1)
 			{
+				Debug.Log("Level Completed!");
 				//This is where we are going to transition to another scene...
 				//Or end this bit of the game.
-
-				//Debug.Log("Completed Level 1!");
 			}
 
 			NextWave++;

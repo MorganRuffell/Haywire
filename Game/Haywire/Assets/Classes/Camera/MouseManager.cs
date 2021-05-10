@@ -58,9 +58,9 @@ namespace Haywire.UI
 
 		private void UISwap()
 		{
-			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, 1000.0f))
+			if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out raycastHit, 90000.0f))
 			{
-				Debug.DrawRay(Camera.main.ScreenPointToRay(Input.mousePosition).direction, Input.mousePosition * 1000, Color.green, 10.0f, false);
+				//Debug.DrawRay(Camera.main.ScreenPointToRay(Input.mousePosition).direction, Input.mousePosition * 90000, Color.green, 10.0f, false);
 
 				if (raycastHit.transform.gameObject.tag == "Enemy")
 				{

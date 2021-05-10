@@ -6,7 +6,6 @@ using UnityEngine;
 namespace Haywire.AI
 {
 	[RequireComponent(typeof(Rigidbody))]
-	[RequireComponent(typeof(LeopardNavMeshComponent))]
 
 	public class LeopardChaseComponent : MonoBehaviour, ISoundSystem, IAnimationSystem
 	{
@@ -47,6 +46,8 @@ namespace Haywire.AI
 		public Collider RangedTrigger;
 		public LeopardFiringComponent FiringComponent;
 
+		[HideInInspector]
+		public bool IsToCloseToPlayer = false;
 
 
 		void Awake()
@@ -80,9 +81,26 @@ namespace Haywire.AI
 				Destroy(this);
 			}
 
-			ChasePlayer();
+			if (IsToCloseToPlayer == false)
+			{
+				ChasePlayer();
+			}
+
+			if (IsToCloseToPlayer == true)
+			{
+				MoveAwayFromPlayer();
+			}
+
 		}
 
+		private void MoveAwayFromPlayer()
+		{
+			LeopardAnimator.SetFloat("Movement", 0.5f);
+			PlayGameSounds(EnemyRunningSounds);
+			Vector3 MovementVelocity = transform.forward / LeopardMovementSpeed * Time.deltaTime;
+			LeopardRigidBody.MovePosition(LeopardRigidBody.position + MovementVelocity);
+			IsToCloseToPlayer = false;
+		}
 
 		private void ChasePlayer()
 		{
@@ -97,8 +115,10 @@ namespace Haywire.AI
 			if (hit.gameObject.tag == "Player")
 			{
 				FiringComponent.FireProjectile();
+				IsToCloseToPlayer = true;
 			}
 		}
+
 
 		public void ChangeAnimationState(string NewState)
 		{

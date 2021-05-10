@@ -127,11 +127,11 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 0
 --- !u!114 &7564020230083578349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,11 +144,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e0cf54f85da8e648a524b9c0d5d95b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  force: -80
+  force: -100
   Lifetime: 6
   EnemyCollisionLifetime: 1
   BulletCollsionRb: {fileID: 8261206481517958476}
   targetTag: Enemy
+  Damage: 20
 --- !u!96 &2885949388053293932
 TrailRenderer:
   serializedVersion: 2

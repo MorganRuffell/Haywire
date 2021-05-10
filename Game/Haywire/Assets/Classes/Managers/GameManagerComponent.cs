@@ -85,14 +85,13 @@ namespace Haywire.Singletons
 
 		public void IncreaseScore(int Score)
 		{
-			PlayerScore += Score;
+			PlayerScore = PlayerScore + Score;
 			AlphaControllers[0].Appear(2);
 		}
 
 		// Update is called once per frame
 		void Update()
 		{
-
 			if (IsAlive == false)
 			{
 				Debug.Log("I am dead.");
