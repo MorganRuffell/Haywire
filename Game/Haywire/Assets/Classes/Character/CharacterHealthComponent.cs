@@ -66,7 +66,7 @@ namespace Haywire.Character
 			if (CurrentHealth < 60)
 			{
 				DamageIndicationImages[0].SetActive(true);
-				CurrentHealth += 0.001f;
+				CurrentHealth += 0.01f;
 
 				if (CurrentHealth < 40)
 				{

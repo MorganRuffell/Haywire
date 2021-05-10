@@ -37,6 +37,9 @@ namespace Haywire.Singletons
 		public bool IsAlive = true;
 
 		[HideInInspector]
+		public bool HasWon = false;
+
+		[HideInInspector]
 		public bool IsGamePaused = false;
 
 		[HideInInspector, SerializeField]
@@ -96,6 +99,11 @@ namespace Haywire.Singletons
 			{
 				Debug.Log("I am dead.");
 				Finale();
+			}
+		
+			if (HasWon || PlayerScore >= 50000)
+			{
+				SceneManager.LoadScene("WinScreen");
 			}
 
 		}

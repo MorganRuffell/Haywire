@@ -52,6 +52,8 @@ namespace Haywire.Gameplay
 		private bool IsSpawnLocation0 = true;
 		private float searchCountdown = 1.5f;
 
+		private GameManagerComponent GameManager;
+
 		void Start()
 		{
 			WaveUIController._WaveStartingUIComponent.SetActive(true);
@@ -150,24 +152,25 @@ namespace Haywire.Gameplay
 			}
 		}
 
-		void WaveCompleted()
+		public void WaveCompleted()
 		{
 			Debug.Log("Wave Completed!");
 
 			WaveSpawnState = SpawnState.COUNTING;
 			waveCountdown = DelayBetweenEnemyWaves;
 
-			if (NextWave + 1 > waves.Length - 1)
+			NextWave++;
+
+			if (NextWave >= 4)
 			{
 				Debug.Log("Level Completed!");
+
+				GameManager.HasWon = true;
+
 				//This is where we are going to transition to another scene...
 				//Or end this bit of the game.
 			}
-
-			NextWave++;
 		}
-
-
 	}
 }
 

@@ -15,11 +15,11 @@ C:/Users/Morgan/Desktop/HaywireII/Haywire/Game/Haywire
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61410
+58897
 Successfully changed project path to: C:/Users/Morgan/Desktop/HaywireII/Haywire/Game/Haywire
 C:/Users/Morgan/Desktop/HaywireII/Haywire/Game/Haywire
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 63.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -36,526 +36,378 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002693 seconds.
+Registered in 0.002358 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 61.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 60.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.349 seconds
+- Completed reload, in  2.255 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001663 seconds.
+Registered in 0.001596 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025A8A566E30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001A26A3E4020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F37E080 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A26AEE1030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A019900 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001A266D9DD20 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89E2CE60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001A266860A90 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E59B010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001A26A47E030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89D92C10 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001A26BD30010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E5D2220 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A266F1DCC0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89E38870 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001A26A452840 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A6CED60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001A26B0DE7F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8EE55010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001A26AFA9010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89E38870 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001A26683BBD0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A6CED60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001A26B0DE7F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E765410 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001A266A52020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E78CA20 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001A26A452840 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F8FD480 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001A26682AE80 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89CC0830 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001A2668836A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89E38870 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001A266B06B50 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F1EC030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001A26B328020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A0EF270 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001A2665D5AE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E5D2220 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001A266A82C30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E5D2220 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001A266738930 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A6CED60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001A26B0DE7F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F1FEC40 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001A26B328020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F1FEC40 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001A26B328020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8E3E2010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001A26AA32020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.98 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
+- Completed reload, in  1.138 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3000 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.3 MB.
-System memory in use after: 163.5 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3454.
-Total: 2.489700 ms (FindLiveObjects: 0.353700 ms CreateObjectMapping: 0.198500 ms MarkObjects: 1.913500 ms  DeleteObjects: 0.022800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001636 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025A90E31020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB70A9B80 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB03511A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A91920010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F30C010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89D92C10 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8FCA4020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A618020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB07E18B0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A911AF020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A905AD020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB07E0410 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F11A040 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A618020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9160E020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F226C60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89CAB010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8EA15020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB70DC350 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8FCA4020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8FCA4020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB07E16D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89E2CE60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8F2C4020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A90E31020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.043 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.6 MB.
-System memory in use after: 155.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3457.
-Total: 2.063500 ms (FindLiveObjects: 0.316900 ms CreateObjectMapping: 0.162000 ms MarkObjects: 1.559300 ms  DeleteObjects: 0.023900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001624 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025AAA5A5010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAD5A72D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB034EF30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A928D70A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA7A015D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA4A92010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9FB9F180 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9B091010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB07E1A90 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9D33DB70 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A91558650 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB07E0B90 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A94FF4030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9B091010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A37CE50 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A528010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A91A9B050 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB72C0010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF9EC0A00 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA6C72010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA2DFD010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB07E14F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A928D70A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A91EF9390 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAA5A5010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.7 MB.
-System memory in use after: 155.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3460.
-Total: 2.303900 ms (FindLiveObjects: 0.366400 ms CreateObjectMapping: 0.166700 ms MarkObjects: 1.748400 ms  DeleteObjects: 0.020900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001625 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025AB6507030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB3DB54D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9E7F1C60 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB6CB0010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9EFEB020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA4A92010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A92243CE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAC0B5030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C2B4970 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8EDD5010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA2A12750 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C2B7C10 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A94FF4030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A95744020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA1290660 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A90241020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A91A9B050 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AFD9AC020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF9E8A720 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A92243CE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A92243CE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C2B4B50 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9EFEB020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9EFEB020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB6507030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.975 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.8 MB.
-System memory in use after: 156.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3463.
-Total: 2.435500 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.146500 ms MarkObjects: 1.919700 ms  DeleteObjects: 0.015200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001681 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000025AB6507030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAD59BA90 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AEFC734F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF3C06300 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF92B0080 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF0438940 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF1CCDEE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AD989B0B0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AEFB261E0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AE15822A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AE1167500 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AEFB274A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025ADBF75DE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AD989B0B0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA1290660 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025ADD5F4010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A89CAB010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AE1CE7010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF9EB6EE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9F98C020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AD88C2050 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AEFB2A380 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF3C06300 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF0735010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025ADE514010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
 Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.8 MB.
-System memory in use after: 156.0 MB.
+Unloading 3001 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.2 MB.
+System memory in use after: 164.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3466.
-Total: 2.378700 ms (FindLiveObjects: 0.309900 ms CreateObjectMapping: 0.156300 ms MarkObjects: 1.894900 ms  DeleteObjects: 0.016300 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 3455.
+Total: 3.456700 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.173200 ms MarkObjects: 2.984600 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001596 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A26D263010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2669B1BD0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4172B9AD0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A47E030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26B328020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A41E465010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A2669A9CF0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A9FE040 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A416643150 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A3E4020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26D381030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A416643150 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A98A020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A44F430 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26DEB1130 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A266CCF020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A266F37010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A41A735590 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A41E24B700 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26D987030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A9BAC30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A416643330 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26B328020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26AEC1020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26D263010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.976 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.6 MB.
+System memory in use after: 156.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3458.
+Total: 2.199600 ms (FindLiveObjects: 0.441500 ms CreateObjectMapping: 0.157000 ms MarkObjects: 1.583500 ms  DeleteObjects: 0.016700 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Prefab/308_Player.prefab
   artifactKey: Guid(943be34e440d2c941a057844f745a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/308_Player.prefab using Guid(943be34e440d2c941a057844f745a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c32ed59dedbb1f2be1d048a7c265a1c') in 0.382985 seconds
-  Import took 0.388313 seconds .
+Start importing Assets/Prefab/308_Player.prefab using Guid(943be34e440d2c941a057844f745a923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037bc21e37ac49e3d2deca31385b4bff') in 0.391782 seconds
+  Import took 0.397304 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001691 seconds.
+Registered in 0.001686 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025AAA5A5010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001A26E797C50 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B03D3B6C0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A46234FC80 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9E7EDB20 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001A4172B91C0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA3EC9010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001A2720C9CC0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9B1A9030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001A26A47E030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AEC8BC010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001A409A8AE40 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF1CCDEE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A26A9191E0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A98C79010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001A41868E010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C2B5A50 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001A4166436F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A95CD8000 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001A27205E060 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9FB86310 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001A4053A8150 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C2B36B0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001A416641530 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A94FF3FB0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001A266A52020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A98C79010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001A41868E010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9DB52290 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001A461FE5D70 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A8A011030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001A2748D5030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AEF46F540 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001A266801E50 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AE8F3A010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001A4118E2150 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA7F18180 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001A41A4881C0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000258ACD6D010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001A40A94F010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA2DFD010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001A415D57030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C2B3E30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001A416644410 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA3EC9010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001A2720C9CC0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A903D5420 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001A2745EFD10 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A93F3B050 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001A26EC96CB0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
+- Completed reload, in  1.055 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 161.4 MB.
+Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 161.9 MB.
+System memory in use after: 162.1 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3514.
-Total: 2.222500 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.145200 ms MarkObjects: 1.769000 ms  DeleteObjects: 0.019600 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3506.
+Total: 3.986100 ms (FindLiveObjects: 0.702800 ms CreateObjectMapping: 0.349100 ms MarkObjects: 2.906700 ms  DeleteObjects: 0.025400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001532 seconds.
+Registered in 0.001932 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025AB407F020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001A44FF5C5D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAD5AFD00 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001A4623558A0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AADE0A520 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001A456D277D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA5A5D010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001A26EC39020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB575DB80 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001A45328C230 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AED4A4010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001A41E465010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA023B020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001A26BC9E050 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A95744020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001A41868E010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAD4905E0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001A456096800 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025ADA647010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001A444CFD020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9C1A54C0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001A41878A490 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAD48CBC0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001A456094280 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAA5E7020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001A26A98A020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A95744020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001A41868E010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025A9DB56AD0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001A26E8B0E30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AE1E0F020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001A26E479BA0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025ADD3B5010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001A445544260 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B030B8010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001A4177A3020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025B086ED280 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001A45C446A30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF3B43010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001A41A190010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AD88C2050 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001A44F32A020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AAD48F500 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001A456098420 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AA5A5D010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001A26EC39020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AF84CD010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001A44F343010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025AB407F020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001A44FF5C5D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.0 MB.
+System memory in use after: 162.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 2.948600 ms (FindLiveObjects: 0.394600 ms CreateObjectMapping: 0.221900 ms MarkObjects: 2.308400 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001582 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A44FF5C5D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A46A75ED10 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A45B2C9DA0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A47E030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A450879010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26BD30010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A266F5F040 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A402287030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A455C0B370 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A45B0C3030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A406516010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A455C0A470 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26A98A020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A402287030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A44FC2BF30 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26DA4C6B0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A417E0D010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4177A3020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A46A3D8200 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A266F5F040 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A266F5F040 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A455C0F6F0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A450879010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A450879010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A44FF5C5D0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
@@ -564,16 +416,90 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.015 seconds
+- Completed reload, in  1.048 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2884 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.2 MB.
-System memory in use after: 161.4 MB.
+Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.0 MB.
+System memory in use after: 162.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3517.
-Total: 3.255000 ms (FindLiveObjects: 0.522700 ms CreateObjectMapping: 0.255700 ms MarkObjects: 2.455200 ms  DeleteObjects: 0.020000 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3512.
+Total: 2.217300 ms (FindLiveObjects: 0.305600 ms CreateObjectMapping: 0.167100 ms MarkObjects: 1.723400 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001930 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001A46125ECE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A46A744E80 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A456D229E0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4415D1030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4439F4010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A274D37020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26EED52E0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A27336B030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A456095AE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A273AD5020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A410920010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A456095360 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4037A6030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A27336B030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A41836D690 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A400874020 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A40265F0B0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A26DE93010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A41E242070 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A40A94F010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A41486D060 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4560989C0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A4415D1030 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A44F343010 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001A46125ECE0 doesn't match image C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.037 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2885 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 162.0 MB.
+System memory in use after: 162.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 2.397700 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.161100 ms MarkObjects: 1.958000 ms  DeleteObjects: 0.012700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

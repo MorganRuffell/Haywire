@@ -17552,6 +17552,7 @@ MonoBehaviour:
   PauseCanvas: {fileID: 822963402}
   GameplayCanvas: {fileID: 594435194}
   IsAlive: 1
+  HasWon: 0
   IsGamePaused: 0
   IsAiming: 0
   IsCleanupDone: 0
@@ -17581,15 +17582,22 @@ MonoBehaviour:
     - {fileID: 3938530226736904083, guid: 565ea6f6de8fa3d4b89948be4d93768a, type: 3}
     - {fileID: 3938530226736904083, guid: 565ea6f6de8fa3d4b89948be4d93768a, type: 3}
     - {fileID: 3938530226736904083, guid: 565ea6f6de8fa3d4b89948be4d93768a, type: 3}
-    EnemyCount: 10
+    EnemyCount: 11
     Rate: 4
   - WaveName: Leopards
     Enemies:
     - {fileID: 4199450724461736951, guid: 4331ada0accd12641bb4354fae2e3e23, type: 3}
     - {fileID: 4199450724461736951, guid: 4331ada0accd12641bb4354fae2e3e23, type: 3}
     - {fileID: 4199450724461736951, guid: 4331ada0accd12641bb4354fae2e3e23, type: 3}
-    EnemyCount: 5
+    EnemyCount: 4
     Rate: 5
+  - WaveName: Leopards & Hyenas
+    Enemies:
+    - {fileID: 4199450724461736951, guid: 4331ada0accd12641bb4354fae2e3e23, type: 3}
+    - {fileID: 3938530226736904083, guid: 565ea6f6de8fa3d4b89948be4d93768a, type: 3}
+    - {fileID: 4199450724461736951, guid: 4331ada0accd12641bb4354fae2e3e23, type: 3}
+    EnemyCount: 6
+    Rate: 4
   - WaveName: Leopards & Hyenas
     Enemies:
     - {fileID: 4199450724461736951, guid: 4331ada0accd12641bb4354fae2e3e23, type: 3}
