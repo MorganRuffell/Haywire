@@ -56,8 +56,6 @@ namespace Haywire.Singletons
 		[Space]
 
 		[Header ("Audio Playing objects in scene")]
-		
-
 		public Int32 PlayerScore;
 
 		public Int16 AmmoAmount;
@@ -104,7 +102,7 @@ namespace Haywire.Singletons
 				Finale();
 			}
 		
-			if (HasWon || PlayerScore >= 80000)
+			if (HasWon)
 			{
 				Scene scene = SceneManager.GetActiveScene();
 				SceneManager.LoadScene("WinScreen");

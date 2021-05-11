@@ -164,16 +164,6 @@ namespace Haywire.Audio
 						source.Stop();
 					}
 				}
-
-				// Comparable to the foreach above
-				//for (int i =0; i < list.Count; i++)
-				//{
-				//	AudioSource a = list[i];
-				//	if (a.isPlaying == true)
-				//	{
-				//		a.Stop();
-				//	}
-				//}
 			}
 		}
 

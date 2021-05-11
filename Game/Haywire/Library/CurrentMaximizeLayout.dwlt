@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 3516
+  controlID: 15158
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 3474
+  controlID: 15095
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,9 +203,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.65247, y: 2.158774, z: 5.172373}
+    m_Target: {x: -33.238663, y: -1.5271214, z: 17.6979}
     speed: 2
-    m_Value: {x: -13.65247, y: 2.158774, z: 5.172373}
+    m_Value: {x: -33.238663, y: -1.5271214, z: 17.6979}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -252,13 +252,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09753887, y: 0.6767598, z: -0.091040276, w: 0.72415596}
+    m_Target: {x: -0.24423943, y: -0.0906899, z: 0.0228778, w: -0.9653081}
     speed: 2
-    m_Value: {x: 0.09752875, y: 0.6766895, z: -0.09103082, w: 0.7240808}
+    m_Value: {x: -0.24421248, y: -0.090679884, z: 0.022875274, w: -0.96520156}
   m_Size:
-    m_Target: 10.067609
+    m_Target: 10
     speed: 2
-    m_Value: 10.067609
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -534,7 +534,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 30182
+  m_LastSelectedObjectID: 19804
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -559,7 +559,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3495
+  controlID: 15159
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -616,7 +616,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9447ffff7256ffff8e5bffff5c5fffffb8deffff36e6ffff50fbfffff4ffffff6a71000084710000
+      m_ExpandedIDs: 74faffff50fbffff6a4b0000a04c0000764d0000c84d0000264e00007e4e0000084f0000065100005e530000d65400004a5500009255000096550000c4560000e0570000ee590000785a00007c5a00008c5a0000905a0000965a0000985a00009c5a0000a65a0000aa5a0000ac5a0000b05a0000b25a0000b65a0000bc5a0000c25a0000c65a0000ca5a0000cc5a0000ce5a0000d25a0000de5a0000ec5a0000fe5a00000a5b0000245b00006c5b0000705b0000725b0000765b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -704,22 +704,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Settings
+    - Assets/Classes/Cuttings
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Settings
+  - Assets/Classes/Cuttings
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Morgan\Desktop\HaywireII\Haywire\Game\Haywire
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 38700000
-    m_LastClickedID: 28728
-    m_ExpandedIDs: 000000001470000000ca9a3b
+    m_SelectedIDs: 24910000
+    m_LastClickedID: 37156
+    m_ExpandedIDs: 00000000127000001c70000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -747,7 +747,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001470000000ca9a3b
+    m_ExpandedIDs: 000000001270000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -772,8 +772,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 166f0000
-    m_LastClickedInstanceID: 28438
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000104d0000ac2c0600c8670000544e0000b8670000424e0000986800008e630000946300003c1302002e4402008c3402009e5d0000
     m_RenameOverlay:
@@ -912,7 +912,7 @@ MonoBehaviour:
     m_CachedPref: 271
     m_ControlHash: 1412526313
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 28438
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:

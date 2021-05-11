@@ -49,7 +49,7 @@ namespace Haywire.Gameplay
 
 		[HideInInspector, Header("Spawn States")]
 		public SpawnState WaveSpawnState = SpawnState.COUNTING;
-		private bool IsSpawnLocation0 = true;
+		private bool UseAlternatingEnemyTypes = true;
 		private float searchCountdown = 1.5f;
 
 		private GameManagerComponent GameManager;
@@ -138,22 +138,20 @@ namespace Haywire.Gameplay
 		void SpawnEnemy(GameObject _enemy, GameObject _enemy1)
 		{
 			//Debug.Log("Spawning Enemy" + _enemy.name);
-
 			AlternateSpawnLocation(_enemy, _enemy1);
 		}
 
 		private void AlternateSpawnLocation(GameObject _enemy, GameObject _enemy1)
 		{
-			if (IsSpawnLocation0 == false)
+			for(int i = 0; i < spawnPoints.Length; i++)
 			{
-				Instantiate(_enemy, spawnPoints[1].position, transform.rotation);
-				IsSpawnLocation0 = true;
-			}
-			else
-			{
-				Instantiate(_enemy1, spawnPoints[0].position, transform.rotation);
-				IsSpawnLocation0 = false;
-				return;
+				if (UseAlternatingEnemyTypes)
+				{
+					Instantiate(_enemy, spawnPoints[i].position, transform.rotation);
+					return;
+				}
+
+				Instantiate(_enemy1, spawnPoints[i].position, transform.rotation);
 			}
 		}
 
@@ -171,7 +169,6 @@ namespace Haywire.Gameplay
 				Debug.Log("Level Completed!");
 
 				GameManager.HasWon = true;
-
 			}
 		}
 	}

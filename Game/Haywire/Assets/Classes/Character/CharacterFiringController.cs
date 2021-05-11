@@ -30,7 +30,9 @@ namespace Haywire.Character
 
 		public GameObject projectile;
 
-		public float FireRate = 1.0f;
+		public float AutomaticFiringRate = 6.0f;
+		public float SemiAutomaticFiringRate = 40.0f;
+
 		public float timer = 0.0f;
 
 		public float FiringRange = 500.0f;
@@ -73,9 +75,11 @@ namespace Haywire.Character
 		[Tooltip("These are the audio slots for the swapping of the flashlight on the player")]
 		public List<AudioSource> LightSwapSounds;
 
+		private float lastfired;
+
 		private void Update()
 		{
-			if(Input.GetKeyDown(KeyCode.E))
+			if (Input.GetKeyDown(KeyCode.E))
 			{
 				if (IsPlayerAutomatic == true)
 				{
@@ -148,33 +152,44 @@ namespace Haywire.Character
 			}
 			else
 			{
-				StartCoroutine("AutomaticFiring", 1f);
+				StartCoroutine("AutomaticFiring", 10.0f);
 			}
 		}
 
 		IEnumerator AutomaticFiring(float delay)
 		{
-			while (Input.GetMouseButton(0))
+			if (Input.GetMouseButton(0))
 			{
-				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
-				
-				MuzzleFlash.intensity = GunLightNormal;
-				FirearmSoundPlay(AutomaticSounds);
-				firearmControl.FiringParticles.Play();
-				yield return new WaitForSeconds(delay);
-				GameManager.AmmoAmount--;
+				if (Time.time - lastfired > 1 / AutomaticFiringRate)
+				{
+					lastfired = Time.time;
+
+					GameObject bullet;
+					bullet = Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+
+					firearmControl.FiringParticles.Play();
+					FirearmSoundPlay(AutomaticSounds);
+					MuzzleFlash.intensity = GunLightNormal;
+
+					GameManager.AmmoAmount--;
+				}
 			}
+
+			yield return new WaitForSeconds(delay);
 		}
 
 		//Make it so that this instantiates projectiles on only click and then finish the system
 		IEnumerator SemiAutomaticFiring(float delay)
 		{
-			GameManager.AmmoAmount--;
-			Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
-			firearmControl.FiringParticles.Play();
-			yield return new WaitForSeconds(3);
-			MuzzleFlash.intensity = GunLightNormal;
-			FirearmSoundPlay(AutomaticSounds);
+			if (Input.GetMouseButtonDown(0))
+			{
+				GameManager.AmmoAmount--;
+				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+				firearmControl.FiringParticles.Play();
+				yield return new WaitForSeconds(3);
+				MuzzleFlash.intensity = GunLightNormal;
+				FirearmSoundPlay(AutomaticSounds);
+			}
 		}
 
 		private void StartSemiAutomaticFiring()
