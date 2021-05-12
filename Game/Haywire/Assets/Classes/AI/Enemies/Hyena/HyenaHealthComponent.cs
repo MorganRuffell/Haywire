@@ -92,12 +92,12 @@ namespace Haywire.AI
 		{
 			Destroy(chaseComponent);
 			Destroy(hyenaNavMesh);
-			Destroy(HyenaRigidbody);
-			
+			HyenaRigidbody.constraints = RigidbodyConstraints.FreezeAll;
+
 			GameManager.IncreaseScore(Score);
 			HyenaAnimator.SetBool("IsDead", true);
 			EnemyisDead = true;
-			Destroy(gameObject, 2.0f);
+			Destroy(gameObject, 0.5f);
 		}
 
 		public void Slow(float HyenaMovementSpeed)

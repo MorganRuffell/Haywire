@@ -11,10 +11,16 @@ namespace Haywire.Systems
 	public class SceneSwap : MonoBehaviour
 	{
 		public string SceneToLoad;
+		public int LoadSceneIndex;
 
 		public void OnClick()
 		{
 			SceneManager.LoadScene(SceneToLoad);
+		}
+
+		public void OnClickAtIndex()
+		{
+			SceneManager.LoadScene(LoadSceneIndex);
 		}
 	}
 }

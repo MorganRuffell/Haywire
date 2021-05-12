@@ -58,6 +58,8 @@ namespace Haywire.Singletons
 		[Header ("Audio Playing objects in scene")]
 		public Int32 PlayerScore;
 
+		public float ScoreDelay;
+
 		public Int16 AmmoAmount;
 		public string GameOverScene;
 
@@ -89,8 +91,11 @@ namespace Haywire.Singletons
 
 		public void IncreaseScore(int Score)
 		{
-			PlayerScore = PlayerScore + Score;
-			PlayGameSounds(ScoreUpSound);
+			if (Time.time - ScoreDelay > 1 / 1.0f)
+			{
+				PlayerScore = PlayerScore + Score;
+				PlayGameSounds(ScoreUpSound);
+			}			
 		}
 
 		// Update is called once per frame
