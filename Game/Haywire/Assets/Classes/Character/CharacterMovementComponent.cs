@@ -170,7 +170,7 @@ namespace Haywire.Character
 		{
 			if (PlayerAnimator.GetBool("IsIdle").Equals(false))
 			{
-				transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
+				//transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
 
 				if (MovementSpeed > SprintTrigger)
 				{
@@ -190,7 +190,7 @@ namespace Haywire.Character
 		{
 			if (PlayerAnimator.GetBool("IsIdle").Equals(false))
 			{
-				transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
+				//transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
 
 				if (MovementSpeed > SprintTrigger)
 				{
@@ -208,7 +208,7 @@ namespace Haywire.Character
 
 		private IEnumerator PlayerForwardMovement(float AnimationTurnSpeed, float MovementSpeed)
 		{
-			transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
+			//transform.rotation = Quaternion.Euler(new Vector3(0, 360, 0));
 			yield return new WaitForSeconds(AnimationTurnSpeed);
 		}
 
@@ -293,7 +293,6 @@ namespace Haywire.Character
 			{
 				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
 			}
-
 
 		}
 

@@ -29,6 +29,7 @@ namespace Haywire.Character
 		public Transform spawnPoint;
 
 		public GameObject projectile;
+		public Transform FiringLocation;
 
 		public float AutomaticFiringRate = 6.0f;
 		public float SemiAutomaticFiringRate = 40.0f;
@@ -184,11 +185,11 @@ namespace Haywire.Character
 			if (Input.GetMouseButtonDown(0))
 			{
 				GameManager.AmmoAmount--;
-				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
+				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.transform.rotation);
 				firearmControl.FiringParticles.Play();
-				yield return new WaitForSeconds(3);
 				MuzzleFlash.intensity = GunLightNormal;
 				FirearmSoundPlay(AutomaticSounds);
+				yield return new WaitForSeconds(3);
 			}
 		}
 

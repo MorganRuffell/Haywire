@@ -55,7 +55,6 @@ namespace Haywire.Audio
 
 		public void CheckSpawnState()
 		{
-
 			switch (LocalWaveSpawnerComponent.WaveSpawnState)
 			{
 				case SpawnState.INSTANTIATING:
@@ -144,6 +143,7 @@ namespace Haywire.Audio
 			LocalList.Add(SoundList1);
 			LocalList.Add(SoundList2);
 			LocalList.Add(SoundList3);
+
 
 			//Collect all of the sounds passed into the method, add them to a list and then stop all of them.
 

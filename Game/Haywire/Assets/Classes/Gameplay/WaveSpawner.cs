@@ -148,6 +148,7 @@ namespace Haywire.Gameplay
 				if (UseAlternatingEnemyTypes)
 				{
 					Instantiate(_enemy, spawnPoints[i].position, transform.rotation);
+					UseAlternatingEnemyTypes = false;
 					return;
 				}
 
