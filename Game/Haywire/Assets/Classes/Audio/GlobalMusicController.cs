@@ -13,10 +13,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Haywire.Singletons;
 using Haywire.Gameplay;
+using Haywire.Systems;
 
 namespace Haywire.Audio
 {
-	public class GlobalMusicController : MonoBehaviour, ISoundSystem
+	public class GlobalMusicController : MonoBehaviour, ISoundSystem, IResolveLoading
 	{
 		Thread GlobalAudioThread;
 
@@ -35,6 +36,8 @@ namespace Haywire.Audio
 		//On awake get the WaveSpawner and the GameManager
 		void Awake()
 		{
+			ResolveLoading();
+
 			GlobalAudioThread = new Thread(CheckSpawnState);
 			GlobalAudioThread.Start();
 		}
@@ -199,6 +202,11 @@ namespace Haywire.Audio
 			}
 		}
 
+		public void ResolveLoading()
+		{
+			gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
+			LocalWaveSpawnerComponent = GameObject.FindGameObjectWithTag("GameManager").GetComponent<WaveSpawner>();
+		}
 	}
 
 }

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Haywire.AI;
 using Haywire.Character;
+using Haywire.Systems;
 
 namespace Haywire.AI
 {

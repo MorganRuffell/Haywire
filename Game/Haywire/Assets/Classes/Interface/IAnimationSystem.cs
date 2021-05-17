@@ -8,8 +8,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IAnimationSystem
+namespace Haywire.Systems
 {
-	public abstract void ChangeAnimationState(string NewState);
+	public interface IAnimationSystem
+	{
+		public abstract void ChangeAnimationState(string NewState);
 
+	}
 }

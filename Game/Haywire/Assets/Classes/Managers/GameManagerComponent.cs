@@ -39,7 +39,7 @@ namespace Haywire.Singletons
 		[HideInInspector]
 		public bool IsAlive = true;
 
-		[HideInInspector]
+	
 		public bool HasWon = false;
 
 		[HideInInspector]
@@ -107,10 +107,11 @@ namespace Haywire.Singletons
 				Finale();
 			}
 		
-			if (HasWon)
+			if (HasWon && SceneManager.GetActiveScene().name != "WinScreen")
 			{
 				Scene scene = SceneManager.GetActiveScene();
 				SceneManager.LoadScene("WinScreen");
+				HasWon = false;
 				//SceneManager.UnloadSceneAsync("Level1");
 			}
 

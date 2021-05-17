@@ -9,6 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Haywire.Singletons;
+using Haywire.Systems;
 
 namespace Haywire.Character
 {
@@ -74,6 +75,7 @@ namespace Haywire.Character
 		private void Awake()
 		{
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
+			PlayerAnimator.SetBool("IsOnFloor", true);
 		}
 
 		//Could make it automatic so that field are automatically assigned on Awake
@@ -91,9 +93,11 @@ namespace Haywire.Character
 
 				if (Input.GetKeyDown(KeyCode.Space))
 				{
+					PlayerAnimator.SetBool("IsOnFloor", false);
 					PlayerAnimator.SetFloat("Movement", 0.0f);
 					PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
 				}
+
 				Move(horizontal, vertical);
 			}
 			else
@@ -104,7 +108,7 @@ namespace Haywire.Character
 
 		private void Move(float horizontal, float vertical)
 		{
-			if (horizontal != 0 || vertical != 0)
+			if (horizontal != 0 || vertical != 0 && IsTouchingEnviroment == true)
 			{
 				PlayerAnimator.SetFloat("IsBored", 0.0f);
 				PlayerAnimator.SetBool("IsIdle", false);
@@ -134,6 +138,30 @@ namespace Haywire.Character
 					HandleCharacterOrientation(horizontal, vertical);
 				}
 			}
+			if (horizontal != 0 || vertical != 0 && IsTouchingEnviroment == false)
+			{
+
+				velocity.Set(horizontal, 0.0f, 0.0f);
+
+				if (PlayerAnimator.GetBool("IsIdle").Equals(false))
+				{
+					velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
+
+					PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
+
+					HandleCharacterOrientation(horizontal, vertical);
+				}
+
+				else
+				{
+					velocity = velocity.normalized * WalkSpeed * Time.deltaTime;
+
+					PlayerRigidbody.MovePosition(PlayerRigidbody.position + velocity);
+
+					HandleCharacterOrientation(horizontal, vertical);
+				}
+			}
+
 			else
 			{
 				//Probably should do this with a coroutine?
@@ -231,6 +259,7 @@ namespace Haywire.Character
 		{
 			if (collision.gameObject.tag == "Environment")
 			{
+				PlayerAnimator.SetBool("IsOnFloor", true);
 				PlayerAnimator.SetBool("Jump", false);
 				PlayerAnimator.SetFloat("Movement", 0.0f);
 				EnviromentCollision_Handler();
