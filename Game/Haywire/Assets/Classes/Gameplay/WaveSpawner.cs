@@ -57,6 +57,12 @@ namespace Haywire.Gameplay
 		private void Awake()
 		{
 			GameManager = GetComponent<GameManagerComponent>();
+			//WaveUIController = GameObject.Find("GameUI/WaveDataController").GetComponent<WaveUIComponent>();
+			if (WaveUIController == null)
+			{
+				Debug.Log("Fix Me!");
+			}
+
 		}
 
 		void Start()

@@ -9,10 +9,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Haywire.Singletons;
 using Haywire.Systems;
+using UnityEngine.AI;
 
 namespace Haywire.AI
 {
-	public class HyenaHealthComponent : MonoBehaviour, IAnimationSystem
+	public class HyenaHealthComponent : MonoBehaviour, IAnimationSystem, IResolveLoading
 	{
 		[Header("Hyena Movement Component")]
 		private HyenaChaseComponent chaseComponent;
@@ -20,6 +21,14 @@ namespace Haywire.AI
 		private GameManagerComponent GameManager;
 		private Animator HyenaAnimator;
 		private Rigidbody HyenaRigidbody;
+		private NavMeshAgent NavMeshAgentComponent;
+		private HyenaDamageComponent DamageComponent;
+
+
+		[Header("Colliders")]
+		public BoxCollider BoxDamageCauser;
+		public SphereCollider SphereTrigger;
+
 
 
 		[Header("Hyena Score")]
@@ -28,6 +37,8 @@ namespace Haywire.AI
 		[Header("Hyena Health")]
 		public int HyenaMaxHealth = 50;
 		public int HyenaCurrentHealth;
+		public float HyenaDeathDelay = 5.0f;
+
 
 		[Header("Hyena Slowed Values")]
 		public int HyenaSlowedThreshold = 10;
@@ -40,11 +51,17 @@ namespace Haywire.AI
 		{
 			HyenaCurrentHealth = HyenaMaxHealth;
 
+			ResolveLoading();
+		}
+
+		public void ResolveLoading()
+		{
+			NavMeshAgentComponent = GetComponent<NavMeshAgent>();
 			HyenaAnimator = GetComponentInChildren<Animator>();
 			chaseComponent = GetComponent<HyenaChaseComponent>();
 			hyenaNavMesh = GetComponent<HyenaNavMeshComponent>();
+			DamageComponent = GetComponent<HyenaDamageComponent>();
 			HyenaRigidbody = GetComponent<Rigidbody>();
-
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 		}
 
@@ -56,7 +73,8 @@ namespace Haywire.AI
 
 		public void TakeDamage(float Amount)
 		{
-			HyenaCurrentHealth =- (int) Amount;
+			NavMeshAgentComponent.isStopped = true;
+			HyenaCurrentHealth = - (int) Amount;
 			HyenaAnimator.SetTrigger("TakeDamage");
 		}
 
@@ -91,14 +109,14 @@ namespace Haywire.AI
 
 		public void Die()
 		{
-			Destroy(chaseComponent);
-			Destroy(hyenaNavMesh);
-			HyenaRigidbody.constraints = RigidbodyConstraints.FreezeAll;
-
+			NavMeshAgentComponent.enabled = false;
 			GameManager.IncreaseScore(Score);
+			Destroy(BoxDamageCauser);
+			Destroy(SphereTrigger);
+
 			HyenaAnimator.SetBool("IsDead", true);
 			EnemyisDead = true;
-			Destroy(gameObject, 0.5f);
+			Destroy(gameObject, HyenaDeathDelay);
 		}
 
 		public void Slow(float HyenaMovementSpeed)
@@ -110,6 +128,7 @@ namespace Haywire.AI
 		{
 			HyenaAnimator.Play(NewState);
 		}
+
 	}
 
 }

@@ -38,8 +38,13 @@ namespace Haywire.Audio
 		{
 			ResolveLoading();
 
-			GlobalAudioThread = new Thread(CheckSpawnState);
-			GlobalAudioThread.Start();
+			//GlobalAudioThread = new Thread(CheckSpawnState);
+			//GlobalAudioThread.Start();
+		}
+		public void ResolveLoading()
+		{
+			gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
+			LocalWaveSpawnerComponent = GameObject.FindGameObjectWithTag("GameManager").GetComponent<WaveSpawner>();
 		}
 
 		void Start()
@@ -61,15 +66,15 @@ namespace Haywire.Audio
 			switch (LocalWaveSpawnerComponent.WaveSpawnState)
 			{
 				case SpawnState.INSTANTIATING:
-					GlobalAudioThread.Abort(GlobalAudioThread);
+					//GlobalAudioThread.Abort(GlobalAudioThread);
 					PlayInstantiatingMusic(SpawningMusic);
 					break;
 				case SpawnState.WAITING:
-					GlobalAudioThread.Abort(GlobalAudioThread);
+					//GlobalAudioThread.Abort(GlobalAudioThread);
 					PlayWaitingMusic(WaitingMusic);
 					break;
 				case SpawnState.COUNTING:
-					GlobalAudioThread.Abort(GlobalAudioThread);
+					//GlobalAudioThread.Abort(GlobalAudioThread);
 					PlayCountingMusic(CountingMusic);
 					break;
 				case SpawnState.ERROR:
@@ -202,11 +207,6 @@ namespace Haywire.Audio
 			}
 		}
 
-		public void ResolveLoading()
-		{
-			gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
-			LocalWaveSpawnerComponent = GameObject.FindGameObjectWithTag("GameManager").GetComponent<WaveSpawner>();
-		}
 	}
 
 }

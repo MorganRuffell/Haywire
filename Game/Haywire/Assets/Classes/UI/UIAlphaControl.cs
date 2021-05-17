@@ -64,24 +64,14 @@ namespace Haywire.UI
 			}
 		}
 
-		public IEnumerator DoAppear(CanvasGroup canvasGroup, float start, float end, float Duration)
-		{
-			var counter = 0.0f;
-
-			while (counter < Duration)
-			{
-				counter = +Time.deltaTime;
-
-				canvasGroup.alpha = Mathf.Lerp(start, end, counter / Duration);
-
-				yield return null;
-			}
-		}
-
+		//Debug this or leave it out.
 		public void Appear(float Duration)
 		{
 			var canvasGroup = GetComponent<CanvasGroup>();
-			DoAppear(canvasGroup, canvasGroup.alpha, 1, Duration);
+			var counter = 0.0f;
+
+			counter =+ Time.deltaTime;
+			canvasGroup.alpha = Mathf.Lerp(0, 1, counter / Duration);
 
 			mFaded = !mFaded;
 		}

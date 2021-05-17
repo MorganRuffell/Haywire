@@ -93,7 +93,7 @@ namespace Haywire.Singletons
 		{
 			if (Time.time - ScoreDelay > 1 / 1.0f)
 			{
-				PlayerScore = PlayerScore + Score;
+				PlayerScore = PlayerScore + Score / 100;
 				PlayGameSounds(ScoreUpSound);
 			}			
 		}

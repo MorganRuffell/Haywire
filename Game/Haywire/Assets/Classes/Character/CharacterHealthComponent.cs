@@ -29,7 +29,7 @@ namespace Haywire.Character
 
 		[Header("Health UI Alpha Control")]
 		public UIAlphaControl AlphaController;
-		public float HealthUIAlphaController = 1.0f;
+		public float HealthUIAlphaController = 10.0f;
 
 		[SerializeField]
 		[Header("Take Damage Sounds")]
@@ -119,7 +119,7 @@ namespace Haywire.Character
 		public void TakeDamage(int Amount)
 		{
 			CurrentHealth = CurrentHealth - Amount;
-			AlphaController.Appear(HealthUIAlphaController);
+			//AlphaController.Appear(HealthUIAlphaController);
 			DamageSoundPlay(TakeDamageSounds_Set1, TakeDamageSounds_Set2);
 		}
 

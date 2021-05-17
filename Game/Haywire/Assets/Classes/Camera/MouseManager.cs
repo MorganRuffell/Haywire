@@ -15,7 +15,7 @@ using Haywire.AI;
 
 namespace Haywire.UI
 {
-	public class MouseManager : MonoBehaviour
+	public class MouseManager : MonoBehaviour, IResolveLoading
 	{
 		[Header("Game Manager Component")]
 		public GameManagerComponent GameManager;
@@ -47,9 +47,16 @@ namespace Haywire.UI
 
 		private void Awake()
 		{
-
+			ResolveLoading();
 		}
 
+		public void ResolveLoading()
+		{
+			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
+			characterFiringController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterFiringController>();
+			ammoController = GameObject.Find("AmmoCount").GetComponent<AmmoRemainingScript>();
+			PlayerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+		}
 	
 		private void FixedUpdate()
 		{
@@ -125,7 +132,6 @@ namespace Haywire.UI
 			PlayerAnimator.SetBool("CanFire", true);
 			_CanFire = true;
 		}
-
 
 	}
 }

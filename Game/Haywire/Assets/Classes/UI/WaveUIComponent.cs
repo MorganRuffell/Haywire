@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using Haywire.Gameplay;
-
+using Haywire.Systems;
 
 namespace Haywire.UI
 {
-
-	public class WaveUIComponent : MonoBehaviour
+	public class WaveUIComponent : MonoBehaviour, IResolveLoading
 	{
 		public static WaveUIComponent _WaveUIComponent;
 
@@ -20,6 +19,12 @@ namespace Haywire.UI
 		void Awake()
 		{
 			SingletonEnforce();
+			
+		}
+
+		public void ResolveLoading()
+		{
+			WaveSpawnerManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<WaveSpawner>();
 		}
 
 		void SingletonEnforce()
@@ -47,6 +52,7 @@ namespace Haywire.UI
 
 			}
 		}
+
 	}
 
 }

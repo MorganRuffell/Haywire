@@ -50,6 +50,8 @@ namespace Haywire.AI
 		private HyenaNavMeshComponent _hyenaNavMeshComponent;
 		private HyenaHealthComponent hyenaHealth;
 
+		private float LifeTime;
+
 		private void Awake()
 		{
 			HyenaRigidBody = GetComponent<Rigidbody>();
@@ -90,7 +92,14 @@ namespace Haywire.AI
 				Vector3 MovementVelocity = transform.forward * HyenaMovementSpeed * Time.deltaTime;
 				HyenaRigidBody.MovePosition(HyenaRigidBody.position + MovementVelocity);
 			}
-			
+
+			if (LifeTime > 30.0f)
+			{
+				HyenaAnimator.SetFloat("Movement", 0.8f);
+				HyenaMovementSpeed += 2.0f;
+			}
+
+			LifeTime = Time.time;
 		}
 
 		private IEnumerator SpeedUp()

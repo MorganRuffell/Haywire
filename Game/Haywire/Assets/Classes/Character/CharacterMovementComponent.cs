@@ -98,7 +98,7 @@ namespace Haywire.Character
 					PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
 				}
 
-				Move(horizontal, vertical);
+ 				Move(horizontal, vertical);
 			}
 			else
 			{

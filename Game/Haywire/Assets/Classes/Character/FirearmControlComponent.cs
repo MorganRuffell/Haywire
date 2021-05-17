@@ -47,21 +47,21 @@ namespace Haywire.Gameplay
 
 		private void Update()
 		{
-			if (PlayerAnimator.GetBool("CanFire").Equals(true) && PlayerAnimator.GetBool("IsIdle").Equals(false))
-			{
-				gameObject.transform.localPosition = FiringPosition;
-				gameObject.transform.localScale = GunSize;
+			//if (PlayerAnimator.GetBool("CanFire").Equals(true) && PlayerAnimator.GetBool("IsIdle").Equals(false))
+			//{
+			//	gameObject.transform.localPosition = FiringPosition;
+			//	gameObject.transform.localScale = GunSize;
 
-				if (MouseManager._CanFire == true)
-				{
-					FiringParticles.Play(true);
-				}
-			}
-			else
-			{
-				gameObject.transform.localPosition = BasePosition;
+			//	if (MouseManager._CanFire == true)
+			//	{
+			//		FiringParticles.Play(true);
+			//	}
+			//}
+			//else
+			//{
+			//	gameObject.transform.localPosition = BasePosition;
 
-			}
+			//}
 		}
 
 	}

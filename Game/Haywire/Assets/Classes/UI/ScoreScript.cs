@@ -14,6 +14,11 @@ namespace Haywire.UI
 
 		public Text ScoreText;
 
+		private void Awake()
+		{
+			GameManager = GameObject.Find("GameManager").GetComponent<GameManagerComponent>();
+		}
+
 		// Start is called before the first frame update
 		void Start()
 		{
