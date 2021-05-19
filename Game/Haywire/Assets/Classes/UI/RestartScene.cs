@@ -19,6 +19,5 @@ namespace Haywire.Systems
 			SceneManager.LoadScene(sceneToLoad);
 			Time.timeScale = 1;
 		}
-
 	}
 }

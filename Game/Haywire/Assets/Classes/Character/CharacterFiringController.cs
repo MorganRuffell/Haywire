@@ -76,6 +76,8 @@ namespace Haywire.Character
 		[Tooltip("These are the audio slots for the swapping of the flashlight on the player")]
 		public List<AudioSource> LightSwapSounds;
 
+		public ParticleSystem FiringParticleSystem;
+
 		private float lastfired;
 
 		private void Update()
@@ -135,10 +137,14 @@ namespace Haywire.Character
 				if (IsPlayerAutomatic)
 				{
 					StartAutomaticFiring();
+					FiringParticleSystem.Play(true);
+
 				}
 				else
 				{
 					StartSemiAutomaticFiring();
+					FiringParticleSystem.Play(true);
+
 				}
 			}
 		}
@@ -168,9 +174,10 @@ namespace Haywire.Character
 					GameObject bullet;
 					bullet = Instantiate(projectile, spawnPoint.transform.position, spawnPoint.rotation);
 
-					firearmControl.FiringParticles.Play();
 					FirearmSoundPlay(AutomaticSounds);
 					MuzzleFlash.intensity = GunLightNormal;
+					FiringParticleSystem.Stop();
+
 
 					GameManager.AmmoAmount--;
 				}
@@ -186,7 +193,7 @@ namespace Haywire.Character
 			{
 				GameManager.AmmoAmount--;
 				Instantiate(projectile, spawnPoint.transform.position, spawnPoint.transform.rotation);
-				firearmControl.FiringParticles.Play();
+				FiringParticleSystem.Stop(true);
 				MuzzleFlash.intensity = GunLightNormal;
 				FirearmSoundPlay(AutomaticSounds);
 				yield return new WaitForSeconds(3);

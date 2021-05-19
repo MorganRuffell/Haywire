@@ -47,7 +47,7 @@ namespace Haywire.Character
 				PlayGameSounds(ReloadingSounds);
 			}
 
-			if (Input.GetKey(KeyCode.Escape))
+			if (Input.GetKeyDown(KeyCode.Escape))
 			{
 				if (GameManager.IsGamePaused == true)
 				{

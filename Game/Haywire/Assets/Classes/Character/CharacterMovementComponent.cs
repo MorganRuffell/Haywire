@@ -16,7 +16,7 @@ namespace Haywire.Character
 	[RequireComponent(typeof(CharacterHealthComponent))]
 	[RequireComponent(typeof(CharacterControlComponent))]
 	[DisallowMultipleComponent]
-	public class CharacterMovementComponent : MonoBehaviour, ISoundSystem, IAnimationSystem
+	public class CharacterMovementComponent : MonoBehaviour, ISoundSystem, IAnimationSystem, IResolveLoading
 	{
 		private Vector3 velocity;
 
@@ -56,6 +56,7 @@ namespace Haywire.Character
 		public string Player_Jump { get; private set; }
 
 		public float IdleDelay = 10.0f;
+		private GameManagerComponent GameManager;
 
 		[HideInInspector]
 		private protected float _IdleDelay
@@ -69,8 +70,11 @@ namespace Haywire.Character
 				_IdleDelay = IdleDelay;
 			}
 		}
-		private GameManagerComponent GameManager;
 
+		public void ResolveLoading()
+		{
+			throw new NotImplementedException();
+		}
 
 		private void Awake()
 		{
@@ -91,7 +95,7 @@ namespace Haywire.Character
 
 				PlayGameSounds(breathingSounds);
 
-				if (Input.GetKeyDown(KeyCode.Space))
+				if (Input.GetKeyDown(KeyCode.Space) && PlayerAnimator.GetBool("IsOnFloor") == true)
 				{
 					PlayerAnimator.SetBool("IsOnFloor", false);
 					PlayerAnimator.SetFloat("Movement", 0.0f);
@@ -188,7 +192,6 @@ namespace Haywire.Character
 				StartCoroutine(PlayerRightMovement(AnimationTurnSpeed, horizontal));
 			}
 		}
-
 		private void HandleCharacterBoredom()
 		{
 			PlayerAnimator.SetFloat("IsBored", 0.4f);
@@ -240,14 +243,12 @@ namespace Haywire.Character
 			yield return new WaitForSeconds(AnimationTurnSpeed);
 		}
 
-
 		public void ChangeAnimationState(string NewState)
 		{
 			if (currentState == NewState) return;
 
 			PlayerAnimator.Play(NewState);
 		}
-
 		private void Sprinting(float MovementSpeed)
 		{
 			PlayerAnimator.SetFloat("Movement", 1.0f);
@@ -325,6 +326,7 @@ namespace Haywire.Character
 
 		}
 
+	
 	}
 }
 

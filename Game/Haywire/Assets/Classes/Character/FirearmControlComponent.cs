@@ -30,7 +30,7 @@ namespace Haywire.Gameplay
 		{
 			BasePosition = gameObject.transform.localPosition;
 
-			SetupLocation();
+			//SetupLocation();
 		}
 
 		private void SetupLocation()
@@ -39,8 +39,8 @@ namespace Haywire.Gameplay
 			//FiringPosition.y = 0.033f;
 			//FiringPosition.z = 0.14f;
 
-			FiringPosition.Set(0.022f, -0.0012f, -0.077f);
-			GunSize.Set(0.62f,0.62f,0.62f);
+			//FiringPosition.Set(0.022f, -0.0012f, -0.077f);
+			//GunSize.Set(0.62f,0.62f,0.62f);
 			//FiringRotation.value = rotation;  //(188f, 115f, -148f);
 
 		}
