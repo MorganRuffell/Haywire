@@ -58,6 +58,8 @@ namespace Haywire.Character
 		public float IdleDelay = 10.0f;
 		private GameManagerComponent GameManager;
 
+		private RigidbodyConstraints DefaultConstraints;
+
 		[HideInInspector]
 		private protected float _IdleDelay
 		{
@@ -73,13 +75,14 @@ namespace Haywire.Character
 
 		public void ResolveLoading()
 		{
-			throw new NotImplementedException();
+			
 		}
 
 		private void Awake()
 		{
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 			PlayerAnimator.SetBool("IsOnFloor", true);
+			DefaultConstraints = PlayerRigidbody.constraints;
 		}
 
 		//Could make it automatic so that field are automatically assigned on Awake
@@ -88,7 +91,7 @@ namespace Haywire.Character
 		{
 			if (GameManager.IsAlive == true)
 			{
-				PlayerAnimator.SetFloat("Movement", 0.0f);
+				//PlayerAnimator.SetFloat("Movement", 0.01f);
 
 				float horizontal = Input.GetAxisRaw("Horizontal");
 				float vertical = Input.GetAxisRaw("Vertical");
@@ -98,11 +101,18 @@ namespace Haywire.Character
 				if (Input.GetKeyDown(KeyCode.Space) && PlayerAnimator.GetBool("IsOnFloor") == true)
 				{
 					PlayerAnimator.SetBool("IsOnFloor", false);
+					PlayerAnimator.SetBool("IsMoving", false);
 					PlayerAnimator.SetFloat("Movement", 0.0f);
+
+					PlayerRigidbody.constraints &= ~RigidbodyConstraints.FreezePositionY;
+
+
 					PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
 				}
+		
+				PlayerRigidbody.constraints &= RigidbodyConstraints.FreezePositionY;
 
- 				Move(horizontal, vertical);
+				Move(horizontal, vertical);
 			}
 			else
 			{
@@ -118,6 +128,7 @@ namespace Haywire.Character
 				PlayerAnimator.SetBool("IsIdle", false);
 
 				PlayerAnimator.SetFloat("Movement", 0.4f);
+				
 
 
 				velocity.Set(horizontal, 0.0f, 0.0f);
@@ -170,6 +181,8 @@ namespace Haywire.Character
 			{
 				//Probably should do this with a coroutine?
 				Invoke("HandleCharacterBoredom", _IdleDelay);
+				PlayerAnimator.SetFloat("Movement", 0.0f);
+				PlayerAnimator.SetBool("IsMoving", false);
 
 			}
 		}
@@ -201,6 +214,9 @@ namespace Haywire.Character
 		{
 			if (PlayerAnimator.GetBool("IsIdle").Equals(false))
 			{
+				PlayerAnimator.SetBool("IsMoving", true);
+				PlayerAnimator.SetFloat("Movement", 0.9f);
+
 				//transform.rotation = Quaternion.Euler(new Vector3(0, 90, 0));
 
 				if (MovementSpeed > SprintTrigger)
@@ -221,7 +237,10 @@ namespace Haywire.Character
 		{
 			if (PlayerAnimator.GetBool("IsIdle").Equals(false))
 			{
+				PlayerAnimator.SetBool("IsMoving", true);
+				PlayerAnimator.SetFloat("Movement", -0.9f);
 				//transform.rotation = Quaternion.Euler(new Vector3(0, 270, 0));
+
 
 				if (MovementSpeed > SprintTrigger)
 				{
