@@ -409,6 +409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: MainMenu
+  LoadSceneIndex: 0
 --- !u!114 &160500639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +840,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.885
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1083,7 +1084,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.885
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1210,7 +1211,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.885
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1337,7 +1338,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.885
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1464,7 +1465,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.885
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1743,7 +1744,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.885
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1986,6 +1987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: Loading
+  LoadSceneIndex: 0
 --- !u!114 &2008447659
 MonoBehaviour:
   m_ObjectHideFlags: 0

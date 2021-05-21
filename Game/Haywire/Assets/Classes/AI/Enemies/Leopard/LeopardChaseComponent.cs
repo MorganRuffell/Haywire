@@ -37,8 +37,6 @@ namespace Haywire.AI
 		[Header("AI Controller")]
 		private bool isRanged;
 
-		[Tooltip("Do not use, depreceated")]
-		public List<Vector3> FiringLocations = new List<Vector3>();
 		public float PlayerRadius;
 
 		private System.Random random = new System.Random();

@@ -12,7 +12,6 @@ namespace Haywire.AI
 		public List<AudioSource> MovementSounds;
 		public List<AudioSource> AttackSounds;
 
-
 		public new void Touch()
 		{
 			PlayGameSounds(MovementSounds);

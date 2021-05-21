@@ -55,10 +55,10 @@ namespace Haywire.UI
 			GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManagerComponent>();
 			characterFiringController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterFiringController>();
 			ammoController = GameObject.Find("AmmoCount").GetComponent<AmmoRemainingScript>();
-			PlayerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+			//PlayerAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
 		}
 	
-		private void FixedUpdate()
+		private void Update()
 		{
 			UISwap();
 		}

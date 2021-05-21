@@ -33,9 +33,8 @@ namespace Haywire.Systems
 			else
 			{
 				colors[1] = image.GetComponent<Image>().color;
-
+				PlayGameSounds(PauseSounds);
 				gameManager.PauseGame();
-
 				image.GetComponent<Image>().color = colors[0];
 			}
 		}

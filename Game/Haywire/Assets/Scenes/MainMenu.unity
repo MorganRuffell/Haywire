@@ -1019,7 +1019,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: c10c5679f6a40c4449201d0ad0243c3e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.005
+  m_Volume: 0.314
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1124,6 +1124,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4900128748927442626, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Volume
+      value: 0.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749282065307, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Volume
+      value: 0.749
+      objectReference: {fileID: 0}
     - target: {fileID: 4900128749448709988, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
       propertyPath: m_Name
       value: ClickAudioParent
@@ -1171,6 +1179,22 @@ PrefabInstance:
     - target: {fileID: 4900128749448709995, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128749688837718, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Volume
+      value: 0.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128750285116372, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Volume
+      value: 0.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128750413576726, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Volume
+      value: 0.749
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900128750522153464, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}
+      propertyPath: m_Volume
+      value: 0.749
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e07487fc36606ae41871e49953e1fbb4, type: 3}

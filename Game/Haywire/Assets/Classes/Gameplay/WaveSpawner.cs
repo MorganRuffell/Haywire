@@ -80,7 +80,7 @@ namespace Haywire.Gameplay
 				if (!EnemiesAreStillAlive())
 				{
 					WaveCompleted();
-					//Begin a new round. Increment wave count by 1. Notify player. Add points. Order pizza. Profit.
+					//Begin a new round. Increment wave count by 1. Notify player. Add points.
 				} 	
 				else
 				{

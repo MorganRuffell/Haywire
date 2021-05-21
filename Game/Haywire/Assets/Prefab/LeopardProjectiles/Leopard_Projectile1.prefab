@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 7110587179912174323}
   - component: {fileID: 8043672073132587308}
   - component: {fileID: 9086432426582455744}
+  - component: {fileID: 1492248918420329763}
   m_Layer: 0
-  m_Name: Leopard_Projectile0 1
+  m_Name: Leopard_Projectile1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -98,8 +99,9 @@ MonoBehaviour:
   force: 50
   Lifetime: 6
   EnemyCollisionLifetime: 1
-  BulletCollsionRb: {fileID: 0}
+  BulletCollsionRb: {fileID: 9086432426582455744}
   targetTag: Player
+  Damage: 10
 --- !u!54 &9086432426582455744
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -116,3 +118,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1492248918420329763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795006793929067332}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}

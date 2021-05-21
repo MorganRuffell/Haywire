@@ -153,7 +153,7 @@ RectTransform:
   m_GameObject: {fileID: 68766003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.44263902, y: 0.44263902, z: 0.44263902}
+  m_LocalScale: {x: 0.5957036, y: 0.5957036, z: 0.5957036}
   m_Children: []
   m_Father: {fileID: 1873453068}
   m_RootOrder: 2
@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: MainMenu
+  LoadSceneIndex: 0
 --- !u!114 &68766006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +223,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 68766005}
         m_TargetAssemblyTypeName: Haywire.Systems.SceneSwap, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 68766009}
+        m_TargetAssemblyTypeName: UI_Audio, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -331,7 +344,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.933
+  m_Volume: 0.702
   m_Pitch: 3
   Loop: 0
   Mute: 0
@@ -458,7 +471,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.827
+  m_Volume: 0.702
   m_Pitch: 3
   Loop: 0
   Mute: 0
@@ -585,7 +598,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.702
   m_Pitch: 3
   Loop: 0
   Mute: 0
@@ -699,7 +712,7 @@ RectTransform:
   m_GameObject: {fileID: 459958492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.44520772, y: 0.44520772, z: 0.44520772}
+  m_LocalScale: {x: 0.60993457, y: 0.60993457, z: 0.60993457}
   m_Children: []
   m_Father: {fileID: 1873453068}
   m_RootOrder: 1
@@ -722,6 +735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: Loading
+  LoadSceneIndex: 1
 --- !u!114 &459958495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -768,6 +782,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 459958494}
         m_TargetAssemblyTypeName: Haywire.Systems.SceneSwap, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 459958498}
+        m_TargetAssemblyTypeName: UI_Audio, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -877,7 +903,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.702
   m_Pitch: 2.55
   Loop: 0
   Mute: 0
@@ -1004,7 +1030,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2411ab7f746d3194989faf1da6223623, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.702
   m_Pitch: 3
   Loop: 0
   Mute: 0

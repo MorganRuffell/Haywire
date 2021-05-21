@@ -3,11 +3,11 @@
 ////	Programmer: Morgan Ruffell
 //////////////////////////////////////////////////////////////////////////
 
-using Haywire.Character;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Haywire.Character;
 
 namespace Haywire.UI
 {
@@ -15,14 +15,9 @@ namespace Haywire.UI
 	{
 		public Image HealthBar;
 
-		public float LerpSpeed;
+		public float LerpSpeed; 
 
 		public CharacterHealthComponent _PlayerHealth;
-
-		public void Awake()
-		{
-
-		}
 
 		void LateUpdate()
 		{

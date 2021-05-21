@@ -110,7 +110,7 @@ namespace Haywire.Character
 					PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
 				}
 		
-				PlayerRigidbody.constraints &= RigidbodyConstraints.FreezePositionY;
+				PlayerRigidbody.constraints &= ~RigidbodyConstraints.FreezePositionY;
 
 				Move(horizontal, vertical);
 			}
