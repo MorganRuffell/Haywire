@@ -41,17 +41,17 @@ namespace Haywire.AI
 		void Update()
 		{
 			NavMeshComponent.SetDestination(target.position);
+			//LookAtTarget();
 		}
 
-		private void LookAtTarget()
-		{
-			Vector3 directiontoTarget = target.position - playerRigidbody.position;
+		//private void LookAtTarget()
+		//{
+		//	Vector3 directiontoTarget = target.position - playerRigidbody.position;
 
-			Quaternion newRotation = Quaternion.LookRotation(directiontoTarget);
+		//	Quaternion newRotation = Quaternion.LookRotation(directiontoTarget);
 
-			playerRigidbody.MoveRotation(newRotation);
-		}
-
+		//	playerRigidbody.MoveRotation(newRotation);
+		//}
 
 	}
 

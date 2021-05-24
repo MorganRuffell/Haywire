@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -53,6 +54,7 @@ namespace Haywire.AI
 			{
 				//Ensure that the projectiles have a damage index
 				timer = 0.0f;
+				PlayGameSounds(LeopardFiringNoises);
 				Instantiate(ProjectileObjects[selectedfiringindex],FiringLocation.position, FiringLocation.rotation);
 			}
 			else
@@ -63,7 +65,18 @@ namespace Haywire.AI
 
 		public void PlayGameSounds(List<AudioSource> SoundList)
 		{
-			throw new System.NotImplementedException();
+			if (SoundList.Count > 0)
+			{
+				var random = new System.Random();
+				int SoundIndex = random.Next(SoundList.Count);
+
+				SoundList[SoundIndex].Play();
+			}
+			else
+			{
+				Debug.LogWarning("Sound List is empty. This will need elements to play sounds.");
+				throw new Exception();
+			}
 		}
 
 		public void StopGameSounds(List<AudioSource> SoundList)

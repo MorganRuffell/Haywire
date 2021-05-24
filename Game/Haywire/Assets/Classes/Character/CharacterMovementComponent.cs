@@ -100,17 +100,21 @@ namespace Haywire.Character
 
 				if (Input.GetKeyDown(KeyCode.Space) && PlayerAnimator.GetBool("IsOnFloor") == true)
 				{
+					PlayerRigidbody.constraints &= ~RigidbodyConstraints.FreezePositionY;
+
 					PlayerAnimator.SetBool("IsOnFloor", false);
 					PlayerAnimator.SetBool("IsMoving", false);
 					PlayerAnimator.SetFloat("Movement", 0.0f);
 
-					PlayerRigidbody.constraints &= ~RigidbodyConstraints.FreezePositionY;
-
-
 					PlayerRigidbody.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
 				}
-		
-				PlayerRigidbody.constraints &= ~RigidbodyConstraints.FreezePositionY;
+				
+				if (PlayerAnimator.GetBool("IsOnFloor") == true)
+				{
+					PlayerRigidbody.constraints = RigidbodyConstraints.FreezePositionY;
+				}
+
+				PlayerRigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 
 				Move(horizontal, vertical);
 			}
@@ -129,7 +133,6 @@ namespace Haywire.Character
 
 				PlayerAnimator.SetFloat("Movement", 0.4f);
 				
-
 
 				velocity.Set(horizontal, 0.0f, 0.0f);
 

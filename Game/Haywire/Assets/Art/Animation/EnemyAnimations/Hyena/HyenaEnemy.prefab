@@ -191,6 +191,7 @@ GameObject:
   - component: {fileID: 3938530226736904080}
   - component: {fileID: 3938530226736904090}
   - component: {fileID: 3938530226736904087}
+  - component: {fileID: 4114695916703885987}
   - component: {fileID: 2181812593327187213}
   - component: {fileID: 3938530226736904086}
   - component: {fileID: 3938530226736904081}
@@ -198,7 +199,6 @@ GameObject:
   - component: {fileID: 3938530226736904088}
   - component: {fileID: 5915675114794282333}
   - component: {fileID: 3026592504010550842}
-  - component: {fileID: 4114695916703885987}
   m_Layer: 0
   m_Name: HyenaEnemy
   m_TagString: Enemy
@@ -265,6 +265,27 @@ MonoBehaviour:
   - {fileID: 2886316991486494952}
   - {fileID: 2894654112343336677}
   HyenaAnimator: {fileID: 5559781449618287460}
+--- !u!114 &4114695916703885987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3938530226736904083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7409e999dfb9148b7e6f0f671b48ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoxDamageCauser: {fileID: 5915675114794282333}
+  SphereTrigger: {fileID: 3938530226736904088}
+  Score: 100
+  HyenaMaxHealth: 50
+  HyenaCurrentHealth: 0
+  HyenaDeathDelay: 5
+  HyenaSlowedThreshold: 10
+  HyenaSlowedIncrement: 20
+  EnemyisDead: 0
 --- !u!114 &2181812593327187213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -450,27 +471,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4114695916703885987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3938530226736904083}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a7409e999dfb9148b7e6f0f671b48ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BoxDamageCauser: {fileID: 5915675114794282333}
-  SphereTrigger: {fileID: 3938530226736904088}
-  Score: 100
-  HyenaMaxHealth: 50
-  HyenaCurrentHealth: 0
-  HyenaDeathDelay: 5
-  HyenaSlowedThreshold: 10
-  HyenaSlowedIncrement: 20
-  EnemyisDead: 0
 --- !u!1 &5593482289496632300
 GameObject:
   m_ObjectHideFlags: 0
